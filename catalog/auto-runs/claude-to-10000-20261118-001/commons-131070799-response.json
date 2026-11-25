@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChQBVWXrt7c1GTJbtg5X3",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 5,\n    \"composition\": 5,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows ingredient layout composition, not a finished plated dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata declares 'Mousse ingredients' — an illustration/educational diagram, not a photograph of a finished dish\",\n    \"Title contains 'File:' and '.png' metadata markers indicating this is a graphic asset, not food photography\",\n    \"Full image is a styled ingredient map with Eiffel Tower silhouette, text labels in Armenian, ingredient icons, and isolated component graphics arranged around a central mousse bowl\"\n  ],\n  \"reason\": \"Rejection: This is an illustrated ingredient diagram, not a finished food photograph. The source title 'File:Mousse ingredients.png' and metadata confirm it is a free-image composite graphic created for educational/visual reference purposes, not an actual photograph of a prepared dish. The layout presents ingredients and labels around a central dish image rather than showing a naturally photographed, ready-to-serve mousse. Illustrations fall outside acceptance criteria. The phone thumbnail confirms the full image composition is an infographic rather than food photography.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1799,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 388,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

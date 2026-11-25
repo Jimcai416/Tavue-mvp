@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChQBVtgd45d3VcNjSEaBW",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail too small and blurry to verify dish identity\",\n    \"Essential components (mousse texture, layering, garnish) not readable at 124x96\",\n    \"Fork and knife utensils dominate phone frame, displacing food detail\",\n    \"Lemon wedge and plating visible but insufficient to confirm salmon mousse\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title claims 'Salmon mousse' but visual evidence of salmon protein is not explicitly shown—only a tan/beige mousse layer visible\",\n    \"Cannot verify salmon identity from appearance alone in source photo or thumbnail\",\n    \"Mousse composition and ingredients not visually confirmed\",\n    \"No clear visual distinction of seafood preparation in full image\"\n  ],\n  \"reason\": \"Rejection: Phone thumbnail fails acceptability—utensils obstruct dish, detail is too small and soft to verify mousse identity, and essential components are unreadable. Full source image suffers severe softness, poor focus (fork and background dominate), unnatural blue cast, and inadequate lighting. Most critically, the visual evidence does not explicitly support the salmon protein claim; a tan mousse with white layer could be many preparations, and salmon origin is not visually proven. Source metadata alone cannot substitute for visible protein confirmation. Scores all <4.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1750,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 442,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
