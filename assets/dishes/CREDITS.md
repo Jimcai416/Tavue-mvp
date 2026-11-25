@@ -14466,3 +14466,8 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 
 - **korv med bröd** — AleWi. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Korv_med_br%C3%B6d_innan_bingolotto-s%C3%A4ndning.jpg). Local asset: `reviewed-commons-128642000.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Riesen Wienerschnitzel** — Martin Abegglen. [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Riesen_Wienerschnitzel.jpg). Local asset: `reviewed-commons-33174452.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **raviole de Romans cuites** — Marianne Casamance. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Ravioles_de_romans_cuits.jpg). Local asset: `reviewed-commons-19192917.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Ravioles de Romans** — vpagnouf. [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Vinsobres_Ravioles_de_Romans.jpg). Local asset: `reviewed-commons-31731256.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
