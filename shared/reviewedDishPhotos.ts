@@ -177631,5 +177631,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 637,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/people/7927684@N03"
+  },
+  {
+    "id": "commons-87462871",
+    "title": "File:Alas de pollo con patatas pobres.jpg",
+    "author": "Juan Emilio Prades Bel",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alas_de_pollo_con_patatas_pobres.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/40/Alas_de_pollo_con_patatas_pobres.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "70feb72ab6b8522b54b84720584574fae7c7bbdf",
+    "name": "Alas de pollo con patatas pobres",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-87462871.jpg",
+    "assetSha256": "acf4acf31cf98125685f8222a79097a50d354b72fd96411f723f99feb013213f",
+    "reviewedAt": "2026-11-25",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
