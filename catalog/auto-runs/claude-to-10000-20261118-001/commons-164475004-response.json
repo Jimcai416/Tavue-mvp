@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChPqPr28NNyusLawSDbey",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"Côtelette de mouton à la sénégalaise\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Grilled or seared bone-in chops with charred, seasoned crust\",\n    \"Green herb garnish (parsley or cilantro) visible on meat surface\",\n    \"Natural browning and caramelization consistent with seared lamb/mutton\",\n    \"Plated on dark slate with professional presentation\",\n    \"Lime wedges and mojito-style beverages in background\"\n  ],\n  \"phone_observations\": [\n    \"Bone-in chops clearly visible in thumbnail\",\n    \"Charred exterior and herb garnish readable at reduced size\",\n    \"Central composition with chops arranged prominently\",\n    \"Sufficient detail to confirm finished, cooked dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title contains 'mouton' (French for mutton/sheep); species ambiguity—mouton may refer to adult sheep (mutton) or goat in some regions, but is not an explicitly allowed protein category\",\n    \"No English-language source confirmation of exact animal species\",\n    \"Protein identity cannot be visually disambiguated from photograph alone\"\n  ],\n  \"reason\": \"Image quality, photography, and phone thumbnail all pass. Dish is clearly a finished, appetizing grilled or seared chop presentation with professional plating. However, identity check fails: the source title 'Côtelette de mouton à la sénégalaise' uses 'mouton,' which refers to sheep/mutton—a species outside the allowed protein category list (chicken/beef/pork/duck/lamb/seafood). Although the visual appearance is consistent with lamb or mutton, the ambiguous species designation in the source (mouton vs. lamb, and potential regional meaning variations) triggers the hold rule: 'ambiguous meat species (including mutton that might mean goat)' and 'Unknown meat species still means hold.' The source does not provide an explicit quote naming an allowed animal category. Hold pending clarification of exact protein identity or provision of source material using allowed category terminology.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1741,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 608,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
