@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChQJ8XvBpoCm9Q7qoo1pb",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 5,\n    \"composition\": 5,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Round loaf with distinctive cracked, flour-dusted crust\",\n    \"Deep reddish-brown crumb visible through cracks\",\n    \"Professional studio lighting and even exposure\",\n    \"Sharp detail of surface texture and crust pattern\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows the characteristic cracked white flour coating\",\n    \"Central reddish-brown interior visible through cracks\",\n    \"Loaf shape and crust pattern consistent with full image\",\n    \"No essential food elements clipped or obscured\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Rye bread' is a generic category descriptor, not a specific dish canonical name\",\n    \"No regional variant, preparation method, or specific bread type specified (e.g., 'German Pumpernickel', 'Scandinavian Vollkornbrot', 'Polish żytni')\",\n    \"Generic metadata without canonical dish name violates requirement for exact source title matching a specific dish phrase\"\n  ],\n  \"reason\": \"Reject: The source provides only a generic food category ('Rye bread') as title/description, not a specific, named dish. While the photograph itself is high-quality, sharply detailed, naturally coloured and appetising, the canonical_name requirement demands a specific dish phrase copied exactly from the source title or description. Generic categories alone are insufficient; known regional rye bread variants (Pumpernickel, Vollkornbrot, etc.) are not stated or visually proven. The identity check fails because no specific dish identity is established in the source metadata.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2039,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 503,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
