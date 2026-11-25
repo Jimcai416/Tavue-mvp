@@ -14453,3 +14453,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Poutine Québécoise** — Cregim. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Poutine_Qu%C3%A9b%C3%A9coise.jpg). Local asset: `reviewed-commons-155561747.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Paste di meliga** — F Ceragioli. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Paste_d%27melia.jpg). Local asset: `reviewed-commons-26024927.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
