@@ -176806,5 +176806,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-123651058",
+    "title": "File:Oslo Court crudités.jpg",
+    "author": "Banalities",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Oslo_Court_crudit%C3%A9s.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/27/Oslo_Court_crudit%C3%A9s.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "67764c7edf3a3db1ff6de49f3d3f8b1adf30ad35",
+    "name": "Crudités",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-123651058.jpg",
+    "assetSha256": "ef22b61899be5c4f7d50cec54aaa190f82170d686f3a61d121499c2f3f7f0a88",
+    "reviewedAt": "2026-11-25",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 641,
+    "requiresExactMenuName": true
   }
 ];

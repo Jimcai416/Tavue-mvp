@@ -14564,3 +14564,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 
 - **Croûte au fromage** — Popo le Chien. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Cro%C3%BBte_au_fromage_2.jpg). Local asset: `reviewed-commons-37545028.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Cuisse de canard** — Jeangagnon. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Livelia_-_39.jpg). Local asset: `reviewed-commons-147793360.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Crudités** — Banalities. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Oslo_Court_crudit%C3%A9s.jpg). Local asset: `reviewed-commons-123651058.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
