@@ -177358,5 +177358,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 720,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.wikidata.org/wiki/Q42790984"
+  },
+  {
+    "id": "commons-184762296",
+    "title": "File:Migas con huevo en montería.jpg",
+    "author": "ZahonesdelMontero",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Migas_con_huevo_en_monter%C3%ADa.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Migas_con_huevo_en_monter%C3%ADa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "920926c12a8920b017e3ce84e0f3f7e00689aff7",
+    "name": "Migas con huevo",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-184762296.jpg",
+    "assetSha256": "560467da0bbc420c3bf34f402ddbfdfd0e6a3d607c06cdf9760f888abc9a5063",
+    "reviewedAt": "2026-11-25",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 640,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];

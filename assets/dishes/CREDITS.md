@@ -14616,3 +14616,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **crêpe à la crème de marrons et chantilly** — [Benoît Prieur](https://www.wikidata.org/wiki/Q42790984). [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Le_Bouchon_Breton_-_cr%C3%AApe_%C3%A0_la_cr%C3%A8me_de_marrons_et_chantilly.jpg). Local asset: `reviewed-commons-94537967.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Migas con huevo** — ZahonesdelMontero. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Migas_con_huevo_en_monter%C3%ADa.jpg). Local asset: `reviewed-commons-184762296.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
