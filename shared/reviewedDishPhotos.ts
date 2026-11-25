@@ -175683,5 +175683,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-15317253",
+    "title": "File:Capunsei mantovani.jpg",
+    "author": "Massimo Telò",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Capunsei_mantovani.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/56/Capunsei_mantovani.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "95b74e0ec7e3909efcd977e09e7607c30995614c",
+    "name": "Capunsei mantovani",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-15317253.jpg",
+    "assetSha256": "c17ed01bfbbc75ed8a6de2e0bf5ce133e8940d98efb3f3edc8f94f3c474b963a",
+    "reviewedAt": "2026-11-25",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];

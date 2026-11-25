@@ -14445,3 +14445,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Tarte aux champignons** — Marianne Casamance. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Bouchet_tarte_aux_champignons.JPG). Local asset: `reviewed-commons-46652506.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Capunsei mantovani** — Massimo Telò. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Capunsei_mantovani.jpg). Local asset: `reviewed-commons-15317253.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
