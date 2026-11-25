@@ -175278,5 +175278,28 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 952,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-19393127",
+    "title": "File:Chocolate con churros en Granada.jpg",
+    "author": "Arkangel  from Granada, España",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chocolate_con_churros_en_Granada.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/60/Chocolate_con_churros_en_Granada.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "3dcc88077373db596b37621c9c412bc76706f9e4",
+    "name": "Churros con chocolate",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-19393127.jpg",
+    "assetSha256": "1eee9628287f25308e18bd4838a59253fa371dcefea73073a12e568b176b9289",
+    "reviewedAt": "2026-11-25",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 832,
+    "height": 960,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/48600096824@N01"
   }
 ];
