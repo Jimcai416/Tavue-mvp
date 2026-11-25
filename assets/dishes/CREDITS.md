@@ -14389,3 +14389,9 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 
 - **Gelato** — Arnaud 25. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Gelato_002.jpg). Local asset: `reviewed-commons-114481623.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Mango gelato** — [Ruth Hartnup  from Vancouver, Canada](https://www.flickr.com/people/95142644@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Mango_gelato_(9368461646).jpg). Local asset: `reviewed-commons-75431866.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Podvarak - serbian national dish** — Ljiljana Sundać. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Doma%C4%87i_podvarak_02.jpg). Local asset: `reviewed-commons-87038650.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Podvarak** — [Ivana Sokolović](https://www.flickr.com/people/105392694@N02). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Podvarak_(11424121445).jpg). Local asset: `reviewed-commons-38376840.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Podvarak sa kiselim kupusom i čvarcima** — MikyM. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Podvarak_sa_%C4%8Dvarcima_01.jpg). Local asset: `reviewed-commons-185809307.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
