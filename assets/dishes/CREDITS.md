@@ -14533,3 +14533,8 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Moules farcies à la sétoise** — Arnaud 25. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Moules_farcies_%C3%A0_la_s%C3%A9toise_02.jpg). Local asset: `reviewed-commons-182410278.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Chocolate coconut macaroon** — [stu_spivack](https://flickr.com/people/35034346243@N01). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Chocolate_coconut_macaroon_at_Lucy%27s,_June_2007.jpg). Local asset: `reviewed-commons-10437584.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Biscoff Mousse** — Andy Li. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Biscoff_Mousse_-_The_Roundhill_Pub_2023-09-24.jpg). Local asset: `reviewed-commons-138067834.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
