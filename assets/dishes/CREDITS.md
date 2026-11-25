@@ -14421,3 +14421,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Spaghetti ai funghi** — Camelia.boban. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Spaghetti_ai_funghi.jpg). Local asset: `reviewed-commons-144881636.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Nettle soup** — Abuluntu. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Abuluntu_nettle_soup.jpg). Local asset: `reviewed-commons-111680386.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

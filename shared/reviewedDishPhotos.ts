@@ -175415,5 +175415,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-111680386",
+    "title": "File:Abuluntu nettle soup.jpg",
+    "author": "Abuluntu",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Abuluntu_nettle_soup.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/21/Abuluntu_nettle_soup.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "d7e1e1d91c3f5248db552e9b4432bcc47b3a8883",
+    "name": "Nettle soup",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-111680386.jpg",
+    "assetSha256": "27e98e75350d782653ec64f4715d93b3eeee3cbf40c1dbcb53cda98748eb6e65",
+    "reviewedAt": "2026-11-25",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 640,
+    "requiresExactMenuName": true
   }
 ];
