@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChQAEX8nvnhBvyz4EEMTT",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 1,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Toaster oven interior visible through glass door\",\n    \"Cooking equipment dominates frame, not food\",\n    \"Food subject (beignets) is tiny, deeply embedded in background of kitchen appliance\",\n    \"No appetising detail of finished dish visible in thumbnail\",\n    \"Essential food components clipped and obscured by oven structure\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Food is in preparation/cooking stage, not finished and exposed\",\n    \"Subject is primarily the toaster oven appliance, not the dish\",\n    \"Food visibility and prominence fail thumbnail requirements\"\n  ],\n  \"reason\": \"Reject: This is a photograph of a toaster oven in operation, not a finished dish photograph. The food (beignets) is tiny, mid-cooking, and embedded within kitchen equipment. The image fails multiple acceptance criteria: (1) the photograph's primary subject is the appliance, not the finished, exposed food; (2) the food is not sharply detailed or naturally visible in either source or thumbnail; (3) in the phone thumbnail, essential food components are clipped and obscured, with the oven dominating composition; (4) the subject lacks appetising prominence required for food review. Preparation-stage or in-oven imagery does not qualify as a finished dish photograph.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1765,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 438,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

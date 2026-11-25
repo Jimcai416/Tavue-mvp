@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChQADw6Af1p9toBmJC6Dd",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Powdered fried dough portions clearly visible\",\n    \"Golden-brown interior visible in cross-section\",\n    \"Powdered sugar coating prominent\",\n    \"Thumbnail composition matches source photo\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title contains 'File:' prefix and filename extension (non-canonical metadata)\",\n    \"Description is a personal opinion/review ('not so sure about', 'might have needed'), not a verifiable dish specification\",\n    \"Sauce identity unconfirmed—'chicory anglaise sauce' is stated but not visually verifiable in the photograph\",\n    \"No explicit confirmation of buttermilk in the visible product; buttermilk is an ingredient claim not demonstrable from appearance\"\n  ],\n  \"reason\": \"Source metadata violates canonical naming rules: title includes 'File:' prefix and filename extension (.jpg). Description is a subjective review/opinion rather than factual dish specification. Sauce name and ingredient claims (buttermilk, chicory) cannot be visually confirmed and rely on untrusted metadata. The photograph itself is well-executed and shows a finished, appetizing fried pastry with powdered sugar, but source documentation is insufficient for reliable identity establishment. Cannot extract a canonical name matching actual dish specification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1787,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 432,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
