@@ -175860,5 +175860,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-6900658",
+    "title": "File:Pan tumaca cortado.jpg",
+    "author": "jlastras",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pan_tumaca_cortado.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/42/Pan_tumaca_cortado.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "e2d260a32708befe340beb1f6472859ea5d554d8",
+    "name": "Pan tumaca",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-6900658.jpg",
+    "assetSha256": "aaab1a187734046c933fda24228dd3a92e79cfb69a2834ab414ca898c6bb9b0d",
+    "reviewedAt": "2026-11-25",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
