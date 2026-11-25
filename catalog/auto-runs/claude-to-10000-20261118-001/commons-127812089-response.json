@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChQYJpmc1sYBFYCfJpfHM",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows tan/beige noodles in broth with reddish-brown streaks, consistent with full image\",\n    \"Essential noodle subject clearly visible in phone crop\",\n    \"Adequate detail for thumbnail recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title 'Spicy Hot Soupy Noodles' is generic marketing language, not a specific dish name\",\n    \"No regional origin, cuisine type, or ingredient specifics provided\",\n    \"Cannot verify actual dish identity from metadata alone—could be any Asian noodle soup\",\n    \"No protein species named in source description\",\n    \"Broth composition and noodle type unclear from image alone\"\n  ],\n  \"reason\": \"Source title is a generic descriptor ('Spicy Hot Soupy Noodles') rather than a canonical dish name. Without a specific, identifiable dish phrase (e.g. 'Lao Khao Poon', 'Vietnamese Bun Oc', 'Chinese La Mian') or explicit regional/ingredient details in the source, the identity cannot be verified. The image alone does not establish the dish's true name or category. Generic category+query is insufficient evidence for acceptance. Hold pending a proper source dish title.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1740,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 432,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
