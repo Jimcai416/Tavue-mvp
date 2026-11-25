@@ -14572,3 +14572,8 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Insalata mista** — [Thomas Wenger  from near Bern, Switzerland](https://www.flickr.com/people/43788439@N00). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Insalata_mista.jpg). Local asset: `reviewed-commons-15258574.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Alberginia farcida d'arròs de verdures** — Consell Comarcal del Baix Empordà. [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Alberginia_farcida_d%27arr%C3%B2s_de_verdures.jpg). Local asset: `reviewed-commons-39295501.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Albergínia farcida** — Consell Comarcal del Baix Empordà. [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Alberg%C3%ADnia_farcida.jpg). Local asset: `reviewed-commons-39295503.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
