@@ -14499,3 +14499,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 - **cinnamon bun** — Andy Li. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Cinnamon_bun_-_Black_Mocha_2024-01-08.jpg). Local asset: `reviewed-commons-143688069.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Fluffy buttermilk waffle stack with maple syrup, topped with crispy bacon** — Andy Li. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Buttermilk_waffles_with_crispy_bacon_-_Ren%27s_Kitchen_2026-03-14.jpg). Local asset: `reviewed-commons-186179152.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Nutella Waffles** — Gpkp. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Nutella_Waffles_(2025)_01.jpg). Local asset: `reviewed-commons-181575964.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Cabbage Soup** — Silar. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:02022_0015_La_soupe_aux_choux.jpg). Local asset: `reviewed-commons-123109151.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

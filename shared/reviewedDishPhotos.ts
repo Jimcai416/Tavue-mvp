@@ -176153,5 +176153,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 723,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-123109151",
+    "title": "File:02022 0015 La soupe aux choux.jpg",
+    "author": "Silar",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:02022_0015_La_soupe_aux_choux.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/39/02022_0015_La_soupe_aux_choux.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "c4ba2014e4e62da72d73c0b51456096074f260a6",
+    "name": "Cabbage Soup",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-123109151.jpg",
+    "assetSha256": "389d46c6a8af4a83061831230d1e55885a180e4259e35d5830b05c0e232ba6e0",
+    "reviewedAt": "2026-11-25",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 676,
+    "requiresExactMenuName": true
   }
 ];
