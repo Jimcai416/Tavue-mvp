@@ -14461,3 +14461,8 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Tarte au chocolat blanc et aux framboises** — [Katrin Gilger](https://www.flickr.com/people/26242865@N04). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Tarte_au_chocolat_blanc_et_aux_framboises_(5563991497).jpg). Local asset: `reviewed-commons-89957658.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **korv med bröd** — AleWi. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Korv_med_br%C3%B6d_innan_bingolotto-s%C3%A4ndning.jpg). Local asset: `reviewed-commons-128642000.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Riesen Wienerschnitzel** — Martin Abegglen. [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Riesen_Wienerschnitzel.jpg). Local asset: `reviewed-commons-33174452.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
