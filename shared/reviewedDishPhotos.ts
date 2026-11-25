@@ -176828,5 +176828,28 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 641,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-15258574",
+    "title": "File:Insalata mista.jpg",
+    "author": "Thomas Wenger  from near Bern, Switzerland",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Insalata_mista.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/72/Insalata_mista.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "4010d703f6219c7d49d7f0be355a8ce5b9470b28",
+    "name": "Insalata mista",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-15258574.jpg",
+    "assetSha256": "854e6a5efef66af36cd9d6869ca7a61c54eb31092f24e67e2bddff2ecc8c62f0",
+    "reviewedAt": "2026-11-25",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 643,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/43788439@N00"
   }
 ];
