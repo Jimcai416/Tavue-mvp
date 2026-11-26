@@ -179976,5 +179976,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-164458346",
+    "title": "File:Pechuga Rellena.jpg",
+    "author": "LRD615",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pechuga_Rellena.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/77/Pechuga_Rellena.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "eb50342fda1fe4662df846b28184dd3316c79288",
+    "name": "Pechuga Rellena",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-164458346.jpg",
+    "assetSha256": "0ce34395c3fc87dff13a4d0ad465c714f857ee6af8feabca8fe0d15fb333cd6e",
+    "reviewedAt": "2026-11-26",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 584,
+    "requiresExactMenuName": true
   }
 ];

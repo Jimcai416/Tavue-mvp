@@ -14903,3 +14903,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Crêpe fourrée aux pommes caramélisées** — Marianne Casamance. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Bellegarde_Cr%C3%AApe_fourr%C3%A9e_aux_pommes_caram%C3%A9lis%C3%A9es.JPG). Local asset: `reviewed-commons-46963284.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Pechuga Rellena** — LRD615. [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Pechuga_Rellena.jpg). Local asset: `reviewed-commons-164458346.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
