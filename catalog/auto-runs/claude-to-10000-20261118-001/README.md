@@ -1,6 +1,6 @@
 # Continuous Claude photo campaign
 
-Status: **planning**. Updated: 2026-11-26T21:51:51.108099+00:00.
+Status: **discovering**. Updated: 2026-11-26T21:52:03.662807+00:00.
 
 - Bundled approved photographs: **8,120 / 10,000**.
 - Newly integrated in this campaign: 6,051.
