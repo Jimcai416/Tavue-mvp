@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChRthQjDqBQv2t1gePeWF",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Stew in dark broth with pale fish chunks, potatoes, and green onion garnish\",\n    \"Accompanying sides: sausages, ground meat dish, cassava bread, condiment bowls\",\n    \"Natural daylight, appetising presentation in serving context\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows stew bowl with fish pieces and vegetables\",\n    \"Legible main dish and setting context preserved\",\n    \"Colour and composition readable at reduced size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Calderada de Pirarucu' (pirarucu stew), but pirarucu is a large Amazonian freshwater fish (Arapaima gigas). It is not chicken/beef/pork/duck/lamb/seafood as defined in the allowed protein categories. Pirarucu cannot be classified under canonical seafood (marine) category and is a regional Amazonian species outside acceptable protein list.\",\n    \"Source metadata contains only file name and credit attribution; no explicit dish description provided by user to verify identity beyond filename.\",\n    \"Cannot match canonical_name to user-supplied title/description because only filename and credit information were provided in metadata.\"\n  ],\n  \"reason\": \"Reject: The source title identifies the dish as 'Calderada de Pirarucu' (pirarucu stew). Pirarucu is a freshwater Amazonian fish species (Arapaima gigas) that does not fall within the allowed protein categories (chicken/beef/pork/duck/lamb/seafood). The metadata does not include an explicit user-provided description beyond the filename, and the protein identification cannot be supported by the allowed category list. Identity check fails due to unrecognised protein species; canonical_name cannot be established without contradiction to protein rules.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1650,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 556,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

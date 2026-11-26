@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChRthxKGAHKTHWufeRXbN",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked protein with charred/seared exterior\",\n    \"Fresh cilantro and herb garnish\",\n    \"Avocado slices visible\",\n    \"Served on light blue plate\",\n    \"Restaurant plating style\"\n  ],\n  \"phone_observations\": [\n    \"Herb-garnished protein dish clearly visible\",\n    \"Central composition readable\",\n    \"Plate colour and plating style consistent with full image\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title lists 'Conejo + Gritz + Caldillo' but source description omits full dish name. 'Conejo' (rabbit) is not an allowed protein category and cannot be validated against canonical proteins (chicken/beef/pork/duck/lamb/seafood)\",\n    \"Visible form shows cooked protein with herbs and avocado, but exact species cannot be confirmed visually and 'Conejo' (rabbit) falls outside permitted protein categories\",\n    \"Dish identity cannot be confirmed because rabbit is not an allowed protein category and no other explicit source quote identifies the visible protein\"\n  ],\n  \"reason\": \"Source title includes 'Conejo' (rabbit), which is not an allowed protein category for Tavue review (only chicken/beef/pork/duck/lamb/seafood permitted). The visible cooked protein with sear marks, cilantro and avocado garnish, and restaurant plating are well-executed, but the dish identity cannot be validated because the named protein is outside permitted scope and no alternative explicit identification is provided in source description. Quality and photograph checks pass, but identity check fails due to protein category restriction.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1740,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 507,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
