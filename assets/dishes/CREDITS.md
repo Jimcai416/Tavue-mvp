@@ -15095,3 +15095,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 - **Pa amb llonganissa** — Francesc Fort. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Panet_amb_llonganissa_(45924).jpg). Local asset: `reviewed-commons-181757039.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Barranquilla maize buñuelos** — Jdvillalobos. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Barranquilla_bu%C3%B1uelos_de_ma%C3%ADz.jpg). Local asset: `reviewed-commons-4571810.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Buñuelos** — Fisherjs  at  English Wikipedia. [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:Bu%C3%B1uelos.JPG). Local asset: `reviewed-commons-25336250.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Yemas de Santa Teresa** — Tamorlan. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Yemas_-_Mallorquina.jpg). Local asset: `reviewed-commons-7295027.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
