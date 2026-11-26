@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChRXWAav9wsxt2z3mPLqx",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 2,\n    \"composition\": 1,\n    \"appeal\": 0\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Subject is a plaster replica cast, not a food photograph\",\n    \"Objects appear as museum specimen fragments on red background\",\n    \"No finished dish visible; archaeological or scientific documentation only\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title describes 'réplica en yeso de un embutido' (plaster replica of a sausage) – this is explicitly a museum cast, not food\",\n    \"Source metadata identifies this as a museum collection item with catalog reference, not culinary documentation\",\n    \"No actual food present; subject is a scientific/archaeological artifact\"\n  ],\n  \"reason\": \"Rejection: This is a museum photograph of a plaster replica cast specimen, not a finished food dish. The source explicitly identifies it as 'réplica en yeso' (plaster replica) from a natural sciences museum collection, with catalog labeling visible. It fails the photograph check (not a food photograph), the identity check (not a dish), and the appeal check. The object is fragmented, lacks appetising presentation, and serves as archaeological documentation rather than food review. Phone thumbnail confirms only small specimen fragments on bare background.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1701,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 398,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
