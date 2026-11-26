@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChRbQWQa6xoKfy2jmhe1s",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Pasta (gemelli-style twisted tubes)\",\n    \"Leafy greens (spinach visible)\",\n    \"Shaved cheese (appears to be parmesan)\",\n    \"Pink/ham-coloured meat pieces\",\n    \"Plated on white dish with decorative sauce drizzle\"\n  ],\n  \"phone_observations\": [\n    \"Pasta and toppings clearly visible in thumbnail\",\n    \"Cheese shards and greens distinguishable\",\n    \"Overall composition readable at reduced size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title declares 'Lachs' (salmon) but the visible pink/tan pieces appear to be ham or prosciutto, not raw or cooked salmon\",\n    \"No visually convincing seafood/salmon characteristics observed; meat appears cured and diced rather than fish\",\n    \"Identity contradiction between source title (salmon) and visible form (cured meat)\"\n  ],\n  \"reason\": \"Identity check fails. The source title explicitly names 'Lachs' (salmon) as the protein, but the visible meat pieces in both full and thumbnail photographs appear to be cured ham or prosciutto—not salmon in any recognizable cooked or raw form. This is a material contradiction between declared identity and visible evidence. The photograph, sharpness, lighting and composition are all acceptable (scores ≥4), but the dish cannot be accepted when the named protein component is not visually supported. No protein_evidence entry can be populated because salmon cannot be verified from the image, and the visible meat cannot be identified with certainty or matched to the source declaration.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1652,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 500,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
