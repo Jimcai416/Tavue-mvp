@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChQmM8H8RYYJpYer8pVVw",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Cooked meat pieces (grilled, browned)\",\n    \"Golden potato wedges/fries\",\n    \"Chickpeas with herbs (yellow, top-left)\",\n    \"Purple shredded cabbage salad (centre)\",\n    \"Pickled vegetables (cornichons, olives)\",\n    \"Red sauce/condiment (small bowl)\",\n    \"White creamy sauce/yogurt (bottom bowl)\",\n    \"Decorative plated presentation\"\n  ],\n  \"phone_observations\": [\n    \"Platter with mixed grilled meats and sides clearly visible\",\n    \"Purple cabbage salad prominently featured\",\n    \"Golden fried potatoes recognisable\",\n    \"Multiple protein components stacked\",\n    \"Sauce bowls visible in thumbnail\",\n    \"Dish identity legible from thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title metadata specifies 'Mititei, Schweinspieße, Rind und Lammkoteletts' (Mititei, pork skewers, beef and lamb cutlets), but the exact English canonical name and source-verified dish title are not provided in the user-supplied title field\",\n    \"Metadata language (German) differs from expected English documentation\",\n    \"Mititei is a Romanian sausage/meat product of unspecified species composition—cannot be reliably mapped to chicken/beef/pork/duck/lamb/seafood categories without explicit source confirmation\",\n    \"Visual identification of individual meat components (which are grilled and mixed) cannot reliably distinguish beef from lamb from pork in the photograph alone\",\n    \"No explicit English-language source title provided; metadata description is in German and contains multiple qualifying animals but lacks a canonical dish name in English\"\n  ],\n  \"reason\": \"Reject: source metadata is in German and describes multiple meat species (Mititei, pork, beef, lamb), but Mititei is an unspecified sausage product that cannot be reliably categorised into allowed protein keys. The canonical_name cannot be extracted from an English source title—only German metadata is supplied. While the photograph is sharp, well-lit, appetising and the platter is prominent and legible in the thumbnail, identity verification fails because (1) no English canonical title is provided by the user, (2) Mititei cannot be mapped to a single allowed protein category, and (3) the mixed-meat composition and unspecified sausage species create ambiguity that rules require be held rather than resolved by visual inference.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1830,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 712,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
