@@ -14736,3 +14736,8 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 
 - **Delicata squash with frisee, radicchio, pomegranate seeds and Vella Dry Jack cheese** — Missvain. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Delicata_squash_salad_-_the_girl_%26_the_fig_-_2021-11-25_-_Sarah_Stierch.jpg). Local asset: `reviewed-commons-112843529.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Melanzane a funghetto** — 10Rosso. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Melanzane_a_funghetto.jpg). Local asset: `reviewed-commons-29568058.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Melanzane al Forno** — DinaBenedettoFerrandina. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Melanzane_al_Forno.jpg). Local asset: `reviewed-commons-131665126.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Antipasti à la Mozzarella** — Marianne Casamance. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Antipasti_%C3%A0_la_Mozzarella.JPG). Local asset: `reviewed-commons-48197693.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
