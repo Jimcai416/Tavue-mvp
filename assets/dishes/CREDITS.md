@@ -14990,3 +14990,11 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Precle z obatzdą** — MOs810. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Wyszak_Szczecin_(1)_Obatzda.jpg). Local asset: `reviewed-commons-69730291.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Cono di La Stracciatella il gelato di Bergamo** — BeaC. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Cono_LaStracciatellailgelatodiBergamo.jpg). Local asset: `reviewed-commons-70258304.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Gnocchi with winter squash, mixed mushrooms, stracciatella, and mustard frills** — Missvain. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Feed_Your_Soul_Lunch_-_February_2023_-_Sarah_Stierch_04.jpg). Local asset: `reviewed-commons-128480569.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Gelato alla fragola e stracciatella** — Guillaume Flambeau Von Uslar. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Gelato_alla_fragola_e_stracciatella_-_Sicilia,_Siracusa.jpg). Local asset: `reviewed-commons-68758145.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Pomodoro con stracciatella** — Luistxo. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Pomodoro_con_stracciatella_(cropped).jpg). Local asset: `reviewed-commons-93578390.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Stracciatella cone** — WikiLucas00. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Stracciatella_in_Firenze_(cropped).jpg). Local asset: `reviewed-commons-193355359.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
