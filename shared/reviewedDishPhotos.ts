@@ -180315,5 +180315,28 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 638,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/people/7927684@N03"
+  },
+  {
+    "id": "commons-23098249",
+    "title": "File:Toasted brie and tomato sandwich with a vinaigrette drizzle.jpg",
+    "author": "jeffreyw",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Toasted_brie_and_tomato_sandwich_with_a_vinaigrette_drizzle.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Toasted_brie_and_tomato_sandwich_with_a_vinaigrette_drizzle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "2ad37002cce920a3ea14b17598261ac89b934456",
+    "name": "Toasted brie and tomato sandwich with a vinaigrette drizzle",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-23098249.jpg",
+    "assetSha256": "fc4dd5ac44a299f7aa60949e85b5fd257f89f876708b3af353e13ed45f091686",
+    "reviewedAt": "2026-11-26",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 638,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/7927684@N03"
   }
 ];
