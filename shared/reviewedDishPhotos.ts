@@ -182020,5 +182020,28 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-77826825",
+    "title": "File:Avocado gratin (3588247305).jpg",
+    "author": "pelican  from Tokyo, Japan",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Avocado_gratin_(3588247305).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Avocado_gratin_%283588247305%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "d5fc24600619282acb5c8284df13349e2f052b26",
+    "name": "Avocado gratin",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-77826825.jpg",
+    "assetSha256": "482f8c6c7cd4b9e1b4f7d343bdc5e78bc6424320930e55d9f8675d2ecbc44cef",
+    "reviewedAt": "2026-11-26",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 638,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/85936780@N00"
   }
 ];
