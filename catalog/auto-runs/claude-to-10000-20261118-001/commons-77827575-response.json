@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChS3u5g8nJqoZQNFM8ave",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Rectangular white plate with baked pasta dish\",\n    \"Creamy sauce coating penne or rigatoni pasta\",\n    \"Golden-brown breadcrumb and cheese topping\",\n    \"Black pepper and herb garnish visible\",\n    \"Finished, exposed dish in natural lighting\"\n  ],\n  \"phone_observations\": [\n    \"Pasta dish clearly visible in thumbnail\",\n    \"Creamy coating and topping readable at small size\",\n    \"Rectangular presentation matches full image\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Potato gratin' but visible dish is clearly pasta-based with penne/rigatoni, not potatoes\",\n    \"No visible potatoes in either full image or thumbnail\",\n    \"Dish composition contradicts source identity\"\n  ],\n  \"reason\": \"Identity mismatch: source title claims 'Potato gratin' but the photograph clearly shows a baked pasta dish (penne or rigatoni) with creamy sauce and breadcrumb topping—no potatoes are visible. This is a fundamental contradiction between the stated identity and visual content. All quality and photograph checks pass, but the identity check fails due to source-photograph disagreement. Hold rules prevent acceptance when identity cannot be verified as matching the exact source description.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1622,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 429,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
