@@ -179403,5 +179403,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 797,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-66308519",
+    "title": "File:Pimientos del Padrón .jpg",
+    "author": "Marostegui",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pimientos_del_Padr%C3%B3n_.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Pimientos_del_Padr%C3%B3n_.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "61e1e6da322ffb4075247be2338f988d3a5cece5",
+    "name": "Pimientos del Padrón fritos",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-66308519.jpg",
+    "assetSha256": "f6a825ebdd5fb1a5ecfdf255f592b605c6b69e42b8eb4ebbc5e4a21782e10d2d",
+    "reviewedAt": "2026-11-26",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 720,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
