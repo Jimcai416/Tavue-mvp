@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChRBntHn46bKjFE1DzKP9",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Four meat cuts visible on grill grates\",\n    \"Pale to tan surface colouration consistent with pork\",\n    \"Active cooking stage with visible grill marks\",\n    \"Prominent subject, readable as meat on barbecue\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title contains 'Côtes de porc' (pork ribs), but source metadata is untrusted per instruction. Visible form shows what appears to be pork chops or steaks mid-cook on a barbecue, not finished plated dish\",\n    \"Image depicts active preparation/cooking stage, not a finished, exposed, plated dish\"\n  ],\n  \"reason\": \"Rejection: This is a mid-cooking barbecue preparation photograph, not a finished, exposed dish. The meat remains on the grill grates, unplated and actively cooking. Per instructions, raw/preparation stages must be rejected. Although the photograph quality, sharpness, lighting and phone thumbnail are acceptable, the identity check fails because the subject is unfinished cookery, not a served food dish suitable for Tavue's representative food photography collection.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1755,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 400,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
