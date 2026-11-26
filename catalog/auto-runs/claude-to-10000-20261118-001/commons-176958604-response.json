@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChRqxt8ZEvr68pRvE5681",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 1,\n    \"lighting\": 1,\n    \"composition\": 1,\n    \"appeal\": 0\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Image is a numismatic relief (medallion/coin), not a food photograph\",\n    \"Shows a commemorative medal with portrait profile\",\n    \"Halftone or engraved surface texture, typical of medal documentation\",\n    \"No food subject visible in either full or thumbnail image\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [],\n  \"reason\": \"This is a commemorative medallion (numismatic artifact) issued in 1929, not a food dish. The source metadata explicitly identifies it as a medallion commemorating the 1000th anniversary of St Wenceslas' death. The image shows a relief portrait on a medal surface, not a finished, exposed, edible dish. It fails all required checks: identity (not food), photograph (artifact documentation), and quality (not a culinary subject). Automatic rejection per instructions prohibiting non-food subjects.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2068,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 340,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
