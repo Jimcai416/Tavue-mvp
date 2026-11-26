@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChRQgkP8Ck3Rs47a5cMFs",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Raw/uncooked meat in vacuum packaging shown in source photograph\",\n    \"Bright red colour consistent with raw muscle tissue\",\n    \"Glossy wet surface typical of freshly packaged raw meat\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows raw meat slices at preparation stage\",\n    \"No finished, cooked dish visible in either image\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Reindeer is not an allowed protein category (chicken/beef/pork/duck/lamb/seafood only)\"\n  ],\n  \"reason\": \"Rejection: Image shows raw, uncooked meat at the preparation stage, not a finished exposed dish. Source explicitly states \\\"once grilled they weren't that bad looking anymore\\\" — the photograph displays the vacuum-packaged raw product before cooking. Additionally, reindeer is not within the allowed protein categories (chicken, beef, pork, duck, lamb, or seafood). Tavue accepts only finished, exposed, likely photographic dishes.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1727,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 367,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
