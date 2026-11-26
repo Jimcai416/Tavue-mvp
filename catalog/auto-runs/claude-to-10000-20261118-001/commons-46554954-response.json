@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChRhY22SotPN6PWQCB5D1",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked mushroom pieces visible\",\n    \"Browned meat pieces visible\",\n    \"Potatoes or root vegetables visible\",\n    \"Fresh parsley garnish\",\n    \"Red sauce or braising liquid\",\n    \"Orange ceramic serving bowl\",\n    \"Professional plating on white square plate\"\n  ],\n  \"phone_observations\": [\n    \"Dish clearly visible and identifiable in thumbnail\",\n    \"Ceramic bowl and plating legible\",\n    \"Garnish visible\",\n    \"Adequate detail for recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Stuffed mushrooms' but photograph shows a braised meat and vegetable stew with mushroom pieces—not whole stuffed mushroom caps\",\n    \"Visible cooked meat pieces cannot be identified to species from appearance alone; source provides no explicit protein declaration\",\n    \"Title-image mismatch: the dish does not match the stated identity of 'stuffed mushrooms'\"\n  ],\n  \"reason\": \"Identity check fails. The source title 'Stuffed mushrooms' contradicts the visible dish—a braised stew containing meat pieces, mushroom chunks, and potatoes in a brown sauce, not prepared or plated mushrooms in the traditional sense. The photograph shows a composed meat and vegetable braise, not mushrooms that have been stuffed. Without an explicit protein species declaration in the source and without reliable visual species confirmation, protein_evidence remains empty. The fundamental identity mismatch between title and photographed form requires hold.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1658,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 484,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
