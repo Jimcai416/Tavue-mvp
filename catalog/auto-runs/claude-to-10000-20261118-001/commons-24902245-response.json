@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChQbevbWQtA72i83bveYb",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows sliced white cheese against dark background with apples blurred in background\",\n    \"Central subject is clearly a prepared cheese, sharply visible and appetising\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title is a filename ('File:Mozzarella cheese (1).jpg'), not a dish description\",\n    \"No actual dish title or canonical description provided in source metadata\",\n    \"Image shows a raw ingredient (cheese), not a finished prepared dish\",\n    \"Cheese alone with whole fruits in background does not constitute a finished, exposed dish suitable for food review\"\n  ],\n  \"reason\": \"Rejection: This is a raw ingredient photograph (sliced mozzarella cheese with apples), not a finished prepared dish. The source metadata provides only a filename, not an authoritative dish title. Cheese by itself is a commodity ingredient, not a prepared food dish meeting Tavue's standards for finished, exposed, complete dishes with readable essential components. The photograph is technically excellent but does not qualify as a reviewable finished dish.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1781,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 379,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
