@@ -181357,5 +181357,28 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 720,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-89073563",
+    "title": "File:Préparation d'une tarte à la tomate (06) - sortie du four.jpg",
+    "author": "Benoît Prieur",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pr%C3%A9paration_d%27une_tarte_%C3%A0_la_tomate_(06)_-_sortie_du_four.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/81/Pr%C3%A9paration_d%27une_tarte_%C3%A0_la_tomate_%2806%29_-_sortie_du_four.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "d5a304f65d43b3a0251dbfd5c007d51f303d6557",
+    "name": "Tarte à la tomate",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-89073563.jpg",
+    "assetSha256": "88285b3b0a8cc0706f1e0901342d6e31f070ed6473f98f20fafd1fefdd5277eb",
+    "reviewedAt": "2026-11-26",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 911,
+    "height": 960,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.wikidata.org/wiki/Q42790984"
   }
 ];

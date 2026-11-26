@@ -15060,3 +15060,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 
 - **Tartufo di Pizzo** — [Federica Siena](https://www.flickr.com/photos/frikybrown/). [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:Tartufo_di_Pizzo.jpg). Local asset: `reviewed-commons-10638041.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Tartufo ice cream** — Off-shell. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Tartufo_ice_cream.JPG). Local asset: `reviewed-commons-42772030.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Tarte à la tomate** — [Benoît Prieur](https://www.wikidata.org/wiki/Q42790984). [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Pr%C3%A9paration_d%27une_tarte_%C3%A0_la_tomate_(06)_-_sortie_du_four.jpg). Local asset: `reviewed-commons-89073563.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
