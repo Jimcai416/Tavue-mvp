@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChRKGBMXDvtuJJfuuQyuZ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"Skruebolle med pølse, roquefort, comté og vesterhavsost\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Sliced cured meat (pølse) on dark bread\",\n    \"Pale yellow cheese slices (comté visible)\",\n    \"White-veined blue cheese spread (roquefort)\",\n    \"Wooden serving board\",\n    \"Open-faced sandwich presentation\",\n    \"Natural daylight, sharp detail\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows composition: salami, yellow cheese, white cheese on bread\",\n    \"Essential components visible and readable\",\n    \"Appetising presentation preserved at reduced size\",\n    \"No clipping of key elements\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Species of 'pølse' (sausage) unspecified—cannot confirm if chicken/beef/pork/duck/lamb/seafood without explicit source declaration\",\n    \"Title lists 'pølse' as component but does not name the animal; appearance suggests cured pork but visual inference is insufficient\",\n    \"Source title does not contain exact English animal name required by protocol\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition and phone thumbnail all meet acceptance thresholds. Identity check fails: the source title 'Skruebolle med pølse, roquefort, comté og vesterhavsost' names a sausage ('pølse') without declaring its animal species. Protocol requires explicit source-quoted animal names (chicken/beef/pork/duck/lamb/seafood) for protein_evidence; 'sausage' or 'pølse' alone cannot be assigned to any allowed category. No protein_evidence can be populated. Holding pending source clarification of sausage species.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1679,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 544,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

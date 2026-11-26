@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChRKFiFqrghJYot2nFVXS",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Toasted bread slices with herb seasoning visible\",\n    \"White cheese (consistent with brie) on each slice\",\n    \"Red-brown cured meat slices with charring (consistent with chorizo)\",\n    \"Natural colour and appetising presentation\",\n    \"Sharp detail in both source and phone thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Open sandwich composition clearly visible at thumbnail scale\",\n    \"Chorizo slices prominent and identifiable\",\n    \"White cheese and bread visible\",\n    \"Adequate detail for verification\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title/description identifies 'chorizo' but chorizo is a sausage product of unspecified animal species (typically pork but not explicitly stated in source). Protein category rules forbid sausage as a key and require exact source quote naming the animal.\",\n    \"No explicit animal species named in source metadata for chorizo\",\n    \"Cheese type (brie) is not a protein category in allowed list\"\n  ],\n  \"reason\": \"Image quality, photograph authenticity, phone thumbnail representation, and composition all pass. However, the dish cannot be accepted because 'chorizo' is a sausage product and the source does not explicitly name the animal species (pork/beef/etc.). Per rules, sausage cannot be used as a protein_evidence key and unknown species must be held. The source metadata provides only generic 'brie and chorizo' without animal qualification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1728,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 472,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
