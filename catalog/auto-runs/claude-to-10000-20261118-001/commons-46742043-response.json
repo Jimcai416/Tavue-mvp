@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChQhBHSZF7fVPE5stgwNz",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Ash-coated rind visible on dark exterior\",\n    \"Fresh, creamy white paste exposed in cross-section\",\n    \"Natural cheese texture and structure evident\"\n  ],\n  \"phone_observations\": [\n    \"Ash-coated surface clearly visible\",\n    \"White interior paste prominent in thumbnail\",\n    \"Subject is identifiable as a cheese wedge\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title metadata format includes 'File:' prefix and image filename, violating canonical_name rules\",\n    \"Description 'Queso de cabra con ceniza' is Spanish; identity authenticity cannot be verified from metadata alone\",\n    \"Goat cheese species ('cabra') stated in source description but not visually verifiable from photograph\",\n    \"Cheese type/origin cannot be confirmed from visual inspection without source declaration\"\n  ],\n  \"reason\": \"Reject: This is a cheese (not a finished dish), presented as a cross-sectioned wedge rather than a prepared/plated food item ready for consumption. Tavue reviews finished, exposed food photographs of cooked dishes, not raw ingredient presentations or dairy products in sectioned form. The photograph shows excellent technical quality and the subject is clearly identifiable, but it does not meet the fundamental category requirement of representing a finished dish suitable for the food intake review workflow.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1630,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 439,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
