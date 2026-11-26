@@ -180493,5 +180493,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 686,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-77102018",
+    "title": "File:Jalapeno Chicken Tacos, Diablo's Cantina, Monte Carlo, Las Vegas, NV.jpg",
+    "author": "Haydn Blackey",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jalapeno_Chicken_Tacos,_Diablo%27s_Cantina,_Monte_Carlo,_Las_Vegas,_NV.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Jalapeno_Chicken_Tacos%2C_Diablo%27s_Cantina%2C_Monte_Carlo%2C_Las_Vegas%2C_NV.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "da5d4464f54342b887df7f04eaeec44333a5c2ce",
+    "name": "Jalapeno Chicken Tacos",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-77102018.jpg",
+    "assetSha256": "f35b13e16aede8ac9f051806f0f564356d20297babdc3d8a18992ffb5d8b1081",
+    "reviewedAt": "2026-11-26",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 642,
+    "requiresExactMenuName": true
   }
 ];
