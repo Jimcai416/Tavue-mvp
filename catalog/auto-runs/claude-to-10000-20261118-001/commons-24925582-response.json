@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChRK9CpP4wYWkDiPU7qL7",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Cheese wedge clearly visible in thumbnail\",\n    \"Blue-veined structure evident\",\n    \"Crumbly texture apparent\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Cheese is not a food category within the allowed protein scope (chicken/beef/pork/duck/lamb/seafood only)\",\n    \"Subject is a cheese product, not a prepared dish\"\n  ],\n  \"reason\": \"Rejection: The image shows a wedge of Roquefort cheese, a dairy product. The review criteria restrict protein_evidence to animal proteins: chicken, beef, pork, duck, lamb, or seafood. Cheese does not qualify as an acceptable protein category. Additionally, this is a raw ingredient or single component, not a finished prepared dish. The photograph quality is good and the identity is clear from the source description, but the subject falls outside the scope of acceptable food for this review system.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1667,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 348,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
