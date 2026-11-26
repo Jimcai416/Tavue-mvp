@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChRVA5u6Asyg3FqXtzgxZ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 5,\n    \"composition\": 5,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Pale yellow cheese block with dark pepper specks throughout\",\n    \"Toasted/scorched surface on top edge\",\n    \"Natural cheese texture and cross-section visible\",\n    \"Presented on wooden board with branding\"\n  ],\n  \"phone_observations\": [\n    \"Cheese block clearly visible at centre\",\n    \"Pepper inclusions prominent and readable\",\n    \"Toast marks on surface visible in thumbnail\",\n    \"Adequate detail for identification\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title contains 'Pecorino mit Pfeffer' but file metadata labels this as 'Pecorino au Poivre' (French variant name). The description field uses both German and French names, creating ambiguity about the canonical form.\",\n    \"Pecorino is a cheese product, not a prepared dish. It is a ingredient or standalone cheese component, not a finished food dish meeting Tavue's culinary review scope.\"\n  ],\n  \"reason\": \"Cheese is a dairy product/ingredient, not a finished prepared dish. While the photograph quality is excellent and the identity (pepper-studded Pecorino cheese) is visually clear and matches the source description, cheese wedges fall outside the category of cooked/prepared culinary dishes that Tavue reviews. Additionally, the metadata contains conflicting variant names (German 'mit Pfeffer' vs. French 'au Poivre') without a single authoritative source title, introducing uncertainty in canonical naming.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1643,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 476,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
