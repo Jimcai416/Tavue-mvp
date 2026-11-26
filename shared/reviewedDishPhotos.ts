@@ -180676,5 +180676,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 896,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-155096654",
+    "title": "File:Patatas revolconas, Castilla-León.jpg",
+    "author": "Juan Emilio Prades Bel",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Patatas_revolconas,_Castilla-Le%C3%B3n.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Patatas_revolconas%2C_Castilla-Le%C3%B3n.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "10dc24cbc80223463b59d67305213ab111227151",
+    "name": "Patatas revolconas",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-155096654.jpg",
+    "assetSha256": "83621c044bf9eab16bb0e6b1b5b869e308fe11cf21794140123eb395648abdd6",
+    "reviewedAt": "2026-11-26",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];

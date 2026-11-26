@@ -14982,3 +14982,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 
 - **Cremino Fiat di Majani** — Camelia.boban. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Cremino_Fiat_01.jpg). Local asset: `reviewed-commons-146958361.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **cremino cake** — Valerio Bozzolan. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Storica_pasticceria_Balla_Ivrea_-_torta_cremino_-_2021.jpg). Local asset: `reviewed-commons-111561264.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Patatas revolconas** — Juan Emilio Prades Bel. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Patatas_revolconas,_Castilla-Le%C3%B3n.jpg). Local asset: `reviewed-commons-155096654.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
