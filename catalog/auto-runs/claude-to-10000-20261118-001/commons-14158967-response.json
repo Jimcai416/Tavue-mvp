@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChRyUibjPdr2mGB459zD6",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows raw fish being prepared/cleaned on a dock\",\n    \"Essential subject (prepared dish) is not visible in phone thumbnail\",\n    \"Image depicts a preparation stage, not a finished dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source describes preparation of monkfish tails (lotte/baudroie) but image shows raw fish processing, not a finished, cooked, or plated dish\"\n  ],\n  \"reason\": \"Rejection: This is a documentary photograph of a fisherman processing raw monkfish at a port, not a finished, exposed, appetizing dish. The source describes a preparation stage ('en train de découper' = cutting up). The thumbnail and full image both show raw fish being cleaned/processed, not a finished culinary presentation. The subject lacks the essential characteristics required: no finished cooking state, no plating, no appetite appeal, and the preparation stage is explicitly not acceptable per guidelines. This is a food processing/occupation photograph, not a dish photograph.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1761,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 367,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

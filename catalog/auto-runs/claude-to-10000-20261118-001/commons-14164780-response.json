@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChRyUPY1L3Xc6ftirMdgB",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 0,\n    \"lighting\": 0,\n    \"composition\": 0,\n    \"appeal\": 0\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Image shows two people working with rope and equipment on a boat\",\n    \"No finished dish visible\",\n    \"No food preparation visible in phone thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source describes fish processing (monkfish/baudroie preparation) but neither the full image nor thumbnail shows a finished, exposed, appetising dish\",\n    \"This is a documentary photograph of a fishing operation, not a food photograph\"\n  ],\n  \"reason\": \"Rejection: This is a documentary/occupational photograph of fishermen processing catch aboard a trawler. No finished, exposed, cooked or prepared dish is visible in either the full source image or the phone thumbnail. The source metadata describes fish processing activity (monkfish gutting), not a completed food subject suitable for a Tavue food review. The image fails the core identity check: it is not a photograph of food as a finished dish, but rather a behind-the-scenes maritime work scene. Quality, photograph, and phone checks cannot pass when no food subject exists.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1766,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 374,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
