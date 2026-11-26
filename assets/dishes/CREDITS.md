@@ -15078,3 +15078,8 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Espresso con panna** — The original uploader was  Xipirho  at  English Wikipedia .. [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:Espresso_con_panna.JPG). Local asset: `reviewed-commons-108659627.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Bouchée fromagère** — Marianne Casamance. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Carpentras_Chez_Serge_Bouch%C3%A9e_fromag%C3%A8re.JPG). Local asset: `reviewed-commons-46971260.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Rissole à la poire Blesson** — Marc LE PRINCE. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Rissole_%C3%A0_la_poire_Blesson.jpg). Local asset: `reviewed-commons-32451831.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
