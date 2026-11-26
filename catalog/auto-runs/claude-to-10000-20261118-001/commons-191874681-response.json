@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChRRBF3KgQ8aK7NPNjjnk",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Seafood-rich broth in large blue bowl\",\n    \"Multiple shellfish and fish pieces visible\",\n    \"Accompaniments: grated cheese in small white bowl, yellow sauce (aioli/rouille), fried bread pieces\",\n    \"Natural restaurant plating on rustic blue ceramic\"\n  ],\n  \"phone_observations\": [\n    \"Bouillabaisse dish clearly visible in phone thumbnail\",\n    \"Bowl, seafood, and accompaniments all prominent and readable\",\n    \"Adequate detail for dish identification at mobile resolution\"\n  ],\n  \"protein_evidence\": {\n    \"seafood\": \"Dos de cabillaud, St-Jacques, encornets, moules et crevettes\"\n  },\n  \"uncertainties\": [\n    \"Source title describes 'Bouillabaisse dieppoise' (a French regional variant), but accompanying description lists ingredients in French without explicit English translation or confirmation that visible components match declared proteins\",\n    \"Dos de cabillaud (cod fillet) and multiple other seafood species named in French description cannot be visually confirmed with certainty at this resolution\",\n    \"St-Jacques (scallops), encornets (squid), moules (mussels), crevettes (shrimp) are listed but specific visual confirmation of each species in broth is ambiguous\"\n  ],\n  \"reason\": \"While the photograph shows excellent quality, sharp detail, natural appetising appearance, and the phone thumbnail is clear and readable, the identity check fails because the source title/description uses French ingredient terms without English equivalents, and the visible seafood species cannot be reliably distinguished and confirmed in the broth to match the declared 'Dos de cabillaud, St-Jacques, encornets, moules et crevettes' with certainty. Bouillabaisse is a complex multi-seafood dish where visual confirmation of specific species is challenging. Per protocol, ambiguous seafood species identification and source language/confirmation issues require hold status. This does not meet the 'all checks true' requirement for acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1793,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 594,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
