@@ -14831,3 +14831,10 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Strawberry tart** — [Leon Brocard](https://flickr.com/people/35034350386@N01). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Strawberry_tart,_October_2008.jpg). Local asset: `reviewed-commons-10271950.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Buñuelo** — Koffermejia. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Bu%C3%B1uelo.jpg). Local asset: `reviewed-commons-116239838.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Potaje con espinacas** — Xemenendura. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Potaje_con_espinacas.jpg). Local asset: `reviewed-commons-201593163.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **potaje de garbanzos con tagarninas** — El Pantera. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Potaje_con_tagarninas.jpg). Local asset: `reviewed-commons-45900880.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Potaje de verano** — Tamorlan. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Potaje_de_verano-Toro.JPG). Local asset: `reviewed-commons-11073480.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
