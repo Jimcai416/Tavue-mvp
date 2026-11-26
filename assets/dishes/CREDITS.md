@@ -14838,3 +14838,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 - **Potaje con espinacas** — Xemenendura. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Potaje_con_espinacas.jpg). Local asset: `reviewed-commons-201593163.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **potaje de garbanzos con tagarninas** — El Pantera. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Potaje_con_tagarninas.jpg). Local asset: `reviewed-commons-45900880.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Potaje de verano** — Tamorlan. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Potaje_de_verano-Toro.JPG). Local asset: `reviewed-commons-11073480.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Sauce d'oseille ou karkandji spécialité de la cuisine traditionnelle tchadienne** — Remadjiepiphanie. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Sauce_d%E2%80%99oseille_ou_karkandji_sp%C3%A9cialit%C3%A9_de_la_cuisine_traditionnelle_tchadienne.jpg). Local asset: `reviewed-commons-185859808.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
