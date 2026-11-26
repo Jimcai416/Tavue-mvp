@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChR6nCcVFkAmh5Jd3UNP4",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Line of rolled/wrapped items with glossy red-brown exterior\",\n    \"Crispy caramelised surface visible on each piece\",\n    \"White/cream filling visible at breaks in wrapping\",\n    \"Appetising browning and char marks\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title declares 'Veggie Ham' (plant-based mock meat), not actual ham or recognised protein animal\",\n    \"Source lists 'Tofu Ricotta' (plant-based), 'Fig' and 'Herbed' components but no canonical meat/seafood protein that meets acceptance criteria\",\n    \"Vegan Feast Catering attribution confirms vegan preparation; no chicken/beef/pork/duck/lamb/seafood protein present or claimed in source\"\n  ],\n  \"reason\": \"Reject: source declares plant-based ingredients only (vegan tofu ricotta, veggie ham mock meat). No actual chicken, beef, pork, duck, lamb, or seafood is named in title or description. The dish does not contain a supported protein category and cannot be accepted under the canonical protein requirements. While photograph and thumbnail quality are acceptable, the identity check fails due to absence of eligible protein evidence.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1760,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 422,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
