@@ -181154,5 +181154,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 875,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.wikidata.org/wiki/Q42790984"
+  },
+  {
+    "id": "commons-131864638",
+    "title": "File:Vlaamsestoverij02.jpg",
+    "author": "Hortensja Bukietowa",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vlaamsestoverij02.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Vlaamsestoverij02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "ab44e4fd622a371bc90c4095943127b86803d6dc",
+    "name": "Vlaamse stoverij en salade",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-131864638.jpg",
+    "assetSha256": "430ae068dbfb9c965993ea43653f495a8e46ebd9b81b5d20828806d603aa73c4",
+    "reviewedAt": "2026-11-26",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];

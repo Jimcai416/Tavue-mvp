@@ -15039,3 +15039,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 
 - **Œufs à la neige infusés à la verveine et sa soupe de fraises** — [Benoît Prieur](https://www.wikidata.org/wiki/Q42790984). [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:%C5%92ufs_%C3%A0_la_neige_infus%C3%A9s_%C3%A0_la_verveine_et_sa_soupe_de_fraises,_Maison_Pic,_Valence.JPG). Local asset: `reviewed-commons-70225540.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Filet de bœuf sauce forestière, crique maison et légumes** — [Benoît Prieur](https://www.wikidata.org/wiki/Q42790984). [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Filet_de_b%C5%93uf_sauce_foresti%C3%A8re,_crique_maison_et_l%C3%A9gumes.JPG). Local asset: `reviewed-commons-69509665.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Vlaamse stoverij en salade** — Hortensja Bukietowa. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Vlaamsestoverij02.jpg). Local asset: `reviewed-commons-131864638.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
