@@ -179904,5 +179904,55 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-95446777",
+    "title": "File:Cotes de porc au barbecue (octobre 2020).jpg",
+    "author": "Benoît Prieur",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cotes_de_porc_au_barbecue_(octobre_2020).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Cotes_de_porc_au_barbecue_%28octobre_2020%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "30bd2e4ac4534599d3be54293437da0ccd0b467a",
+    "name": "Cotes de porc marinées au barbecue",
+    "aliases": [],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-95446777.jpg",
+    "assetSha256": "ffed11cac4f07007bac6e82522726bef41286a79a6b26dad78b74f53cadd577c",
+    "reviewedAt": "2026-11-26",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 887,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.wikidata.org/wiki/Q42790984"
+  },
+  {
+    "id": "commons-88424056",
+    "title": "File:Côtes de porc marinées, cuites au barbecue, mars 2020 (007).jpg",
+    "author": "Benoît Prieur",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:C%C3%B4tes_de_porc_marin%C3%A9es,_cuites_au_barbecue,_mars_2020_(007).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/C%C3%B4tes_de_porc_marin%C3%A9es%2C_cuites_au_barbecue%2C_mars_2020_%28007%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "db52708cbc42e87d177172305a3f6dfdbd26329a",
+    "name": "Côtes de porc marinées, cuites au barbecue",
+    "aliases": [],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-88424056.jpg",
+    "assetSha256": "5c7b7f10199ef54f34c48854e571b14f4dea88184ae128e819221a8e31d9a360",
+    "reviewedAt": "2026-11-26",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 840,
+    "height": 960,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.wikidata.org/wiki/Q42790984"
   }
 ];
