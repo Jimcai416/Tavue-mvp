@@ -15104,3 +15104,9 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 
 - **Caldo de queso** — Wotancito. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Caldo_de_queso.jpg). Local asset: `reviewed-commons-130893613.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Calentao Paisa** — HaseyJDBS. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Calentao_Paisa.jpg). Local asset: `reviewed-commons-46412454.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Desayuno antioqueño** — Xemenendura. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Calentao_Sancho_Paixa.jpg). Local asset: `reviewed-commons-150823665.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Calentao Tanta** — [Jorge Gobbi  from Buenos Aires, Argentina](https://www.flickr.com/people/44124369279@N01). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Calentao_Tanta.jpg). Local asset: `reviewed-commons-75756111.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Relleno de papa** — Casi metro y medio. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Relleno_de_papa_con_ensaladas,_comida_callejera_en_La_Paz.jpg). Local asset: `reviewed-commons-136629433.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
