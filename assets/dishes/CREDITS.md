@@ -14805,3 +14805,8 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Mititei** — -wuppertaler. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:ROM_Bucure%C8%99ti,_Mititei_0001.jpg). Local asset: `reviewed-commons-203617814.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Bignè alla crema da inzuppare nel cioccolato fondente appena sciolto** — [Giacomo Alessandroni](https://www.wikidata.org/wiki/Q61601315). [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Bign%C3%A8_e_cioccolato.jpg). Local asset: `reviewed-commons-128647550.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Biscottini di Novara** — F Ceragioli. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Biscottini_di_novara.jpg). Local asset: `reviewed-commons-22030606.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
