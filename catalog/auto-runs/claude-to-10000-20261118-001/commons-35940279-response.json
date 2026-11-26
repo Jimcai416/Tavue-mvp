@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChRSRfgQiuer7Skku45zu",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown crispy fries on white plate\",\n    \"Sandwich with sliced meat (pâté or liver product visible), lettuce, tomato, on baguette\",\n    \"Salad garnish with mixed greens and vegetables\",\n    \"Appetising plating presentation\"\n  ],\n  \"phone_observations\": [\n    \"Fries and sandwich clearly visible in thumbnail\",\n    \"Meat product and bread structure identifiable\",\n    \"Salad component present but detail limited at thumbnail size\",\n    \"Composition preserves key dish elements\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Au cremino' does not describe the dish identity or contents\",\n    \"Description is incomplete: 'This is an image of food from' (truncated, no actual dish name provided)\",\n    \"Meat species in sandwich cannot be definitively identified from appearance alone—pâté, liver, or processed meat suspected but not source-confirmed\",\n    \"No source quote explicitly names the dish or any protein component\",\n    \"Regional or standard dish name unknown without authoritative source description\"\n  ],\n  \"reason\": \"Identity check fails: source metadata provides only a file name 'Au cremino' and an incomplete truncated description with no actual dish name or protein identification. The photograph shows a finished sandwich with meat (species unconfirmed), fries, and salad—all appetising and well-composed—but without explicit source documentation of the dish identity or protein species, identity cannot be verified. Protein evidence cannot be populated because no exact source quote names any animal. Hold pending complete, authoritative source description of dish name and meat species.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1512,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 509,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
