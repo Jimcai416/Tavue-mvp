@@ -181843,5 +181843,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-20597626",
+    "title": "File:Trinxat 1.jpg",
+    "author": "daniel.julia",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Trinxat_1.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/89/Trinxat_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "d1920e9416e98e573ee7c20c83754cf098a1f74b",
+    "name": "Trinxat",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-20597626.jpg",
+    "assetSha256": "a5f0663df2e0c7c091fd1ee1532bb9c02dd25a5362ca2ba74c6b59e350ddf079",
+    "reviewedAt": "2026-11-26",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];

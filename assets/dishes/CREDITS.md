@@ -15115,3 +15115,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 
 - **Bacallà a la llauna** — Kippelboy. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Ca_l%27Estevet-_Bacall%C3%A0_a_la_llauna.JPG). Local asset: `reviewed-commons-37894635.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Troços de coca de trempó i pebres torrats** — chixoy. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Tro%C3%A7os_de_coca_de_trempo_i_pebres_torrats.jpg). Local asset: `reviewed-commons-95577291.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Trinxat** — daniel.julia. [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Trinxat_1.jpg). Local asset: `reviewed-commons-20597626.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
