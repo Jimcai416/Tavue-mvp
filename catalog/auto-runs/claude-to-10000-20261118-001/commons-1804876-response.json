@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChQwuCkpwYnbsfwL6gBoG",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown fried patty with visible herbs/spices and darker specks\",\n    \"Orange/red sauce or condiment on white plate\",\n    \"Finished, exposed dish with natural colouring\",\n    \"Sharp detail in both full and thumbnail views\",\n    \"Appetising presentation\"\n  ],\n  \"phone_observations\": [\n    \"Fried patty clearly visible in thumbnail centre-cover\",\n    \"Orange condiment visible alongside main item\",\n    \"Adequate detail for dish identification\",\n    \"No clipping of essential components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title references 'Tahu' (tofu in Indonesian/Dutch), suggesting a plant-based protein; no animal protein is explicitly stated in source title or description\",\n    \"Source metadata ('Frikadel Tahu') indicates tofu-based composition, but canonical name construction rules require exact source quote matching and protein_evidence keys limited to chicken/beef/pork/duck/lamb/seafood only\",\n    \"The dish identity (Frikadel Tahu) is clear, but it cannot be assigned a protein category from the allowed set\"\n  ],\n  \"reason\": \"Photograph and phone thumbnail are of high quality and show a finished, appetising fried patty with condiment. However, the source title 'Frikadel Tahu' explicitly indicates a tofu (plant-based) dish. The allowed protein_evidence categories are limited to animal proteins (chicken/beef/pork/duck/lamb/seafood), and tofu does not qualify. The identity check fails because no supported protein category can be assigned from the source description. Hold pending clarification of whether plant-based dishes are within scope for Tavue, or whether this specific dish should be listed with canonical_name despite absent animal protein evidence.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1459,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 548,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
