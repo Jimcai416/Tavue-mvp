@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChR5ZnEqQjJRiVwQTUPn4",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows cooked eggs in a reddish vessel with melted cheese/cream topping\",\n    \"Green salad leaves visible on left side\",\n    \"Essential dish content clearly visible and not clipped\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'eggs and bacon gratinated with cheese' but no bacon is visibly identifiable in either the full source image or thumbnail. The pinkish elements appear to be red onion slices and the reddish vessel itself, not cooked bacon.\",\n    \"The dish appears to be baked eggs (œufs cocotte or similar) but the bacon component claimed in the source description cannot be confirmed visually.\",\n    \"Source-claimed protein cannot be verified from the photograph.\"\n  ],\n  \"reason\": \"Identity check fails. The source description explicitly names bacon as a component ('eggs and bacon gratinated with cheese'), but no bacon is visibly present in the photograph. The visible pink/reddish elements are red onion slices and the cooking vessel. Without visual confirmation of the named bacon component, the identity does not match the source description. Per protocol, source contradictions between description and visible form result in hold/reject status. This constitutes a material identity discrepancy.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1780,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 422,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

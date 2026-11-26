@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChR5ZnD6PfE2Nc2hGrXz9",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked egg dish in red ceramic cocotte visible in full image\",\n    \"Gratinated cheese topping clearly present\",\n    \"Fresh salad with lettuce, tomato, olives, red onion on plate\",\n    \"Toasted bread slices on the side\",\n    \"Restaurant table setting with wine glasses\"\n  ],\n  \"phone_observations\": [\n    \"Central dish clearly identifiable as baked eggs in cocotte\",\n    \"Cheese-topped surface visible and prominent\",\n    \"Salad and bread elements discernible at edges\",\n    \"Adequate detail for dish recognition at thumbnail size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'eggs and bacon' but bacon is not visually identifiable in the dish itself or among visible components\",\n    \"The cheese-topped egg preparation is visible, but the bacon claimed in the description cannot be confirmed from the photograph\",\n    \"Inability to visually verify stated protein component creates contradiction between source description and observable content\"\n  ],\n  \"reason\": \"Reject: source description claims 'eggs and bacon gratinated with cheese', but bacon is not visually evident in the photograph. The dish shows baked eggs with cheese topping, salad, and bread, but the stated bacon protein cannot be confirmed from visual inspection. Identity mismatch between description and visible form requires hold. Additionally, 'bacon' as a protein category is not in the allowed set (chicken/beef/pork/duck/lamb/seafood), and the dish does not explicitly name which animal product it contains.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1780,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 489,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
