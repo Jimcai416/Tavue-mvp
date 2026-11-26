@@ -180990,5 +180990,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-117266225",
+    "title": "File:Tarte aux myrtilles, L'Antigel, Les Menuires.jpg",
+    "author": "DimiTalen",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tarte_aux_myrtilles,_L%27Antigel,_Les_Menuires.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Tarte_aux_myrtilles%2C_L%27Antigel%2C_Les_Menuires.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "004ed05e68048e79460436828b28915ea3b743c9",
+    "name": "Tarte aux myrtilles",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-117266225.jpg",
+    "assetSha256": "9e1a4d9d91ef4433635eecfefb25f5673a669f3ad338325ccd886535c4a9576b",
+    "reviewedAt": "2026-11-26",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 638,
+    "requiresExactMenuName": true
   }
 ];

@@ -15020,3 +15020,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Poulet Marengo** — Arnaud 25. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Poulet_Marengo.jpg). Local asset: `reviewed-commons-86129784.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Tarte aux myrtilles** — DimiTalen. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Tarte_aux_myrtilles,_L%27Antigel,_Les_Menuires.jpg). Local asset: `reviewed-commons-117266225.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
