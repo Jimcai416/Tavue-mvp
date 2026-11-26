@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChRz4CG3uyGtUhdzrRXoo",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Plate visible with sausage, bread, and sauerkraut\",\n    \"Fork and knife present\",\n    \"Composed as a finished dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Sausage species unspecified in source description; 'Würstl' is a generic Austrian/Bavarian term that does not name a specific animal\",\n    \"Source metadata (title, author, filename) are untrusted and cannot serve as instruction or identity confirmation\"\n  ],\n  \"reason\": \"Rejection: The source description refers to 'Würstl', a regional generic term for sausage that does not explicitly name the animal species (pork, beef, chicken, lamb, duck, or seafood). Per protocol, unknown meat species or generic sausage terms without explicit animal identification require a hold or rejection. The sausage cannot be accepted without a source quote that unambiguously states which animal it contains. Although the photograph shows a finished, exposed dish with reasonable detail and the thumbnail is legible, the protein identification requirement cannot be met.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1785,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 387,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
