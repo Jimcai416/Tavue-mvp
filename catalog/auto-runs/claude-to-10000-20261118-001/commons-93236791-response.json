@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChRic84pCUFkXubXPaoEk",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows sliced red/pink product in pastry crust\",\n    \"Visible golden-brown pastry edge\",\n    \"Slices arranged radially across pie surface\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title declares 'Tarte à la tomate' (tomato tart with garden tomatoes), but the full source photograph shows what appears to be raw or undercooked sliced meat (beef or similar) arranged in a tart shell, not tomatoes\",\n    \"Extreme contradiction between source description and visible content\",\n    \"No tomatoes visible in the photograph; raw meat colour and texture evident instead\"\n  ],\n  \"reason\": \"Source title and description claim 'Tarte à la tomate avec les tomates du jardin' (tomato tart with garden tomatoes), but the full source photograph shows prominent sliced raw/rare meat arranged in a pastry shell. This is a fundamental identity mismatch. The image does not depict a finished tomato tart. The metadata contradicts the visual evidence decisively. The photograph quality, sharpness and composition are excellent, but the identity conflict disqualifies acceptance. Hold for clarification of actual dish identity.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2031,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 416,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

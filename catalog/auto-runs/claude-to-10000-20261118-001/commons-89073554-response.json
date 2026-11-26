@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChRibqSvjJV8iSjGg6M8B",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Raw tomato slices arranged on unbaked pastry crust\",\n    \"Parchment paper visible under tart shell\",\n    \"No visible cheese, herbs, or cooked finish\",\n    \"Tomatoes appear fresh and uncooked\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows raw tomato slices on pale pastry\",\n    \"No visible browning, bubbling, or baking evidence\",\n    \"Pre-baking preparation stage visible in both images\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Image shows preparation/assembly stage, not finished dish\",\n    \"No visible baking, cooking, or final plating\",\n    \"Tart appears unbaked—pastry not golden, tomatoes not caramelized\"\n  ],\n  \"reason\": \"Reject: This is a raw preparation stage, not a finished, exposed, cooked dish. The tomato tart shows uncooked tomato slices arranged on unbaked pastry with parchment paper still in place. The source filename and description explicitly state 'Préparation d'une tarte à la tomate' (Preparation of a tomato tart), confirming this is assembly/pre-baking, not a completed, exposed, appetizing finished photograph. The pastry shows no browning and tomatoes show no caramelization or cooking marks. This fails the core requirement of being a 'finished, exposed, likely photographic dish.'\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1991,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 469,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
