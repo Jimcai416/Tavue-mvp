@@ -182290,5 +182290,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 640,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/people/63311602@N08"
+  },
+  {
+    "id": "commons-117070415",
+    "title": "File:Rajas con Crema.jpg",
+    "author": "Ralf Peter Reimann",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rajas_con_Crema.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Rajas_con_Crema.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "69123c455bb2edb6f84db684d2585eb7ec41356f",
+    "name": "Rajas con Crema",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-117070415.jpg",
+    "assetSha256": "0096ec659e8f1304ddc35648e447a587a09eedf0af9554eb12ebf6faef7a666d",
+    "reviewedAt": "2026-11-26",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 540,
+    "requiresExactMenuName": true
   }
 ];
