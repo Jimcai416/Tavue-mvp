@@ -14709,3 +14709,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Poached egg, Salade Auvergnate** — [Guilhem Vellut  from Paris, France](https://www.flickr.com/people/22539273@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Poached_egg,_Salade_Auvergnate,_L%27Express_27,_Paris_001.jpg). Local asset: `reviewed-commons-56616658.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Eggs Hussarde** — [Wendy Harman](https://www.flickr.com/photos/96763131@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Eggs_Hussarde_@_Brennan%27s.jpg). Local asset: `reviewed-commons-9938751.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
