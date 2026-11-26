@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChR6CYQB6Woo9hTaKfknk",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows out-of-focus amuse bouche elements including small white-capped item, bowls with olives, and orange liquid\",\n    \"Central subject (white-capped glass with orange/brown layered liquid) is blurred and barely identifiable in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title is 'Amuse bouche' — a service style descriptor, not a specific dish identity\",\n    \"No canonical dish name can be extracted from metadata\",\n    \"Full image is severely out-of-focus throughout; only foreground glass is relatively sharp\",\n    \"Individual components (olives, cured items, beverage) are unidentifiable in context\",\n    \"No readable essential components in phone thumbnail due to blur\"\n  ],\n  \"reason\": \"Reject: Identity check fails. Source provides only 'Amuse bouche' (a service category, not a dish name), with no specific dish title or description. Full photograph is severely blurred/out-of-focus across most elements, and phone thumbnail shows unidentifiable, blurred components. Essential food elements are not sharply detailed or readable. Cannot establish canonical_name from source metadata. Does not meet identity and photograph quality requirements for acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1684,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 423,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
