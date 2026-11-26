@@ -15069,3 +15069,8 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 
 - **Coques escaldades** — Francesc Fort. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Coques_escaldades.jpg). Local asset: `reviewed-commons-186632622.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Coques per a esmorzar** — Joanbanjo. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Coques_per_a_esmorzar_a_un_restaurant_de_Beni.jpg). Local asset: `reviewed-commons-115623652.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Flammkuchen mit Handkäse** — Benreis. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Flammkuchen_mit_Handk%C3%A4se,.JPG). Local asset: `reviewed-commons-42392507.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Handkäse mit Musik** — Stefan Weil. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Handk%C3%A4se_mit_Musik.jpg). Local asset: `reviewed-commons-88746531.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
