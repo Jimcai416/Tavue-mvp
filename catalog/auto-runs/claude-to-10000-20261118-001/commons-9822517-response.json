@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChRVVXeRuVrk8ckrQi6gN",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Shredded cheese visible in thumbnail\",\n    \"Cheese block partially visible\",\n    \"Grater present in background\",\n    \"Raw/preparation stage evident\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Image shows cheese in a preparation/processing stage, not a finished, exposed, plated dish\",\n    \"Shredded cheese and block are ingredients, not a completed food item ready for consumption\",\n    \"No finished dish presentation; this captures mid-preparation with grater still in frame\"\n  ],\n  \"reason\": \"Rejection: This photograph documents a preparation stage (grating cheese) rather than a finished, exposed, appetising dish. The shredded pecorino and block with grater visible represent ingredient processing, not a plated or served food item. Per guidelines, raw/preparation stages and images where essential food context involves tools mid-use do not meet the standard for a finished photographic dish. The composition is technically sound but the subject matter fails the identity and finished-dish requirement.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1720,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 371,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
