@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChQdKzjW8p7jbg7ijqebt",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Pale, chunky white fish pieces in red tomato sauce\",\n    \"Cooking pan with oil visible\",\n    \"Natural home-cooking context\"\n  ],\n  \"phone_observations\": [\n    \"Fish and tomato sauce visible in thumbnail\",\n    \"Subject prominent and identifiable\",\n    \"No essential components clipped\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'bacalao' (salt cod) but description claims 'abadejo' (pollock/saithe) – conflicting species identification\",\n    \"No explicit source quote unambiguously names either fish species in English-language context\",\n    \"Protein species contradiction between title and description cannot be resolved\"\n  ],\n  \"reason\": \"Source metadata contains an irreconcilable contradiction: the title references 'bacalao' (Gadus morhua, salt cod) while the description explicitly names 'abadejo' (Pollachius virens or Gadus virens, pollock/saithe) as the actual dish component. These are distinct fish species. The photograph alone cannot visually distinguish between them in cooked form. Ambiguous protein identity requires hold per protocol. The image quality and composition are acceptable, but the species uncertainty prevents acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1778,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 423,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
