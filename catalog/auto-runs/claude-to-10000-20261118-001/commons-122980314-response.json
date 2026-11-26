@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChRuykqzzcaQMaR2HcX35",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Finished, exposed chocolate praline with visible components\",\n    \"Sharp detail on crust, ganache top, cream filling, and raspberry decoration\",\n    \"Natural colour palette with strong contrast\",\n    \"Appetising presentation with professional finish\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows finished praline structure\",\n    \"Raspberry border and central filling visible at small scale\",\n    \"Ganache top legible in phone view\",\n    \"Composition readable and identifiable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title contains 'File:' prefix, date metadata format, and photographer name—metadata indicates this is a wiki/documentation upload, not a Tavue user submission\",\n    \"Description references 'Festa Del Cioccolato Artigianale A Cervinia' but does not provide explicit dish identification or regional variant name from the source\",\n    \"Exact canonical dish name cannot be extracted from source metadata without user-supplied title/description in Tavue format\",\n    \"CC BY-SA 4.0 license and attribution requirement suggests this is sourced content, not original user submission\"\n  ],\n  \"reason\": \"While the photograph itself is high-quality, sharply detailed, naturally coloured and appetising, the source metadata does not conform to Tavue submission format. The title includes wiki file naming conventions ('File:', .png extension, photographer credit 'Tiia Monto'), and the description alone does not provide sufficient explicit identification to establish a canonical_name. The image appears to be a wiki/documentation upload rather than a direct user food submission. Identity cannot be confirmed from the source title/description alone without an explicit dish name. Reject due to identity check failure and metadata inconsistency with Tavue protocol.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1915,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 536,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
