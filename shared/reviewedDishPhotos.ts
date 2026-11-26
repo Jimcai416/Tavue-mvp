@@ -180830,5 +180830,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-38666975",
+    "title": "File:Pecorino di Grotta 5455.jpg",
+    "author": "Elke Wetzig",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pecorino_di_Grotta_5455.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Pecorino_di_Grotta_5455.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "e4d94d2176890bbe400b1e99d44c0ad1b074b911",
+    "name": "Pecorino di Grotta",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-38666975.jpg",
+    "assetSha256": "a7bde582c4d235ec2e906957e31b959ee9d4693f8ba2695900af14dc3270d9c6",
+    "reviewedAt": "2026-11-26",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 728,
+    "requiresExactMenuName": true
   }
 ];
