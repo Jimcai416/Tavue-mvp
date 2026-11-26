@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChQmeUvpcCRmeYoYVAAjh",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"White, translucent cured fat with visible marbling\",\n    \"Black pepper seasoning distributed across surface\",\n    \"Chunked/sliced presentation\",\n    \"Sharp detail and natural colour\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows white fat chunks with black pepper\",\n    \"Prominent and readable in 124x96 format\",\n    \"Consistent with full image\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Salo is cured pork fat, not a finished cooked dish—it is a preserved ingredient/charcuterie product, not a prepared meal or restaurant dish\",\n    \"No animal species explicitly named in source title or description; 'salo' is a category name but does not constitute explicit species declaration\",\n    \"Source description does not state 'pork salo' or identify the animal\"\n  ],\n  \"reason\": \"Salo is an uncooked, preserved pork fat product—a charcuterie ingredient rather than a finished, exposed, cooked dish. The instructions require a 'finished, exposed, likely photographic dish.' Cured fat without preparation does not meet the culinary threshold. Additionally, the source title/description does not explicitly name the animal species (pork), only the product category name 'salo,' which violates the protein evidence rule requiring an explicit source quote naming the animal. Hold or reject criteria are both met; rejection is applied because salo is fundamentally an ingredient, not a dish.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1621,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 475,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
