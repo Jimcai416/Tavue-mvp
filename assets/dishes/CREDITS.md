@@ -14700,3 +14700,8 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 
 - **Truffles with nuts and chocolate dusting** — [David Leggett](https://www.flickr.com/people/89913754@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Truffles_with_nuts_and_chocolate_dusting_in_detail.jpg). Local asset: `reviewed-commons-10254639.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Truffles with nuts and chocolate dusting on plate** — [David Leggett](https://www.flickr.com/people/89913754@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Truffles_with_nuts_and_chocolate_dusting_on_plate.jpg). Local asset: `reviewed-commons-10254640.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Salade comtoise** — Arnaud 25. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Assiette_comtoise_001.jpg). Local asset: `reviewed-commons-25715999.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Assiette comtoise** — Arnaud 25. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Assiette_comtoise_002.JPG). Local asset: `reviewed-commons-25716350.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
