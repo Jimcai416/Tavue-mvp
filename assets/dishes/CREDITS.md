@@ -14789,3 +14789,9 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Zeppelines** — [Antonio Campoy  from Madrid, España](https://www.flickr.com/people/10205031@N07). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Zeppelines_(18922030160).jpg). Local asset: `reviewed-commons-159898681.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Mohnnudel** — Please report references to  marco.almbauer     gmail.com .. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Mohnnudel.jpg). Local asset: `reviewed-commons-47390138.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Tlačené koláče (náplň - borůvky, meruňky a domácí marmeláda)** — Pohled 111. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Tla%C4%8Den%C3%A9_kol%C3%A1%C4%8De_(n%C3%A1pl%C5%88_-_bor%C5%AFvky,_meru%C5%88ky_a_dom%C3%A1c%C3%AD_marmel%C3%A1da)_01.jpg). Local asset: `reviewed-commons-71179164.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Verguny** — Yurii-mr. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Verguny_1.jpg). Local asset: `reviewed-commons-50746483.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
