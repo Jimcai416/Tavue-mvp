@@ -14866,3 +14866,9 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Parmesan Pannacotta - Amuse Bouche** — [Alpha](https://flickr.com/people/10559879@N00). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Parmesan_Pannacotta_-_Amuse_Bouche_-_Lake_House_Restaurant,_Daylesford.jpg). Local asset: `reviewed-commons-10234307.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Duchess potatoes** — FakirNL. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Pommes_duchesse.jpg). Local asset: `reviewed-commons-64785030.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Julienne with chicken and mushrooms** — [Mariya Voronina](https://about.me/marya.voronina). [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Julienne_11.jpg). Local asset: `reviewed-commons-40634963.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Julienne (Russian hot appetizer)** — [Thomas sauzedde  @ Flickr](https://www.flickr.com/photos/idirectori/). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Julienne_Moscow.jpg). Local asset: `reviewed-commons-44320972.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
