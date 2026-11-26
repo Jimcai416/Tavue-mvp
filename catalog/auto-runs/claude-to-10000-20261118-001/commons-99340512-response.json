@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChRrZeWEgJpfRQgxaTTtx",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-yellow cooked egg dish on white plate\",\n    \"Natural outdoor daylight\",\n    \"Hand-held presentation\",\n    \"Sharp detail of egg texture and fold\"\n  ],\n  \"phone_observations\": [\n    \"Scrambled/folded egg dish clearly visible\",\n    \"White plate readable\",\n    \"Golden colour consistent with full image\",\n    \"No essential components clipped\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title lists three distinct egg preparations ('Scrambled eggs', 'Omelette Nature (Basic Omelet)') with no clear specification of which one this photograph shows\",\n    \"Visual appearance is ambiguous between a heavily scrambled omelette and folded scrambled eggs\",\n    \"No unambiguous canonical identity can be extracted from contradictory source description\"\n  ],\n  \"reason\": \"Source description contains three separate egg dish names without clarity on which one is depicted. The photograph shows a finished, well-lit egg dish with good sharpness and appeal, but the identity check fails because the source-declared title is internally contradictory ('Scrambled eggs' and 'Omelette Nature (Basic Omelet)' are mutually exclusive). No exact canonical phrase can be reliably matched to the visible form. Hold or reject required pending clarification of actual dish identity.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1740,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 437,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

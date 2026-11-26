@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChRrZFrUNczGtBS84bGpt",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Plate of golden-yellow scrambled eggs or omelette pieces visible in phone thumbnail\",\n    \"White plate clearly shown\",\n    \"Subject prominent and sharp in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title lists three distinct dishes: 'Scrambled eggs', 'Omelette Nature (Basic Omelet)' — identity is ambiguous and contradictory\",\n    \"Photograph shows what appears to be a single cooked egg dish, but source description does not establish which of the three listed dishes is actually depicted\",\n    \"No explicit protein animal stated in source (eggs as protein require source declaration of chicken/duck/etc.)\"\n  ],\n  \"reason\": \"Reject: Identity check fails. The source description lists three different egg dishes without clarity on which one is photographed. The description 'Scrambled eggs | Omelette Nature (Basic Omelet)' is internally contradictory and does not constitute a single, specific canonical identity. Additionally, while eggs are visible, the protein source animal is not explicitly declared in the source title or description, so no protein_evidence can be recorded. All checks except identity must be true for acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1740,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 408,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
