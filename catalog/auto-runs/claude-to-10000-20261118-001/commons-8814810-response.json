@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChQeuGvrvScBgsW5sS8yc",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Dark rye bread base visible in foreground\",\n    \"Orange-red fish or fish preparation on toast\",\n    \"White creamy topping (appears to be mayonnaise or similar)\",\n    \"Yellow/pale topping on background items\",\n    \"Plated on dark dish\"\n  ],\n  \"phone_observations\": [\n    \"Foreground item clearly shows rye bread with orange-red topping and white cream\",\n    \"Background items with pale yellow topping visible but less distinct\",\n    \"Composition readable; main dish prominent in phone thumbnail\"\n  ],\n  \"protein_evidence\": {\n    \"seafood\": \"makrel i tomat\"\n  },\n  \"uncertainties\": [\n    \"Source title describes 'fiskefrikadeller' (fish meatballs) and 'makrel i tomat' (mackerel in tomato), but the foreground item appears to show a single protein preparation (possibly whole mackerel fillet or large piece), not distinguishable meatballs and separate mackerel components\",\n    \"Visual identity does not clearly match the described dish composition of two distinct components (fish meatballs AND mackerel in tomato)\"\n  ],\n  \"reason\": \"Identity check fails. The source title specifies 'Rugbrød med fiskefrikadeller og makrel i tomat' (rye bread with fish meatballs and mackerel in tomato)—two distinct protein components. The photograph shows rye bread with what appears to be a single large piece of orange-red fish preparation with white topping, not visibly distinguishable meatballs alongside a separate mackerel preparation. The visible form does not clearly correspond to the exact dish described. Hold pending clarification of actual dish composition.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1649,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 531,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChQetP9eRvdfmXA7uXSTo",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown pan-fried patties with crispy exterior\",\n    \"Multiple oval fritters in stainless steel skillet\",\n    \"Green flecks visible in patties (consistent with herb-bound mixture)\",\n    \"Natural cooking light, appetising colour and texture\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows pan-fried patties with brown crust\",\n    \"Golden colour and form recognisable as fritters/cakes\",\n    \"Essential subject prominent and readable in phone thumbnail\"\n  ],\n  \"protein_evidence\": {\n    \"seafood\": \"laks, pangasius og rejer\"\n  },\n  \"uncertainties\": [\n    \"Source title declares three distinct seafood species (salmon, pangasius, shrimp) but visual inspection cannot confirm individual species presence or verify that all three are actually present in these patties\",\n    \"Pangasius is not an allowed protein category key; source uses non-standard seafood species name\",\n    \"No visual method can distinguish whether all declared proteins are truly incorporated or in what proportion\"\n  ],\n  \"reason\": \"Source title names 'Fiskefrikadeller med laks, pangasius og rejer' (fish fritters with salmon, pangasius and shrimp). While the photograph shows well-executed, appetising pan-fried patties with professional quality, sharpness, lighting and composition all scoring ≥4, the protein evidence cannot be verified. The source declares pangasius (swai/basa catfish), which is neither chicken, beef, pork, duck, lamb, nor standard seafood category—it is a specific non-standard species. Source contradictions between declared ingredients and allowed protein categories, combined with inability to visually confirm the presence or proportion of three distinct seafood species, requires hold pending clarification of exact species or category alignment.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1754,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 553,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

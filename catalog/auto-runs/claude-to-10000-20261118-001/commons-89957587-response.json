@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChQeuJFVFYAd1YW9bStxY",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 5,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Six cooked meatballs with herb garnish on yellow plate\",\n    \"Sharp detail of texture and browning\",\n    \"Natural colour palette\",\n    \"Prominent appetising presentation\"\n  ],\n  \"phone_observations\": [\n    \"Meatballs clearly visible and identifiable in thumbnail\",\n    \"Yellow plate distinctive\",\n    \"Herb garnish visible\",\n    \"Composition readable at small scale\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Frikadellen mit Schafskäse' (frikadelles with sheep's cheese), but no visible cheese component is apparent in the photograph—only seasoned meatballs with herb topping\",\n    \"Species of meat in meatballs is not declared in source title or description; 'Frikadellen' is a generic German term that does not specify beef, pork, lamb or other animal\",\n    \"Source metadata describes a recipe link; actual dish identity cannot be verified from visual evidence alone against the stated ingredient\"\n  ],\n  \"reason\": \"Identity check fails. The source title references 'Frikadellen mit Schafskäse' (frikadelles with sheep's cheese), but the photograph shows only herb-garnished meatballs with no visible cheese component. Additionally, 'Frikadellen' does not specify meat species—the protein cannot be identified from the image or extracted as a named quote from the source. No exact protein declaration exists in the supplied title/description that matches the allowed categories (chicken/beef/pork/duck/lamb/seafood). Hold pending clarification of actual dish composition and meat species.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1704,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 511,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

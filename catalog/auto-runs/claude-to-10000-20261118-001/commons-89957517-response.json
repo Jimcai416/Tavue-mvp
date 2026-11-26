@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChQeto8mxRz2cS1vgXQ1f",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Two seared meatballs with dark caramelized exterior\",\n    \"Crispy bacon visible on meatball surfaces\",\n    \"Fresh green leaf salad with nuts\",\n    \"Toasted bread with cheese slices\",\n    \"Colourful plate presentation (yellow, white, coloured rim)\"\n  ],\n  \"phone_observations\": [\n    \"Meatballs clearly visible and prominent\",\n    \"Bacon-wrapped or bacon-studded texture evident\",\n    \"Green salad readable in background\",\n    \"Plate colours distinguish components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title contains only 'Bacon-Frikadellen' (bacon meatballs) but source metadata does not explicitly name the meat species in the meatballs themselves—German frikadellen are traditionally pork or beef, but no explicit animal identifier appears in the provided title/description\",\n    \"Metadata is a URL and filename, which are classified as untrusted evidence per instructions\"\n  ],\n  \"reason\": \"Image quality, composition, sharpness and phone thumbnail all pass. However, the canonical identity cannot be confirmed because the source title 'Bacon-Frikadellen' does not explicitly name the meat species within the meatballs. Although bacon is visible, the base protein (beef/pork/etc.) is not stated in the title or description provided. Per protocol, ambiguous meat species—including when traditional preparation suggests a likely animal but no explicit source quote confirms it—must be held. The URL metadata is untrusted and cannot substitute for explicit source-title evidence.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1690,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 501,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

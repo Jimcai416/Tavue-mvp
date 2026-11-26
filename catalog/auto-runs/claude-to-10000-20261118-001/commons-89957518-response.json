@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChQetnQ8anFaizFpiTEcd",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Two browned meatballs with seared crust, clearly cooked\",\n    \"Toasted bread slices with pale cheese (likely emmental or mild cheddar)\",\n    \"Fresh microgreens and white cheese garnish on bed of greens\",\n    \"Natural daylight, appetising warm tones, prominent finished dish\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows two brown meatballs on yellow plate\",\n    \"Cheese and bread visible in lower left\",\n    \"Green salad base legible\",\n    \"Subject sharp and well-framed in centre-cover crop\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title states 'Bacon-Frikadellen' but no bacon is visibly identifiable in the cooked meatballs or photograph\",\n    \"Meatball composition (pork/beef/mixed) cannot be determined from appearance alone\",\n    \"Source description contains only a recipe hyperlink with no explicit ingredient or meat species declaration\",\n    \"Frikadellen are traditionally German meatballs but species and bacon presence are not visually proven or textually confirmed in the metadata\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting and composition all meet standards. Dish is finished, appetising and well-presented. However, identity check fails: the title claims 'Bacon-Frikadellen' but bacon is not visible in the photograph, and no explicit source text confirms the meat species or bacon content. The description provides only a recipe link without textual ingredient confirmation. Protein species cannot be inferred from appearance alone. Cannot accept without source-declared meat species matching visible form.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1690,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 517,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
