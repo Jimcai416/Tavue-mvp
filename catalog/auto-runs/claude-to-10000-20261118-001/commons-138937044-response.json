@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChQqmxXQsoha5H4kmjVsi",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 0,\n    \"lighting\": 0,\n    \"composition\": 0,\n    \"appeal\": 0\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Image is a historical engraving/illustration, not a food photograph\",\n    \"Depicts three figures in 18th-century dress around a wooden block\",\n    \"Title text 'Le pied de Bœuf' refers to a political satirical print, not a dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [],\n  \"reason\": \"This is a historical etching/engraving from circa 1789 (Musée Carnavalet collection G.23869), a French Revolutionary satire titled 'Le pied de Bœuf' (The Ox Foot). It is an illustration of political commentary, not a finished food photograph. The title is a metaphorical reference, not an actual edible dish. The source metadata explicitly categorizes it as 'Estampe' (print), 'Arts graphiques' (graphic arts), and 'Révolution française' (French Revolution). No food is visibly present, depicted, or intended. This fails the fundamental requirement of being a 'finished, exposed, likely photographic dish'—it is neither a photograph nor a depiction of prepared food.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2195,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 398,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
