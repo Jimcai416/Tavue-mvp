@@ -15172,3 +15172,9 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Rajas con Crema** — Ralf Peter Reimann. [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Rajas_con_Crema.jpg). Local asset: `reviewed-commons-117070415.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Empanadilla española** — Tamorlan. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Empanadillas-Madrid.jpg). Local asset: `reviewed-commons-7633320.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Empanadillas** — [Fernand0](https://www.flickr.com/people/fernand0/). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Empanadillas.jpg). Local asset: `reviewed-commons-4809573.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Samosas** — Juan Emilio Prades Bel. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Samosas,_empanadillas_triangulares,_gastronom%C3%ADa_asi%C3%A1tica.jpg). Local asset: `reviewed-commons-194038778.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
