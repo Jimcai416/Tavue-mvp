@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChS4Y5bweikj3oJxAdi5L",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Cooked grain (wheat/farro) visible in clay pot\",\n    \"Terra-cotta vessel typical of Calabrian presentation\",\n    \"Visible meat fragments and specks throughout the grain\",\n    \"Natural colour and texture consistent with traditional preparation\"\n  ],\n  \"phone_observations\": [\n    \"Grain-based dish clearly visible in thumbnail\",\n    \"Clay pot walls and grain fill recognisable at 124x96 resolution\",\n    \"Meat specks visible but not distinctly identifiable\",\n    \"Dish identity readable as grain-based, Calabrian style\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata names 'capra' (goat) and 'prosciutto crudo' but neither meat type is explicitly visually distinguishable in the photograph—meat fragments are present but species/cut cannot be verified from appearance alone\",\n    \"Goat meat is not a canonical protein category; ambiguous species designation\",\n    \"Prosciutto crudo (raw cured ham) is not a supported protein entry; exact animal species and form unclear from visual inspection\",\n    \"Canonical name must reflect exact source title; 'Cuccìa presilana salata' is taken from filename metadata, not a formal source title/description field\"\n  ],\n  \"reason\": \"The photograph shows a finished, well-presented traditional Calabrian dish (Cuccìa presilana salata) with strong quality, sharpness, natural colour, and appetising composition. The phone thumbnail clearly conveys the dish. However, the source description lists 'capra' (goat—ambiguous species) and 'prosciutto crudo' (cured ham of unspecified animal), neither of which can be visually verified or mapped to canonical protein categories. Goat is not an accepted category, and prosciutto crudo does not resolve to a single allowed protein. The uncertainties regarding protein identification and the lack of explicit visual species confirmation require a hold pending clarification of exact meat identities from source or visual proof.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1826,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 598,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

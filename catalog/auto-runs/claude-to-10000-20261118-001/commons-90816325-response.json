@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChS4Y8seecZioNk39g33n",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cheese block with visible blue-green veining characteristic of Cambozola\",\n    \"Cut slices showing internal marbling\",\n    \"Creamy pale yellow base colour with distinct mold striation\"\n  ],\n  \"phone_observations\": [\n    \"Cheese block and slices clearly visible in thumbnail\",\n    \"Blue-green veining readable in compressed view\",\n    \"Subject prominent and identifiable at phone scale\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title metadata reads 'File:Cambozola cheese 2.jpg' which is a filename, not a canonical dish description\",\n    \"Description provided is 'Сир Камбоцола' (Ukrainian transliteration), not English source title\",\n    \"No explicit English-language source title or description provided in usable form\",\n    \"Cambozola is a cheese product, not a prepared/cooked dish suitable for Tavue food photography review\"\n  ],\n  \"reason\": \"Rejection on two grounds: (1) The source metadata is a filename ('File:Cambozola cheese 2.jpg') rather than a proper title/description; the description field contains only a Ukrainian transliteration without authoritative English source text. (2) Cambozola is a raw cheese product in block and slice form, not a finished, prepared, or cooked dish. Tavue review criteria require a finished, exposed, photographic dish. Cheese wheels and blocks are ingredient presentations, not plated food. The photograph itself is sharp and well-composed, but the subject falls outside scope.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1621,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 492,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

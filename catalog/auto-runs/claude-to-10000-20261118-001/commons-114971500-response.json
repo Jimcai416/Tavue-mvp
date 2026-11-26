@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChS4XnXY4ZXVquKLwPsxc",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"White plate with meat slices, golden fried potato wedges, and white rice centre clearly visible\",\n    \"Seasoned meat and potatoes prominent and readable in thumbnail\",\n    \"Dish composition and components identifiable at phone size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Alpaca Saltado' but alpaca is not an allowed protein category (chicken/beef/pork/duck/lamb/seafood only)\",\n    \"Visual appearance suggests beef or similar allowed meat species, but source explicitly names alpaca\",\n    \"Species contradiction between source title and acceptable protein categories cannot be resolved\"\n  ],\n  \"reason\": \"Source title explicitly names alpaca as the protein. Alpaca is not in the allowed protein categories (chicken, beef, pork, duck, lamb, seafood). The photograph quality and composition are acceptable, but the identity check fails because the stated dish contains a protein species that cannot be verified against the approved list. Hold or reject rules require exact source protein names to match allowed categories; this source names an animal outside that set, making the dish ineligible for acceptance regardless of visual quality.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1736,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 397,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
