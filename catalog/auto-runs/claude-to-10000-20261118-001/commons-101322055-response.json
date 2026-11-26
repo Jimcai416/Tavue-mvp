@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChQqxUFN8vupSXZfE8KH7",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Plated dish with piped brown/tan mousse topping and diced vegetable garnish\",\n    \"Sharp detail in full source photograph\",\n    \"Natural colours and appetising presentation\",\n    \"Prominent subject visible in phone thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Central plated composition clearly visible\",\n    \"Piped mousse topping recognisable\",\n    \"Diced garnish visible at base\",\n    \"Readable essential components present\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Mackerel Tartare' but no raw tartare is visibly present—only cooked/piped mousse and diced vegetable base\",\n    \"Visual appearance contradicts tartare identity (tartare requires visible raw, finely chopped fish); this appears to be a mousse or terrine\",\n    \"Description mention of 'piel de sapo melon' is a decorator ingredient, not the dish identity\",\n    \"Species 'mackerel' present in title but visual form does not support identification as tartare preparation\",\n    \"Source title metadata format includes 'File:' prefix and image filename, suggesting catalogue metadata rather than authoritative dish description\"\n  ],\n  \"reason\": \"Reject: Identity check fails. The source title claims 'Mackerel Tartare' but the photograph shows a cooked/prepared mousse or terrine with piped topping and diced vegetable garnish—not raw tartare. Tartare must be visibly raw and finely chopped; this preparation contradicts the named dish. The melon reference in the description is a garnish/decorator, not the dish itself. Visual form does not support the mackerel tartare identity. Hold cannot be used because the visual evidence actively contradicts rather than merely fails to prove the claimed identity.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1634,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 552,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
