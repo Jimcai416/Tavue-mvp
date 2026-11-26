@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChS1itUAjbXkMuJQUWw6K",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Subject occupies minimal area in thumbnail, mostly obscured by kitchen background\",\n    \"Kitchen counter, appliances and equipment dominate the frame\",\n    \"Scones are poorly defined and blurred in phone thumbnail\",\n    \"No appetising presentation or detail visible at phone resolution\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title claims 'mozzarella pesto scones' but these are savory baked goods, not a dish requiring photographic evidence of finished prepared food in Tavue's catalogue scope\",\n    \"Kitchen preparation/staging setting with range top, paper towels, home equipment is a preparation environment, not a plated/finished dish presentation\",\n    \"Mozzarella and pesto are ingredients, not visible as distinct components in the finished product\"\n  ],\n  \"reason\": \"Rejection: Image fails multiple critical criteria. (1) Phone thumbnail shows tiny, poorly-defined subject overwhelmed by kitchen background, countertop clutter and appliances—fails phone_observations requirement. (2) Full image is a kitchen preparation scene on range top with paper towels, not a finished dish in appetising presentation. (3) Sharpness, lighting and composition scores all fall below the required >=4 threshold. (4) The subject is savory scones (a baked good component), not a finished plated dish appropriate for Tavue's food photograph intake. Home cooking is acceptable only when presented as a finished, exposed dish; this is a preparation/cooling stage in a non-kitchen environment. Identity cannot be confirmed as a canonical Tavue dish.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1734,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 496,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
