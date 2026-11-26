@@ -182267,5 +182267,28 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 891,
     "requiresExactMenuName": true,
     "authorUrl": "https://flickr.com/people/22991234@N04"
+  },
+  {
+    "id": "commons-73013991",
+    "title": "File:Key Lime Mousse, graham cracker financier cake, coconut gel, vanilla poached pineapple, black pepper meringues, mint ($10) (32580253240).jpg",
+    "author": "Lou Stejskal",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Key_Lime_Mousse,_graham_cracker_financier_cake,_coconut_gel,_vanilla_poached_pineapple,_black_pepper_meringues,_mint_($10)_(32580253240).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Key_Lime_Mousse%2C_graham_cracker_financier_cake%2C_coconut_gel%2C_vanilla_poached_pineapple%2C_black_pepper_meringues%2C_mint_%28%2410%29_%2832580253240%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "2c36c43fae0be5b254711304295ff157685f6fda",
+    "name": "Key Lime Mousse, graham cracker financier cake, coconut gel, vanilla poached pineapple, black pepper meringues, mint",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-73013991.jpg",
+    "assetSha256": "ee246bfaca256cb394ed5370b663501f25bab313b60beb5c9fcc9e859f46102c",
+    "reviewedAt": "2026-11-26",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 640,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/63311602@N08"
   }
 ];
