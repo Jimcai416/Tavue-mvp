@@ -14713,3 +14713,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Eggs Hussarde** — [Wendy Harman](https://www.flickr.com/photos/96763131@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Eggs_Hussarde_@_Brennan%27s.jpg). Local asset: `reviewed-commons-9938751.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Potée franc-comtoise** — DC. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Pot%C3%A9e_franc-comtoise.JPG). Local asset: `reviewed-commons-29347977.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
