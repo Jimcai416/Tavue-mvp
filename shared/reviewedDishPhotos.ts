@@ -182379,5 +182379,30 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-66410196",
+    "title": "File:Ragoût viande, petits pois, Tunisie 2018 DSC 7726.jpg",
+    "author": "Habib M'henni",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rago%C3%BBt_viande,_petits_pois,_Tunisie_2018_DSC_7726.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Rago%C3%BBt_viande%2C_petits_pois%2C_Tunisie_2018_DSC_7726.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "32fc48282796f42028ebca8c0e997390491c2aef",
+    "name": "Ragoût de viande de bœuf et de petits-pois à la tunisienne",
+    "aliases": [],
+    "proteins": [
+      "beef"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-66410196.jpg",
+    "assetSha256": "6b5dbb533817f43eec3e70450e32fb14299ae07e82dfa1671ca6f1b5bc20a1fe",
+    "reviewedAt": "2026-11-26",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 960,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.wikidata.org/wiki/Q105725266"
   }
 ];
