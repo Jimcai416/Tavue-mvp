@@ -15145,3 +15145,9 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Avocado gratin** — [pelican  from Tokyo, Japan](https://www.flickr.com/people/85936780@N00). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Avocado_gratin_(3588247305).jpg). Local asset: `reviewed-commons-77826825.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Tomme Noire des Pyrénées** — AlexNB  at  French Wikipedia. [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:Tomme_noire_des_Pyrenees.jpg). Local asset: `reviewed-commons-18040833.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Poached apricot with lime** — Tangopaso. [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:Restaurant_Arce_-_Abricot_poch%C3%A9_au_citron_vert.jpg). Local asset: `reviewed-commons-63620736.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Gratin de Tunisie** — Bahbouhe. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Gratin_de_Tunisie.jpg). Local asset: `reviewed-commons-54818294.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
