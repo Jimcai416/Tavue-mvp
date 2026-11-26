@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChRddX28QZe2y5njK3WNC",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Plated cooked meat rolls with crispy pancetta garnish\",\n    \"Orange carrot batons and green vegetables\",\n    \"Professional restaurant plating on white plate\",\n    \"Meat ballottines clearly sliced and seared\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows two sliced ballottines with crispy pancetta\",\n    \"Green and orange vegetable garnish visible\",\n    \"Finished dish appearance sharp and appetising in phone view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source identifies meat as rabbit, but rabbit is not an allowed protein category in the system (only chicken/beef/pork/duck/lamb/seafood permitted)\",\n    \"Visible meat cannot be definitively confirmed as rabbit from appearance alone\"\n  ],\n  \"reason\": \"Reject: source title explicitly names rabbit as the protein, but rabbit is not an allowed protein category. The instructions restrict protein_evidence keys to chicken/beef/pork/duck/lamb/seafood only, and state 'do not use sausage/rabbit/clams as keys'. Although the dish is well-photographed, properly plated, sharp, and identifiable, the protein species named in the source is outside the permitted category set, triggering mandatory hold/reject. Identity check fails because the declared ingredient (rabbit) cannot be accepted.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1464,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 442,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
