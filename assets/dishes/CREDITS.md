@@ -15188,3 +15188,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 - **Italian pansoti with salsa di noci** — Dixy52. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Pansoti-walnut-sauce.jpg). Local asset: `reviewed-commons-186706968.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Bergamo casoncelli** — Andrzej Otrębski. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Bergamo_casoncelli.jpg). Local asset: `reviewed-commons-58861232.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Pansoti in salsa di noci** — Dixy52. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Pansoti_in_salsa_di_noci_2.jpg). Local asset: `reviewed-commons-180954278.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Tourtes alsaciennes à la viande de porc et au riesling** — Thomon. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Tourtes_alsaciennes.jpg). Local asset: `reviewed-commons-112378004.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

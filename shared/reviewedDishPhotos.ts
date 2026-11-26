@@ -182470,5 +182470,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 829,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-112378004",
+    "title": "File:Tourtes alsaciennes.jpg",
+    "author": "Thomon",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tourtes_alsaciennes.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Tourtes_alsaciennes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "ada968bbdbac15e93f22fca88984735cbdbb827b",
+    "name": "Tourtes alsaciennes à la viande de porc et au riesling",
+    "aliases": [],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-112378004.jpg",
+    "assetSha256": "af1c53a01bc0622f6dc20a8aad79c7a29e499e0bfd473bdedc528f1be41a027f",
+    "reviewedAt": "2026-11-26",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 660,
+    "requiresExactMenuName": true
   }
 ];
