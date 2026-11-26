@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChRi6VvsLhy8C7P2w2fUj",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Pie in oven on rack, golden pastry crust visible\",\n    \"Subject is prominent and sharp in thumbnail\",\n    \"Natural colour, appetising appearance\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Tourte aux poireaux' (leek pie). Leek pie is a vegetable dish with no visible meat or seafood in either image.\",\n    \"No protein category can be assigned because no chicken, beef, pork, duck, lamb, or seafood is declared in the source title or description, nor is any such ingredient visibly identifiable.\",\n    \"The dish appears to be vegetarian/vegetable-based.\"\n  ],\n  \"reason\": \"Reject: The source description identifies this as 'Tourte aux poireaux dans le four' (leek pie in the oven), a vegetarian dish containing no declared or visible protein from the allowed categories (chicken, beef, pork, duck, lamb, seafood). The photograph is well-exposed and sharp, but the dish does not meet the protein requirement for intake into Tavue's food review system, which requires at least one supported protein category to be explicitly declared and evidenced.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1592,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 412,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
