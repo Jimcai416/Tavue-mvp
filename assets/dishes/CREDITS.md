@@ -15206,3 +15206,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 
 - **Tortilla de Betanzos** — [Javier Lastras](https://www.flickr.com/photos/22662305@N04). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Tortilla_de_Betanzos.jpg). Local asset: `reviewed-commons-9046752.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Tortilla de patatas estilo Betanzos** — LaPenelaRestaurante. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Tortilla_de_Betanzos_La_Penela.jpg). Local asset: `reviewed-commons-95055213.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Polenta con formaggio** — Alessio Sbarbaro  User_talk:Yoggysot. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Polenta_con_formaggio_01.jpg). Local asset: `reviewed-commons-22852615.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
