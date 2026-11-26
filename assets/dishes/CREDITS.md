@@ -14943,3 +14943,9 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Toasted brie and tomato sandwich with a vinaigrette drizzle** — [jeffreyw](https://www.flickr.com/people/7927684@N03). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Toasted_brie_and_tomato_sandwich_with_a_vinaigrette_drizzle.jpg). Local asset: `reviewed-commons-23098249.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Albero di pasta frolla danese** — Varisco Matteo. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Albero_di_pasta_frolla_danese.jpg). Local asset: `reviewed-commons-117495613.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Buccellati di pasta frolla con farina di Tuminia** — GiovanniPen. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Buccellati_in_Piana_degli_Albanesi.jpg). Local asset: `reviewed-commons-200394438.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Crostata con pasta frolla all'olio extravergine d'oliva, ripiena di ricotta al profumo di Limoncello** — DinaBenedettoFerrandina. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Crostata_Con_Pasta_Frolla_All%27Olio_Extravergine_D%27Oliva.jpg). Local asset: `reviewed-commons-133231144.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
