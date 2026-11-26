@@ -14846,3 +14846,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Pimientos del Padrón fritos** — Marostegui. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Pimientos_del_Padr%C3%B3n_.jpg). Local asset: `reviewed-commons-66308519.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Chou à la crème et fraise de Carpentras** — Marianne Casamance. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Chou_%C3%A0_la_cr%C3%A8me_et_fraise_de_Carpentras.JPG). Local asset: `reviewed-commons-47870300.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

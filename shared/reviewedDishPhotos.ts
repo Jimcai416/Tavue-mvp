@@ -179425,5 +179425,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 720,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-47870300",
+    "title": "File:Chou à la crème et fraise de Carpentras.JPG",
+    "author": "Marianne Casamance",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chou_%C3%A0_la_cr%C3%A8me_et_fraise_de_Carpentras.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Chou_%C3%A0_la_cr%C3%A8me_et_fraise_de_Carpentras.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "dd545ccf2d9627fd273c70059f24c1e1b8d564fc",
+    "name": "Chou à la crème et fraise de Carpentras",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-47870300.jpg",
+    "assetSha256": "9f90b44d8c0a8a8dfb6af78dcd4024bdf0e4eb286b2e4799a4247311e6dcd2dc",
+    "reviewedAt": "2026-11-26",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 669,
+    "requiresExactMenuName": true
   }
 ];
