@@ -14819,3 +14819,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 
 - **Aebleskiver at Cal Lutheran Scandanavian Festival** — ChildofMidnight  at  English Wikipedia. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Aebleskiver_at_Cal_Lutheran_Scandanavian_Festival.jpg). Local asset: `reviewed-commons-25362360.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Aebleskiver** — Cmax18. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Pangea_Aebleskiver.jpg). Local asset: `reviewed-commons-53583120.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **alouettes sans tête (paupiettes de bœuf), servi avec de la ratatouille** — Marianne Casamance. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Allouettes_sans_t%C3%AAte_2.jpg). Local asset: `reviewed-commons-26095646.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
