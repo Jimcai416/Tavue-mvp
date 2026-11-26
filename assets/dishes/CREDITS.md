@@ -14899,3 +14899,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 
 - **Cotes de porc marinées au barbecue** — [Benoît Prieur](https://www.wikidata.org/wiki/Q42790984). [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Cotes_de_porc_au_barbecue_(octobre_2020).jpg). Local asset: `reviewed-commons-95446777.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Côtes de porc marinées, cuites au barbecue** — [Benoît Prieur](https://www.wikidata.org/wiki/Q42790984). [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:C%C3%B4tes_de_porc_marin%C3%A9es,_cuites_au_barbecue,_mars_2020_(007).jpg). Local asset: `reviewed-commons-88424056.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Crêpe fourrée aux pommes caramélisées** — Marianne Casamance. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Bellegarde_Cr%C3%AApe_fourr%C3%A9e_aux_pommes_caram%C3%A9lis%C3%A9es.JPG). Local asset: `reviewed-commons-46963284.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

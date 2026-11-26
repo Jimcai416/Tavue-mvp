@@ -179954,5 +179954,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 960,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.wikidata.org/wiki/Q42790984"
+  },
+  {
+    "id": "commons-46963284",
+    "title": "File:Bellegarde Crêpe fourrée aux pommes caramélisées.JPG",
+    "author": "Marianne Casamance",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bellegarde_Cr%C3%AApe_fourr%C3%A9e_aux_pommes_caram%C3%A9lis%C3%A9es.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Bellegarde_Cr%C3%AApe_fourr%C3%A9e_aux_pommes_caram%C3%A9lis%C3%A9es.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "24154ac6dce7d988d7e6aa8941645ec12209235e",
+    "name": "Crêpe fourrée aux pommes caramélisées",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-46963284.jpg",
+    "assetSha256": "5d9d729e53ab4d2b44aab74133bea960f8adb7358dccbd4973253485b7062980",
+    "reviewedAt": "2026-11-26",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
