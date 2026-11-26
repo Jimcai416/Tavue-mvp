@@ -14882,3 +14882,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 - **Cozonac de casă** — Maria Orjog. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Cozonac_de_cas%C4%83.jpg). Local asset: `reviewed-commons-203424687.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Cozonac roumain** — MariaCristina9216. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Cozonac_roumain.jpg). Local asset: `reviewed-commons-154853374.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Cozonac și ouă roșii** — Ioanairinciuc. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Cozonac_%C8%99i_ou%C4%83_ro%C8%99ii.jpg). Local asset: `reviewed-commons-202789129.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Roasted pork with rind** — [fru_green](https://www.flickr.com/people/93595770@N00). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Flaeskesteg_med_svaer.jpg). Local asset: `reviewed-commons-8651975.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

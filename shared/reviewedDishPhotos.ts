@@ -179831,5 +179831,30 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-8651975",
+    "title": "File:Flaeskesteg med svaer.jpg",
+    "author": "fru_green",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Flaeskesteg_med_svaer.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/05/Flaeskesteg_med_svaer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "e539bb93905d0917d8002fcbe6dc6a09910c22c3",
+    "name": "Roasted pork with rind",
+    "aliases": [],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-8651975.jpg",
+    "assetSha256": "246c4a16692db4b13d3c41ab7d60b5e66e101081b7b2f36988dd9877fb484c3a",
+    "reviewedAt": "2026-11-26",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 721,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/93595770@N00"
   }
 ];
