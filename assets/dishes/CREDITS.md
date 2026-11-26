@@ -15055,3 +15055,8 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 
 - **Maltese bruschetta with fresh Mediterranean ingredients** — Patrickfarrugia. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:A_typical_Maltese_bruschetta_with_fresh_Mediterranean_ingredients.jpg). Local asset: `reviewed-commons-146889970.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Bruschetta** — Jørgen Løken ( Løken ). [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Bruschetta,_Barcelona.JPG). Local asset: `reviewed-commons-33884820.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Tartufo di Pizzo** — [Federica Siena](https://www.flickr.com/photos/frikybrown/). [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:Tartufo_di_Pizzo.jpg). Local asset: `reviewed-commons-10638041.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Tartufo ice cream** — Off-shell. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Tartufo_ice_cream.JPG). Local asset: `reviewed-commons-42772030.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
