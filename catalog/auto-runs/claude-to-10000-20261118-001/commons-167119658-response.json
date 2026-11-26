@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChR5LubzL5ar9uwJVazts",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Outdoor seafood festival setting with boats and beach\",\n    \"Multiple grilled fish on metal grill\",\n    \"Chef in apron actively cooking\",\n    \"Smoke and flames visible from cooking process\",\n    \"Raw/preparation stage of cooking\"\n  ],\n  \"phone_observations\": [\n    \"Chef and grill visible in thumbnail\",\n    \"Fish visible but undergoing active cooking\",\n    \"Preparation/cooking stage, not finished plated dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Sagra del pesce spada' (swordfish festival) but visible fish appear smaller and may not be swordfish\",\n    \"Image shows active cooking stage, not a finished, exposed dish ready for consumption\",\n    \"Fish are still on the grill mid-preparation, not plated or finished\"\n  ],\n  \"reason\": \"Rejection: This is a preparation/cooking stage photograph, not a finished, exposed, plated dish. The fish are actively being grilled over flames with visible smoke. While the photograph is sharp and well-composed, Tavue accepts only finished dishes. Additionally, identity verification fails—the title references a swordfish festival, but the visible fish do not appear to match swordfish characteristics and cannot be reliably identified from the image. The image documents the cooking process rather than a completed dish suitable for food review.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1817,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 446,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

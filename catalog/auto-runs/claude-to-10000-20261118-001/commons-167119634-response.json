@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChR5LMSE1jPMzQLzXb4jM",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows raw/cooking-stage seafood on griddle\",\n    \"Items are partially cooked or still in active preparation\",\n    \"No finished plated dish visible in phone centre-cover\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'pesce spada' (swordfish) but source metadata is untrusted; visual confirmation of species impossible from raw/cooking state\",\n    \"Items appear to be in mid-cooking stage, not finished and plated\",\n    \"Street food preparation context visible but dish is not complete/exposed\"\n  ],\n  \"reason\": \"Rejection: Image shows raw or actively cooking seafood on a commercial griddle during a street food festival preparation stage, not a finished, exposed, plated dish. The phone thumbnail confirms this is a cooking/preparation scene, not a completed appetizing food photograph suitable for review. Tavue accepts only finished, properly exposed dishes. The unspecified seafood species and preparation stage are disqualifying.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2027,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 367,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
