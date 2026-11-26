@@ -178215,5 +178215,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 636,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-137805542",
+    "title": "File:Pollo asado al estilo marroquí.jpg",
+    "author": "Juan Emilio Prades Bel",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pollo_asado_al_estilo_marroqu%C3%AD.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Pollo_asado_al_estilo_marroqu%C3%AD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "b2681ab2b55cd11fc9c6ca4e73d86783fb5df688",
+    "name": "Pollo asado al estilo marroquí",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-137805542.jpg",
+    "assetSha256": "c2bba50938fe19851de1865e79a8998da8f38c7706b09a82164ed1a199686794",
+    "reviewedAt": "2026-11-26",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
