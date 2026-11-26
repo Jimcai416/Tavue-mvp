@@ -15201,3 +15201,8 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Pear and watercress soup** — [Charley  from England](https://www.flickr.com/people/34046467@N06). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Pear_and_watercress_soup.jpg). Local asset: `reviewed-commons-49859200.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Tortilla de Betanzos** — [Javier Lastras](https://www.flickr.com/photos/22662305@N04). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Tortilla_de_Betanzos.jpg). Local asset: `reviewed-commons-9046752.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Tortilla de patatas estilo Betanzos** — LaPenelaRestaurante. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Tortilla_de_Betanzos_La_Penela.jpg). Local asset: `reviewed-commons-95055213.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
