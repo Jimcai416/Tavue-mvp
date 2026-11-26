@@ -14954,3 +14954,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 
 - **Spadellata di spaghetti al pesto alla genovese** — ElisaCrestani. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Saltati_in_padella.jpg). Local asset: `reviewed-commons-146902147.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Spaghetti al pesto** — [Benoît Prieur](https://www.wikidata.org/wiki/Q42790984). [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Spaghetti_al_pesto_en_d%C3%A9cembre_2022_%C3%A0_Venise.jpg). Local asset: `reviewed-commons-128454078.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Canjica caipira** — Leo Rey. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Canjica_caipira.jpg). Local asset: `reviewed-commons-132858119.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
