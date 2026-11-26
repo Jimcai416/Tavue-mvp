@@ -15210,3 +15210,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Polenta con formaggio** — Alessio Sbarbaro  User_talk:Yoggysot. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Polenta_con_formaggio_01.jpg). Local asset: `reviewed-commons-22852615.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Almendras fritas** — [DnTrotaMundos ☮](https://web.archive.org/web/20161024002129/http://www.panoramio.com/user/4752073?with_photo_id=64446158). [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:%C2%A1Almendras_fritas,_menuda_delicia..._-_panoramio.jpg). Local asset: `reviewed-commons-54367862.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
