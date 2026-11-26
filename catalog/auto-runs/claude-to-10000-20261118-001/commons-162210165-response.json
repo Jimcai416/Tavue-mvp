@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChRDPRu7tRv5khvo7549k",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 1,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows raw/preparation stage: scattered raw shrimp, onion slices, and tomato pieces on ice\",\n    \"Essential components are fragmented and uncooked\",\n    \"No finished dish visible in phone thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Crevettes bien préparés' (shrimp well-prepared) but image shows raw ingredients in preparation stage, not a finished cooked dish\",\n    \"Severe contradiction between source title and actual image content\"\n  ],\n  \"reason\": \"Rejection: Image depicts raw preparation ingredients (uncooked shrimp, raw onion, raw tomato on ice), not a finished, exposed, cooked dish. This is a preparation/composition stage photo, not a photographic plate. Phone thumbnail confirms fragmented raw components. Title-image contradiction: 'bien préparés' implies finished preparation, but photograph shows raw ingredient assembly. Fails identity check (source description does not match visible content), quality check (uncooked/unfinished), and photograph check (preparation stage, not finished dish). Sharpness and appeal scores reflect the raw, incomplete nature of the subject.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1736,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 408,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

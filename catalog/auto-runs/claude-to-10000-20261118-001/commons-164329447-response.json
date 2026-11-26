@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChRDQDsMRKUu3hqWhnU2j",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Dried crustaceans on green surface\",\n    \"Two distinct preparations visible: darker, more shrivelled specimens (left) and lighter, more uniform shredded/dried pieces (right)\",\n    \"Natural outdoor lighting, clear detail of texture and colour variation\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows two portions of dried seafood\",\n    \"Darker left portion and lighter right portion both visible\",\n    \"Composition readable at phone size\"\n  ],\n  \"protein_evidence\": {\n    \"seafood\": \"Crevettes séchées\"\n  },\n  \"uncertainties\": [\n    \"Title states 'Crevettes séchées' (dried shrimp) but no accompanying dish name, preparation context or serving format is provided\",\n    \"Image shows raw ingredient display on a surface, not a finished, plated, or prepared dish\",\n    \"No canonical dish identity can be established from metadata—only ingredient name is supplied\",\n    \"Metadata description 'Farm to Plate' is thematic tag, not dish identification\",\n    \"Unclear if this is a finished food photograph or ingredient documentation\"\n  ],\n  \"reason\": \"Reject: Identity check fails. The source provides only an ingredient name ('Crevettes séchées'—dried shrimp) with no dish title, preparation style, or serving context. The photograph shows dried seafood laid out on a surface as raw ingredients or market display, not a finished, exposed, plated dish suitable for a food review database. Tavue requires a specific, identifiable dish with a canonical name. Ingredient documentation alone does not meet the standard for acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1739,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 503,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

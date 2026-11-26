@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChRDQGHhzMQDXWJJfw8iK",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked pizza on baking tray with aluminium foil\",\n    \"Melted cheese and browned toppings visible\",\n    \"Full dish exposed and finished\",\n    \"Phone thumbnail shows detail of cooked surface\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows cooked pizza with cheese and toppings\",\n    \"Brown and cream coloured surface consistent with full image\",\n    \"Essential components readable in phone view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title claims 'Pizza aux crevettes' (shrimp pizza) but no shrimp, prawns or seafood are visibly identifiable in either photograph\",\n    \"Visible toppings appear to be ground meat (beef or pork) and cheese, not shrimp\",\n    \"Meat species cannot be determined from appearance alone and source does not explicitly name it\",\n    \"Critical mismatch between declared identity (shrimp pizza) and actual visible form (meat pizza)\"\n  ],\n  \"reason\": \"Identity check fails. Source title declares 'Pizza aux crevettes' (shrimp pizza) but the visible dish shows what appears to be ground meat (species unspecified) with cheese, with no visible shrimp, prawns or seafood evidence in either the full image or phone thumbnail. No protein species is explicitly named in the source description to match the visible toppings. The contradiction between declared identity and photographed content is irreconcilable without clarification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1733,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 476,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

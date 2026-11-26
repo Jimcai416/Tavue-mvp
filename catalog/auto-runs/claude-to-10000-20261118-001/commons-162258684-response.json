@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChRDPkV5RXqoTA4ZJ8R4z",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked shrimp/prawns, visibly pink and translucent\",\n    \"Fresh lettuce leaves (green, prominent)\",\n    \"Toasted bread slices with golden-brown seasoned exterior\",\n    \"Fresh parsley garnish\",\n    \"Red chilli peppers in background\",\n    \"White element (possibly aioli or sauce)\",\n    \"Red plate presentation\"\n  ],\n  \"phone_observations\": [\n    \"Shrimp clearly visible and recognizable\",\n    \"Lettuce prominent in phone thumbnail\",\n    \"Toast readable and shows golden colour\",\n    \"Sauce/white element visible\",\n    \"Overall composition legible at thumbnail size\"\n  ],\n  \"protein_evidence\": {\n    \"seafood\": \"Crevettes cuisson\"\n  },\n  \"uncertainties\": [\n    \"Source title 'Crevettes cuisson' translates to 'Cooked shrimp/prawns' but provides no specific dish identity or preparation method name\",\n    \"No canonical dish name supplied—only ingredient term and cooking state\",\n    \"Unclear whether this is a plated salad, appetizer, or composed starter dish\",\n    \"White element identity uncertain (aioli, sauce, cheese, or other component)\",\n    \"No source description beyond filename; metadata contains only 'Farm to Plate' theme tag, which is marketing language, not dish identification\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting and composition are strong; phone thumbnail is legible and shows appetising food. However, the source provides only a generic ingredient description ('Crevettes cuisson' = cooked prawns) without a specific dish name, preparation variant, or confirmed identity. This fails the identity check: a canonical dish name must be copied exactly from source title/description and must identify the finished dish type (e.g. 'Prawn salad', 'Crevette à l'ail', 'Shrimp and toast appetizer'), not merely state that prawns are cooked. The uncertainties list—including dish type, sauce components, and lack of meaningful source description—prevent acceptance. Hold pending clarification of the actual dish name and identity.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1836,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 626,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

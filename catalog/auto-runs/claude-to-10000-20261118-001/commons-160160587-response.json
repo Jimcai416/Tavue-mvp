@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChRDPRt8QwSc4efizq3wK",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows raw, uncooked crustaceans with minimal visual definition\",\n    \"Essential detail lost at 124x96 resolution; subjects appear as undifferentiated mass\",\n    \"No finished dish characteristics visible\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title metadata 'Cameron (grand crevettes)' is filename-style and untrusted per instructions\",\n    \"Description 'Cameron de l'usine' appears to be metadata, not authoritative dish identification\",\n    \"Exact canonical dish name cannot be reliably extracted from untrusted metadata\"\n  ],\n  \"reason\": \"Rejection criteria met: (1) Image shows raw, preparation-stage crustaceans with long antennae and minimal cooking/plating—not a finished, exposed, appetising dish. (2) Phone thumbnail fails acceptance: at 124x96 resolution, essential food components are not sharply readable and appear as undifferentiated raw material mass. (3) Identity check fails: source metadata (filename 'File:Cameron (grand crevettes) 02.jpg' and description 'Cameron de l'usine') is explicitly untrusted per instructions and does not constitute reliable evidence of a specific finished dish. (4) Appeal score 1 reflects raw ingredient state, not a prepared food photograph. No quality or identity grounds support acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1514,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 449,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

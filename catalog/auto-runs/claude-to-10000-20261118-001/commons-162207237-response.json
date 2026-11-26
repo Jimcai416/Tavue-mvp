@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChRDPRvrVDzncFZNUwsNT",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Pot of boiling shrimp/prawns in broth, metal pot with lid on hot coals\",\n    \"Shrimp visible but small and partially obscured by steam and water surface\",\n    \"Background blurred; food is identifiable but not prominently detailed\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title contains only 'Crevettes bouillante' (French for 'boiling shrimp'); no specific dish name or preparation method supplied\",\n    \"Source metadata is untrusted; actual dish identity unconfirmed\",\n    \"Raw/preparation stage: shrimp are boiling in water, not a finished plated dish\",\n    \"No readable essential components in phone thumbnail—details obscured by steam and liquid surface\"\n  ],\n  \"reason\": \"Reject: This image shows a preparation stage (shrimp boiling in a pot over fire) rather than a finished, exposed, plated dish. The thumbnail shows the subject as small and obscured by steam and broth, failing the requirement for sharp detail and readable essential components in the phone view. The source title provides only a generic French descriptor without a specific dish name, and the visible form confirms this is mid-cooking, not a finished food photograph suitable for Tavue review.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1735,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 430,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
