@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChRsWvGKA7Bq9uZsiJJy3",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Four dark red/maroon sausages in white bowl visible in thumbnail\",\n    \"Bowl shape and contents clearly match full source\",\n    \"Adequate sharpness and colour fidelity in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Botifarra dolça' refers to a sweet Catalan sausage, but the visible product shows raw/uncooked sausage meat in preparation stage, not a finished plated dish\",\n    \"No evidence of cooking, finishing, or presentation as a served dish—subject appears to be raw ingredient or preparation stage\",\n    \"Species of meat in botifarra not explicitly named in source metadata\"\n  ],\n  \"reason\": \"Reject: The image shows raw or uncooked sausage in a bowl during preparation, not a finished, exposed, cooked and plated dish suitable for food photography review. Botifarra dolça requires cooking to become a served dish. The subject is in pre-preparation state. Additionally, no explicit meat species is named in the source title or description, so protein_evidence cannot be populated. Home cooking context does not override the requirement for a finished dish state.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1648,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 406,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
