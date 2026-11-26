@@ -15083,3 +15083,9 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 
 - **Bouchée fromagère** — Marianne Casamance. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Carpentras_Chez_Serge_Bouch%C3%A9e_fromag%C3%A8re.JPG). Local asset: `reviewed-commons-46971260.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Rissole à la poire Blesson** — Marc LE PRINCE. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Rissole_%C3%A0_la_poire_Blesson.jpg). Local asset: `reviewed-commons-32451831.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Pan de Cádiz y pestiños** — El Pantera. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:PanCadiz_Pesti%C3%B1os-DSC01582.JPG). Local asset: `reviewed-commons-23440555.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Buñuelos Navideños** — GinaEla39. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:BU%C3%91UELOS_NAVIDE%C3%91OS.jpg). Local asset: `reviewed-commons-104876848.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Pestiños** — Tamorlan. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Pesti%C3%B1os-Madrid.jpg). Local asset: `reviewed-commons-7547500.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
