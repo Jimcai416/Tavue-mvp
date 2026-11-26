@@ -179270,5 +179270,28 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-10271950",
+    "title": "File:Strawberry tart, October 2008.jpg",
+    "author": "Leon Brocard",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Strawberry_tart,_October_2008.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Strawberry_tart%2C_October_2008.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "66c2fcd2c7a37dc136578fa7188effd912f5bb07",
+    "name": "Strawberry tart",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-10271950.jpg",
+    "assetSha256": "b1abf206622403e9f463d7e5833834fce28434d68e52364e9e48ebaaf0b6d542",
+    "reviewedAt": "2026-11-26",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://flickr.com/people/35034350386@N01"
   }
 ];

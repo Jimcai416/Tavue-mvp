@@ -14827,3 +14827,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **cervelle de canut** — Marianne Casamance. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Brasserie_Georges_-_cervelle_de_Canut.jpg). Local asset: `reviewed-commons-57382171.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Strawberry tart** — [Leon Brocard](https://flickr.com/people/35034350386@N01). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Strawberry_tart,_October_2008.jpg). Local asset: `reviewed-commons-10271950.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
