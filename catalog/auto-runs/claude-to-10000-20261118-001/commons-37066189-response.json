@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChQfjYy6i7iaZq2Z47BdE",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Shredded white vegetable (celeriac or cabbage)\",\n    \"Shredded orange carrot\",\n    \"Sliced tomatoes bordering arrangement\",\n    \"Sliced cucumber or green vegetable\",\n    \"Sliced ham/jambon visible in middle layer\",\n    \"Hard-boiled egg halves\",\n    \"Fresh green lettuce base\",\n    \"Composed salad platter format\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows shredded white and orange vegetables prominently\",\n    \"Hard-boiled eggs visible at bottom of thumbnail\",\n    \"Tomato slices frame the composition\",\n    \"Dish structure legible and appetising in reduced view\"\n  ],\n  \"protein_evidence\": {\n    \"pork\": \"jambon\"\n  },\n  \"uncertainties\": [\n    \"Source title/description is incomplete ('This is an image of food from' — truncated, no dish name provided)\",\n    \"No canonical dish name supplied in metadata\",\n    \"Exact preparation style and regional variant unknown\",\n    \"Ingredient composition (celeriac vs. cabbage, specific vegetables) cannot be verified from truncated description\"\n  ],\n  \"reason\": \"Source metadata is incomplete and provides no canonical dish name or full description. The title field contains only 'File:Entrée froide, salade, carottes, jambon.jpg' (filename, not a dish title), and the description is truncated mid-sentence. While the photograph itself shows a well-composed, sharp, appetising composed salad with identifiable components (ham, egg, shredded vegetables, tomatoes), the absence of a complete, authoritative source dish name prevents identity verification. Identity check fails due to insufficient source documentation. Hold pending complete source description.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1255,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 538,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
