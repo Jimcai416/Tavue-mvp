@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChRdQiW5Hk5zy4oZd6WoL",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Almond slices clearly visible on baked biscotti\",\n    \"Golden-brown baked colour consistent with cantuccini\",\n    \"Characteristic twice-baked biscuit form with fractures\",\n    \"Natural parchment paper background\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows finished baked goods with almond flecks\",\n    \"Warm tan-brown colour consistent with full image\",\n    \"Individual pieces distinguishable in centre-cover area\",\n    \"No clipping of essential components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title contains 'Weihnachts-Cantuccini' (German Christmas cantuccini) but description field labeled 'Rezept hier' (recipe here) with external link suggests preparation context rather than finished dish documentation\",\n    \"Metadata title includes 'File:' prefix and image ID, requiring exact phrase extraction—cannot confirm canonical name without verified source title\",\n    \"German description metadata is not an English-language dish identity confirmation\"\n  ],\n  \"reason\": \"Image quality and photograph are excellent; phone thumbnail is acceptable. However, identity check fails: the source metadata structure (title as filename with ID, description as recipe link) does not provide a reliable verified dish title. The visible form is consistent with cantuccini, but source identity documentation is insufficient for acceptance. Hold pending clarification of authoritative English-language dish name from source.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1699,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 462,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

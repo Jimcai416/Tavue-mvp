@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChRdQj45HoHydXTeAqUg1",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows food in active cooking stage in black wok on stovetop\",\n    \"Ingredients visible but dish is mid-preparation, not finished and plated\",\n    \"Wet, loose components with visible raw/unfinished appearance\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title claims 'Sliced calf testicles' but this is a preparation-stage image in a wok, not a finished, exposed, plated dish suitable for food review\",\n    \"Species 'calf' is unspecified (young bovine) and not an allowed protein category\",\n    \"Image shows active cooking, not a finished exposure ready for review\"\n  ],\n  \"reason\": \"Reject: This is a preparation/cooking-stage photograph, not a finished plated dish. The full image and thumbnail both show ingredients in a wok during active cooking—loose, wet components without final presentation. The source claims calf testicles (an organ meat with unspecified species qualifier), which is not an allowed protein category. The image fails the core requirement of being a 'finished, exposed, likely photographic dish' suitable for Tavue food review. Home cooking is welcome, but only finished dishes; this is mid-preparation.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1668,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 423,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

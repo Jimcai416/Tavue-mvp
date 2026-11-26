@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChRdQhyKuuQCG7MLha38W",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows pale, irregular patties in a dark pan\",\n    \"Minimal detail visible at 124x96 resolution\",\n    \"Subject appears small relative to cookware\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata declares 'calf testicles' but this is organ meat not in the allowed protein categories (chicken/beef/pork/duck/lamb/seafood)\",\n    \"Visual appearance cannot reliably confirm organ identity from photographs alone\",\n    \"Preparation stage (cooking in progress) rather than finished, plated dish\"\n  ],\n  \"reason\": \"Rejection on multiple grounds: (1) Subject identified as calf testicles (organ meat) falls outside permitted protein categories; (2) Image shows active cooking stage in a pan, not a finished, plated, exposed dish; (3) Appeal score critically low due to unappetising presentation and preparation context; (4) Phone thumbnail too small and low-detail to validate finished-dish criteria; (5) Composition fails to present a prominent, clearly identifiable finished food item suitable for a food photograph database.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1801,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 392,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
