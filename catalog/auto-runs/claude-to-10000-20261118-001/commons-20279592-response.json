@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChRqSM4BjJstZ51fSibNA",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"Poivrons farcis au couscous\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Couscous base clearly visible and prominent\",\n    \"Stuffed vegetable with vine leaf visible\",\n    \"Yellow/orange pepper component visible\",\n    \"Natural colours, finished dish presentation\"\n  ],\n  \"phone_observations\": [\n    \"Centre thumbnail clearly shows couscous bed with stuffed items\",\n    \"Pepper and wrapped item distinguishable\",\n    \"Sharp enough to identify dish components\",\n    \"Adequate composition for recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title states 'Poivrons farcis au couscous' (peppers stuffed with couscous), but source photograph shows a vine leaf-wrapped item alongside a pepper, suggesting two different components or a compound dish not fully described by title\",\n    \"Filling ingredients and protein content not declared in source description; meat species cannot be confirmed from visual appearance alone\",\n    \"Exact filling composition of the wrapped item is obscured and cannot be definitively identified from the photograph\"\n  ],\n  \"reason\": \"Identity check fails due to source description ambiguity. The title 'Poivrons farcis au couscous' suggests stuffed peppers with couscous, but the photograph shows both a pepper AND a distinct vine leaf-wrapped item, suggesting either a compound dish or a mismatch between title and content. No protein species are explicitly named in the source description. While photograph and phone thumbnail quality are acceptable (all checks except identity true, scores ≥4), the identity uncertainty and undeclared filling composition prevent acceptance. Hold for clarification of exact dish identity, component descriptions, and any protein content.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1628,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 509,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
