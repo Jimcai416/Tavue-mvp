@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChQZycbpuDTguNN7X6nJu",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked sliced cured meat (appears salami or sausage)\",\n    \"Boiled potatoes (yellow cubes)\",\n    \"Leek pieces (white and pale green sections)\",\n    \"Carrot pieces (orange cubes)\",\n    \"Served on white plate\",\n    \"Finished, exposed dish\",\n    \"Naturally coloured\",\n    \"Prominent components visible in thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows full cooked dish composition\",\n    \"Red/pink cured meat slices clearly visible\",\n    \"Yellow potato cubes distinguishable\",\n    \"Green leek sections readable\",\n    \"Orange carrot pieces present\",\n    \"Overall dish structure preserved in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Cured meat species cannot be definitively identified from appearance alone—appears to be salami or sausage but exact animal source is not visually determinable\",\n    \"Source title 'Potée comtoise' is a traditional French dish name, but the visible meat components do not explicitly identify the animal species in the photograph or source description\",\n    \"No explicit animal qualifier (beef, pork, etc.) provided in source metadata\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition and appeal are all strong (scores 4–4). The photograph is finished, naturally coloured, appetising and prominently displayed with readable components in both full image and thumbnail. However, identity check fails because the cured meat species cannot be visually confirmed and the source title/description does not explicitly name the animal (chicken/beef/pork/duck/lamb/seafood). The instruction requires exact source quote explicitly naming each animal protein; without this, the protein_evidence map must remain empty and the dish cannot be accepted. Traditional dish names alone are not sufficient evidence for species identification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1726,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 559,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
