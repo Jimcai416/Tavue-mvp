@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChRm5GAhjZRRAG4DnyMMZ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"poisson braisé aux légumes\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Whole fish fillet with charred/braised dark surface visible\",\n    \"Abundant diced vegetable garnish (green pepper, yellow/orange pieces, white onion, fresh herbs)\",\n    \"Finished, plated presentation on decorative white plate\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows diced vegetable topping prominently, fish body partially visible\",\n    \"Vegetables sharp and clearly defined\",\n    \"Overall composition recognizable as cooked fish dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title metadata specifies 'poisson braisé' (braised fish) but the exact fish species is not named\",\n    \"French 'poisson' is a generic term meaning 'fish' without identifying the specific type\",\n    \"Protocol requires exact source quote naming each animal; generic 'fish' category cannot be supported without species identification\",\n    \"Visible form shows whole fish fillet but species cannot be determined from appearance alone\"\n  ],\n  \"reason\": \"The photograph is sharp, well-composed, and shows a finished braised fish dish with fresh vegetable garnish. However, the source description uses only the generic French term 'poisson' (fish) without naming the specific fish species. The protocol requires explicit species identification from source text to populate protein_evidence; generic meat categories and translations do not satisfy the evidence standard. Hold pending source clarification of the actual fish species used.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1740,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 469,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
