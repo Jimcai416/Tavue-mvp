@@ -14913,3 +14913,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 - **Lengua en Salsa** — PapiPijuan. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Lengua_en_Salsa.jpg). Local asset: `reviewed-commons-113182290.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Salpicon** — MarielaGC. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Salpicon.jpg). Local asset: `reviewed-commons-103567967.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Ensalada fría de legumbres** — Juan Emilio Prades Bel. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Salpic%C3%B3n_de_verduras_y_alubia_cocida.JPG). Local asset: `reviewed-commons-34650938.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **tarte bourdaloue** — Jebulon. [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:Tarte_aux_poires_2a.jpg). Local asset: `reviewed-commons-11751408.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
