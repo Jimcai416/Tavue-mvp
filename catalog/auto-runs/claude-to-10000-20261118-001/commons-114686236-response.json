@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChSSQSfok39Dj4gFQsQqA",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Dark bread base visible in full image and thumbnail\",\n    \"Green cornichons prominently displayed across the top\",\n    \"Pale protein mixture consistent with tuna and hummus\",\n    \"Golden-brown spice crust (curry powder) visible\",\n    \"Black pepper specks present\"\n  ],\n  \"phone_observations\": [\n    \"Cornichons clearly visible in thumbnail\",\n    \"Bread and protein mixture identifiable\",\n    \"Spice crust readable\",\n    \"Overall composition matches full image\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Tunafish' but tuna is not an explicitly approved protein category (only chicken/beef/pork/duck/lamb/seafood allowed). 'Tunafish' is a colloquial US term for canned tuna; however, the exact term in the source is 'Tunafish' not 'tuna' or 'seafood', and the instructions require exact matching to an allowed category name\",\n    \"The dish is fundamentally a prepared sandwich/open-faced toast rather than a finished plated dish in the culinary sense—it is bread with a spread topping, not a composed restaurant-style dish\",\n    \"Identity contradiction: source describes this as a prepared item 'served hot' but the visual and construction suggest a cold or room-temperature assembled preparation\"\n  ],\n  \"reason\": \"Reject: Although the photograph is sharp, well-lit, and the thumbnail is clear, this submission cannot be accepted because (1) the protein 'tunafish' does not map to an approved category name—the instructions explicitly permit only chicken/beef/pork/duck/lamb/seafood, and 'tunafish' (a colloquial US English term) is not an exact canonical match to 'seafood' in the source text, requiring hold per protocol; (2) the dish is an open-faced sandwich or toast topping rather than a finished plated culinary dish, which falls outside Tavue's representative food photography scope; (3) the source description of 'served hot' contradicts the visual presentation and typical preparation method. The identity check fails because the source-declared name and category do not align with approved protein vocabulary and dish category standards.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2094,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 643,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

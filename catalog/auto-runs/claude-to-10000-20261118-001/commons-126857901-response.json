@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChSSQMiuJZALGAW4uzrWi",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Yellow folded egg or crepe base with brown/tan cooked protein pieces\",\n    \"Dark charred mushroom slices visible on top\",\n    \"Cream-coloured plate with decorative gold rim\",\n    \"Moist, cooked appearance suggesting sautéed preparation\"\n  ],\n  \"phone_observations\": [\n    \"Folded yellow base with brown protein and dark mushrooms clearly visible\",\n    \"Composition readable at thumbnail scale\",\n    \"Natural lighting preserved in reduction\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title claims 'smoked oysters' but photograph shows no recognizable oyster morphology—the protein pieces appear as small sliced/diced terrestrial meat or possibly seafood prepared unrecognizably, not whole or half-shell oysters\",\n    \"Yellow base identified as 'Boston brown bread' in source but visually consistent with an omelette or crepe, not bread\",\n    \"Source claims 'guacamole salsa' but no green sauce or avocado visible in photograph\",\n    \"Source claims 'cheddar cheese' but no visible melted cheese layer or orange/yellow cheese coat typical of heated cheddar\",\n    \"Visible dark pieces are charred mushrooms, not mentioned in source description\",\n    \"Protein species cannot be verified from visual appearance alone; 'oysters' claim contradicts plausible dish form\"\n  ],\n  \"reason\": \"Critical source-to-image mismatch. The photograph does not visually support the claimed identity 'Smoked oysters and guacamole salsa on Boston brown bread, heated with cheddar cheese.' The base resembles an omelette or crepe, not bread; no guacamole or visible cheese layer present; the protein pieces do not resemble oyster morphology; mushrooms are prominent but unmentioned in source. Without a reliable source quote that matches the actual visible components (yellow base, protein pieces, mushrooms, cream plate), and given multiple contradictions between metadata and visual evidence, identity cannot be confirmed. Protein category cannot be supported from the image alone.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2076,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 613,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
