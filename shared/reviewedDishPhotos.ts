@@ -180135,5 +180135,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 640,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-157103449",
+    "title": "File:Baked Camembert with truffle oil, honey & toast - Long Man Inn 2024-12-18.jpg",
+    "author": "Andy Li",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Baked_Camembert_with_truffle_oil,_honey_%26_toast_-_Long_Man_Inn_2024-12-18.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/14/Baked_Camembert_with_truffle_oil%2C_honey_%26_toast_-_Long_Man_Inn_2024-12-18.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "cbae676f7b1bd509fb5d9ae8de2cbae93f077890",
+    "name": "Baked Camembert with truffle oil, honey & toast",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-157103449.jpg",
+    "assetSha256": "229304327368d5eaac4437b13eda275a2d3a43831afbd191f0a03b2ea64c6f97",
+    "reviewedAt": "2026-11-26",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 723,
+    "requiresExactMenuName": true
   }
 ];
