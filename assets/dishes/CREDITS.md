@@ -14986,3 +14986,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Patatas revolconas** — Juan Emilio Prades Bel. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Patatas_revolconas,_Castilla-Le%C3%B3n.jpg). Local asset: `reviewed-commons-155096654.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Precle z obatzdą** — MOs810. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Wyszak_Szczecin_(1)_Obatzda.jpg). Local asset: `reviewed-commons-69730291.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
