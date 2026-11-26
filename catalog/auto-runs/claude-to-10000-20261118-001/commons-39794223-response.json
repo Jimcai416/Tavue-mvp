@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChR77YRdWDu7aVjbKXumS",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Dough mass in white bowl with wooden utensils\",\n    \"Raw dough state, no finished dish visible\",\n    \"Preparation stage, not exposed/cooked form\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Subject is raw dough/paste in preparation stage, not a finished exposed dish\",\n    \"Cozonac is a brioche that requires baking; this shows pre-bake dough only\"\n  ],\n  \"reason\": \"Rejection: This photograph documents a raw dough preparation stage (paste/batter in a mixing bowl with wooden utensils), not a finished, exposed, cooked dish. The source title correctly identifies it as 'Paste for Cozonac brioche'—the ingredient stage before baking. Tavue accepts finished, photographic food dishes. Raw ingredients, dough masses, and preparation stages do not meet the finished-dish requirement. The image quality and photograph technical merit are acceptable, but the subject fails the identity and category check: this is preparation documentation, not a completed dish suitable for food review.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1653,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 384,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
