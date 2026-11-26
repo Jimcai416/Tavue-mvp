@@ -181468,5 +181468,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-108659627",
+    "title": "File:Espresso con panna.JPG",
+    "author": "The original uploader was  Xipirho  at  English Wikipedia .",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Espresso_con_panna.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Espresso_con_panna.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "936690625eee3dd9db8d35a9fd34de7305022285",
+    "name": "Espresso con panna",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-108659627.jpg",
+    "assetSha256": "15c2bafcc72dada7dd397f375981be73aaa45e7223e4bc5191f9a0e4969e5834",
+    "reviewedAt": "2026-11-26",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
