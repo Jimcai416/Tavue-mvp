@@ -15006,3 +15006,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Risotto with pumpkin, pecorino and pine nuts** — [Luca Nebuloni](https://www.flickr.com/people/7897906@N06). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Risotto_with_pumpkin,_pecorino_and_pine_nuts_(30897108636).jpg). Local asset: `reviewed-commons-57441475.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Escalope milanaise** — [Benoît Prieur](https://www.wikidata.org/wiki/Q42790984). [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Escalope_milanaise_(Le_Quai)_en_avril_2022.JPG). Local asset: `reviewed-commons-117508968.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

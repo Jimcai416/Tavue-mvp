@@ -180875,5 +180875,28 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 640,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/people/7897906@N06"
+  },
+  {
+    "id": "commons-117508968",
+    "title": "File:Escalope milanaise (Le Quai) en avril 2022.JPG",
+    "author": "Benoît Prieur",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Escalope_milanaise_(Le_Quai)_en_avril_2022.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Escalope_milanaise_%28Le_Quai%29_en_avril_2022.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "ca1f0985d6968470d47a0ec54902860094bc38ff",
+    "name": "Escalope milanaise",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-117508968.jpg",
+    "assetSha256": "4ad5483bfe14eab08af42c8fb3ffac74a49f90d2d36da54c822fda161101a280",
+    "reviewedAt": "2026-11-26",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 724,
+    "height": 960,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.wikidata.org/wiki/Q42790984"
   }
 ];
