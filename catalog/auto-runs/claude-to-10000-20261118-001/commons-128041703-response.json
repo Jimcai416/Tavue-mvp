@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChRXAu6jDUiE2G9dJjLYP",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Breaded, fried cutlet with glossy brown sauce\",\n    \"Capers and minced herbs visible on top\",\n    \"Served on white plate\",\n    \"Professional restaurant plating\"\n  ],\n  \"phone_observations\": [\n    \"Cutlet and toppings clearly visible in thumbnail\",\n    \"Brown sauce and capers readable at small size\",\n    \"Dish identity preserved in phone view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'escalope milanaise' (breaded veal cutlet) but description claims 'Arctic char dishes' — these are contradictory; a breaded fried cutlet is not Arctic char (a raw or cooked fish), and Arctic char cannot be plated as this form\",\n    \"Source metadata is internally inconsistent and cannot establish the actual dish identity\",\n    \"Protein species cannot be verified from visual appearance alone — cutlet texture could be veal, pork, or other meat\"\n  ],\n  \"reason\": \"Source title and description contradict each other (escalope milanaise vs Arctic char). The photograph shows a breaded, fried cutlet with capers and sauce — consistent with milanaise preparation — but the declared 'Arctic char dishes' description is incompatible with this visual form. Without reliable source documentation of the actual protein, identity cannot be confirmed. Hold pending clarification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1701,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 450,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
