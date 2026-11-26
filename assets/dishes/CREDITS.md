@@ -15192,3 +15192,8 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Tourtes alsaciennes à la viande de porc et au riesling** — Thomon. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Tourtes_alsaciennes.jpg). Local asset: `reviewed-commons-112378004.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Salade de betteraves rouges** — Ji-Elle. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Salade_de_betteraves_rouges_(Kostroma).jpg). Local asset: `reviewed-commons-69930260.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Tomate à la Provençale** — Véronique PAGNIER. [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:Tomate_Proven%C3%A7ale.JPG). Local asset: `reviewed-commons-11872913.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
