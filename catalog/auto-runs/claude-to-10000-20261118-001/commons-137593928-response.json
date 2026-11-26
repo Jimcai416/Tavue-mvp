@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChRCKLZg6jDQB3ehceLWx",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 1,\n    \"appeal\": 0\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows only handwritten text on aged paper\",\n    \"No food visible in phone centre-cover\",\n    \"Cannot resolve individual dish details at thumbnail scale\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata indicates this is a museum label/receipt (Panzerfaust ammunition box label from 1944) with a handwritten recipe on the reverse, not a food photograph\",\n    \"No actual finished dish photograph exists in either image\",\n    \"Handwritten recipe text is not visual evidence of a prepared food\",\n    \"Cannot verify dish identity from illegible cursive handwriting alone\"\n  ],\n  \"reason\": \"This is a document (museum artifact label with handwritten recipe on reverse), not a photograph of food. The full source shows only aged paper with cursive writing; the phone thumbnail shows no food subject whatsoever. Neither image meets the core requirement of a finished, exposed, photographed dish. The metadata confirms this is a 1944 label with recipe text, not food photography. Handwritten recipe instructions do not constitute visual proof of a prepared dish.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2166,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 386,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
