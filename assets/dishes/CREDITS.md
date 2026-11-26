@@ -15028,3 +15028,9 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Salmon capellini - pan seared Atlantic salmon, capellini, asparagus and saffron tomato broth** — Missvain. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:HopMonk_Tavern_Sonoma_-_July_2023_-_Sarah_Stierch.jpg). Local asset: `reviewed-commons-134557324.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Cantuccini** — [Gwang17 - Blog: intoafoodcoma.wordpress.com](http://intoafoodcoma.wordpress.com). [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Cantuccini-Toscani.jpg). Local asset: `reviewed-commons-43219313.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Trapizzino - pollo alla cacciatora** — Diego Zitelli. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Trapizzino_-_Pollo_alla_Cacciatora.jpg). Local asset: `reviewed-commons-29034796.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Weihnachts-Cantuccini** — [Katrin Gilger](https://www.flickr.com/people/26242865@N04). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Weihnachts-Cantuccini_(5255741158).jpg). Local asset: `reviewed-commons-89957835.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
