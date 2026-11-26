@@ -14850,3 +14850,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Chou à la crème et fraise de Carpentras** — Marianne Casamance. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Chou_%C3%A0_la_cr%C3%A8me_et_fraise_de_Carpentras.JPG). Local asset: `reviewed-commons-47870300.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Linguine funghi e pachino** — Camelia.boban. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Linguine_funghi_e_pachino_01.jpg). Local asset: `reviewed-commons-100582512.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
