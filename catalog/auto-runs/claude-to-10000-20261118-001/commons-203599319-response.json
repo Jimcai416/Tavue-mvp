@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChQcTCXVc7RvS7wdxUnSE",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown pasta parcels with crispy edges on white plate\",\n    \"Generous coating of grated cheese (Parmesan visible)\",\n    \"Browned meat sauce visible between/on pasta\",\n    \"Sharp detail and natural colour throughout\",\n    \"Home-cooked presentation matches source setting description\"\n  ],\n  \"phone_observations\": [\n    \"Pasta parcels clearly visible and prominent in thumbnail\",\n    \"Golden colour and cheese coating readable\",\n    \"No clipping of essential components\",\n    \"Appetising appearance maintained at reduced size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source describes 'ravioles argentinos de jamón y queso' (ham and cheese ravioli), but ham is not an allowed protein category\",\n    \"Source names 'carne picada' (minced meat/ground meat) in the sauce, but specific animal species is not explicitly stated\",\n    \"Cannot visually distinguish which meat species comprises the ground meat in the sauce from photograph alone\"\n  ],\n  \"reason\": \"Source title and description name ham (jamón) and unspecified ground meat (carne picada) as protein components. Ham is not an allowed protein category. The ground meat species cannot be confirmed from the source text as chicken/beef/pork/duck/lamb/seafood with explicit naming. Per rules, unknown or ambiguous meat species and unallowed proteins require hold, not rejection, but the identity check fails because the canonical name cannot preserve all meaningful qualifiers without naming unallowed proteins. This creates an identity contradiction rather than a quality defect in the photograph itself.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1831,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 498,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
