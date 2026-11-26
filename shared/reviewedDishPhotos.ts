@@ -179156,5 +179156,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 824,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-46106318",
+    "title": "File:Aiguillette de canard au miel et aux quatre épices.JPG",
+    "author": "Marianne Casamance",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aiguillette_de_canard_au_miel_et_aux_quatre_%C3%A9pices.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Aiguillette_de_canard_au_miel_et_aux_quatre_%C3%A9pices.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "cef2cbb390c316b70be1c34b01b663d3a3dbdd4b",
+    "name": "Aiguillette de canard au miel et aux quatre épices",
+    "aliases": [],
+    "proteins": [
+      "duck"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-46106318.jpg",
+    "assetSha256": "acc892711d486d2a6f537945f3ded76828c6e57ff7e5bf3c78e88a16e4872d14",
+    "reviewedAt": "2026-11-26",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];

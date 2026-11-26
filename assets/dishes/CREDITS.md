@@ -14810,3 +14810,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 
 - **Bignè alla crema da inzuppare nel cioccolato fondente appena sciolto** — [Giacomo Alessandroni](https://www.wikidata.org/wiki/Q61601315). [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Bign%C3%A8_e_cioccolato.jpg). Local asset: `reviewed-commons-128647550.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Biscottini di Novara** — F Ceragioli. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Biscottini_di_novara.jpg). Local asset: `reviewed-commons-22030606.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Aiguillette de canard au miel et aux quatre épices** — Marianne Casamance. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Aiguillette_de_canard_au_miel_et_aux_quatre_%C3%A9pices.JPG). Local asset: `reviewed-commons-46106318.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
