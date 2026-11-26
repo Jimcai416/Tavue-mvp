@@ -14886,3 +14886,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Roasted pork with rind** — [fru_green](https://www.flickr.com/people/93595770@N00). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Flaeskesteg_med_svaer.jpg). Local asset: `reviewed-commons-8651975.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Linguine con Gamberi** — Missvain. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Ambrosia_Italian_Restaurant_-_June_2022_-_Sarah_Stierch_12.jpg). Local asset: `reviewed-commons-119143017.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

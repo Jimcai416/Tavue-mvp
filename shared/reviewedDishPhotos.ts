@@ -179856,5 +179856,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 721,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/people/93595770@N00"
+  },
+  {
+    "id": "commons-119143017",
+    "title": "File:Ambrosia Italian Restaurant - June 2022 - Sarah Stierch 12.jpg",
+    "author": "Missvain",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ambrosia_Italian_Restaurant_-_June_2022_-_Sarah_Stierch_12.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Ambrosia_Italian_Restaurant_-_June_2022_-_Sarah_Stierch_12.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "d98a14671851276c0f71e40bd3232d703b00a3d2",
+    "name": "Linguine con Gamberi",
+    "aliases": [],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-119143017.jpg",
+    "assetSha256": "51a6f397d4aba8f21c5f7adf596612eb2b428b1d487e14a01f99f7c93577a1bb",
+    "reviewedAt": "2026-11-26",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
