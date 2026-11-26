@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChRPcRgFfTMjNeYp6j5N9",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"venison steaks... pigs in blankets, roast vegetables of all types, brussels sprouts and stuffing\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Dark-crusted meat steaks with pink interior visible\",\n    \"Small sausages wrapped in what appears to be bacon (pigs in blankets)\",\n    \"Roasted root vegetables: carrots, potatoes\",\n    \"Brussels sprouts, bright green\",\n    \"Stuffing/herb mixture on right side\",\n    \"White plate, natural dining setting\",\n    \"Phone thumbnail shows all major components clearly\"\n  ],\n  \"phone_observations\": [\n    \"All dish components visible in 124x96 centre-cover\",\n    \"Steaks, sausages, vegetables, and sides identifiable\",\n    \"Natural colours, no clipping of essential food\",\n    \"Adequate detail for recognition of a plated meat and vegetable composition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Venison is not an allowed protein category (only chicken/beef/pork/duck/lamb/seafood permitted). Source explicitly names 'venison steaks' but this species cannot be accepted.\",\n    \"Pork content in 'pigs in blankets' is visually identifiable but source does not explicitly state 'pork' as the descriptor—it uses the traditional colloquial term.\",\n    \"No explicit source statement confirming pork in sausages or bacon wrapping; species inferred from tradition, not stated.\"\n  ],\n  \"reason\": \"Image is sharp, well-lit, appetising, and all components are visible in both full photograph and phone thumbnail. However, the dish cannot be accepted because the primary protein—venison—falls outside the permitted category list (chicken/beef/pork/duck/lamb/seafood only). Although pork is likely present in the pigs in blankets, the source does not explicitly name 'pork' as a dish qualifier, using instead the traditional British term. No exact canonical name can be formed that meets both the source-quote requirement and the protein constraints. The image quality and presentation are acceptable, but identity verification cannot be completed.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1684,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 608,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

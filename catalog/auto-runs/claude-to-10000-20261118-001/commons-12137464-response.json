@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChRPcRmTcwbxrsufsrKCr",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 3,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows partially cooked sausages wrapped in bacon on dark griddle\",\n    \"Undercooked appearance visible in both full image and thumbnail\",\n    \"Raw/translucent meat visible through wrapper in multiple pieces\"\n  ],\n  \"protein_evidence\": {\n    \"pork\": \"Pigs in Blankets\"\n  },\n  \"uncertainties\": [\n    \"Image shows preparation/cooking stage, not finished dish\",\n    \"Source metadata explicitly states 'not cooked properly'\",\n    \"Raw/undercooked state contradicts finished food requirement\"\n  ],\n  \"reason\": \"Reject: This photograph documents a preparation/cooking stage rather than a finished, exposed dish. The source description explicitly states the pigs in blankets 'are not cooked properly', and both images show translucent, undercooked meat visible through the bacon wrapper. The poor lighting, low sharpness, and raw appearance also fail quality thresholds. Home cooking is welcome, but only finished dishes meeting food safety and visual completeness standards qualify.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1768,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 375,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

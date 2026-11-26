@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChRPcmsSrMbYwwFwWsFZX",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Roasted golden-brown poultry (duck or small chicken) centrally positioned\",\n    \"Bacon-wrapped sausages arranged around the bird\",\n    \"Natural lighting, well-exposed, appetising presentation\",\n    \"Phone thumbnail clearly shows the dish composition\"\n  ],\n  \"phone_observations\": [\n    \"Central roasted bird clearly visible and prominent\",\n    \"Wrapped sausages readable around the perimeter\",\n    \"Adequate detail for dish identification at thumbnail scale\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Poultry species ambiguous: appears to be small duck or Cornish game hen, not definitively identifiable as chicken\",\n    \"Sausage species/meat type not specified in source metadata and cannot be reliably inferred from appearance alone\",\n    \"File title 'Pigs in Blankets' refers to the wrapped sausages, but the central bird identity is not explicitly named in source title or description\"\n  ],\n  \"reason\": \"Identity check fails. The source title and description do not explicitly identify the central roasted bird by species (duck vs. chicken vs. other poultry). The photograph clearly shows a finished, well-presented dish with good sharpness, lighting and composition, but the canonical name cannot be constructed from the supplied metadata without inferring poultry species from appearance alone. Sausage meat species also cannot be supported by explicit source naming. Hold pending clarification of the bird identity in source documentation.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1884,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 469,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
