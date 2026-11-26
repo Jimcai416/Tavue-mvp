@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChS1o6xsG3fPLN465Ea3C",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows five round baked items on white plate with moderate detail\",\n    \"Baked goods appear golden-brown with some surface markings\",\n    \"Plate and items are recognizable but softness limits clarity\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata (title, description, author, license fields) are explicitly untrusted per instructions; actual dish identity cannot be verified against metadata alone\",\n    \"No visible text, label, or reliable provenance in the photograph itself to establish dish identity\",\n    \"Photograph context (toilet setting, domestic environment) raises authenticity concerns\"\n  ],\n  \"reason\": \"Rejection: The source metadata ('Scones in a plate.jpg', 'Farm to Plate' theme) is untrusted per protocol. The full photograph shows baked items in an unusual domestic context (bathroom setting visible), and the image exhibits poor sharpness (2/5), flat lighting (2/5), awkward composition (2/5), and low visual appeal (1/5). No explicit, trustworthy source quote confirming dish identity is available from the photograph itself. Without reliable non-metadata evidence of the finished dish and its proper identity, acceptance cannot be justified. All checks fail.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1561,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 420,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

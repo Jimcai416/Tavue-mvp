@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChS1o6tQXron9N5pDTZrZ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Single baked scone on decorative plate\",\n    \"Golden-brown colour, crumbly texture visible\",\n    \"Appears to be a plain or fruit scone\",\n    \"Natural indoor lighting\"\n  ],\n  \"phone_observations\": [\n    \"Scone clearly visible in centre thumbnail\",\n    \"Adequate detail for identification\",\n    \"Colour and texture consistent with full image\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title metadata reads 'File:Scones for 5 de Mayo 2023 - scone on plate.jpg' – this is a filename, not a canonical dish description\",\n    \"Description field contains only the word 'scone' with no variant qualifier (plain, fruit, cheese, herb, etc.)\",\n    \"Visual inspection cannot definitively establish flavour or precise type (raisins/currants may be present but are not conclusively identifiable)\",\n    \"No explicit source-provided canonical name beyond generic 'scone'\"\n  ],\n  \"reason\": \"Reject: source metadata does not supply a usable canonical_name. The title is a filename (File:...), and the description field contains only the generic word 'scone' without variant qualifiers or preparation details. While the photograph is sharp, well-lit, and appetising, and the subject is a finished, exposed baked scone, Tavue's protocol requires the canonical_name to be copied exactly from source title or description and must be specific. A generic 'scone' without named type, filling, or topping does not meet the specificity requirement. No exact source quote matching a detailed dish name is available.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1735,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 508,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
