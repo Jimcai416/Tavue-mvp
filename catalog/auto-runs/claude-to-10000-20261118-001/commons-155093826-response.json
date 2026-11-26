@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChRnKw4YkiLpGvwkvFFc2",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked meat pieces with golden-brown sear\",\n    \"Red/pink garlic cloves visibly interspersed throughout\",\n    \"Oil/braising liquid in dark pan\",\n    \"Rustic presentation consistent with fried preparation\",\n    \"Phone thumbnail shows full dish prominently with readable components\"\n  ],\n  \"phone_observations\": [\n    \"Meat and garlic components clearly visible and distinguishable\",\n    \"Golden-brown colour and texture preserved in reduction\",\n    \"Dish occupies sufficient centre-cover area for recognition\",\n    \"No clipping of essential food elements\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title declares 'Conejo frito con ajos' (fried rabbit with garlic), but rabbit is not an allowed protein category. The visible meat cannot be reliably distinguished from chicken, pork, or lamb by photograph alone.\",\n    \"Species ambiguity: rabbit is explicitly named in source but falls outside permitted protein categories (chicken/beef/pork/duck/lamb/seafood only).\"\n  ],\n  \"reason\": \"Image quality, composition, and phone thumbnail are all acceptable (scores ≥4). However, the source title explicitly names rabbit ('conejo'), which is not an allowed protein category per instructions. Visual inspection cannot definitively confirm or refute the species from appearance alone. The identity check fails because the declared protein cannot be supported within the canonical protein set. Hold pending clarification or alternative source documentation that names an allowed species.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1733,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 474,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
