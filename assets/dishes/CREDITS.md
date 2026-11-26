@@ -15043,3 +15043,10 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Vlaamse stoverij en salade** — Hortensja Bukietowa. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Vlaamsestoverij02.jpg). Local asset: `reviewed-commons-131864638.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Cooked stuffed mushrooms** — [Kimberly Vardeman](https://www.flickr.com/people/87542849@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Cooked_stuffed_mushrooms,_April_2008.jpg). Local asset: `reviewed-commons-10277653.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Kremed Spinach Stuffed Mushrooms** — [Janet Hudson](https://flickr.com/people/25128194@N02). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Kremed_Spinach_Stuffed_Mushrooms.jpg). Local asset: `reviewed-commons-10267380.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Stuffed mushrooms** — [Alexa](https://flickr.com/people/54789486@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Stuffed_mushrooms,_Thanksgiving_Day_2007.jpg). Local asset: `reviewed-commons-10278157.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Stuffed mushrooms with herbs and goat cheese** — [Stacy](https://flickr.com/people/21001756@N06). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Stuffed_mushrooms_with_herbs_and_goat_cheese,_June_2009.jpg). Local asset: `reviewed-commons-10278211.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
