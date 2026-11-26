@@ -15002,3 +15002,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Pecorino di Grotta** — Elke Wetzig. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Pecorino_di_Grotta_5455.jpg). Local asset: `reviewed-commons-38666975.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Risotto with pumpkin, pecorino and pine nuts** — [Luca Nebuloni](https://www.flickr.com/people/7897906@N06). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Risotto_with_pumpkin,_pecorino_and_pine_nuts_(30897108636).jpg). Local asset: `reviewed-commons-57441475.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

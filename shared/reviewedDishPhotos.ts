@@ -180852,5 +180852,28 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 728,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-57441475",
+    "title": "File:Risotto with pumpkin, pecorino and pine nuts (30897108636).jpg",
+    "author": "Luca Nebuloni",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Risotto_with_pumpkin,_pecorino_and_pine_nuts_(30897108636).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Risotto_with_pumpkin%2C_pecorino_and_pine_nuts_%2830897108636%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "cd5c81e822b233d46baaabfec64488845aebf0f9",
+    "name": "Risotto with pumpkin, pecorino and pine nuts",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-57441475.jpg",
+    "assetSha256": "25d599b5ca97e9183e2f079d1b1cd70c299efdb418c2ae95ee46d55d81263a16",
+    "reviewedAt": "2026-11-26",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 640,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/7897906@N06"
   }
 ];
