@@ -14801,3 +14801,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 - **Chicken Kiev** — N509FZ. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Chicken_Kiev_at_Pushkin_Literature_Restaurant,_Zhong_Guan_Cun_No.1_(20210802191838).jpg). Local asset: `reviewed-commons-108092829.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Mititei with bread** — 妖精書士. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Mititei_with_bread_at_Expo2025_Romania_Pavilion.jpg). Local asset: `reviewed-commons-169846388.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Traditional Czech koláče** — VictoriaRomarniuc. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Traditional_Czech_kol%C3%A1%C4%8De_in_Su%C5%A1ice.jpg). Local asset: `reviewed-commons-176448555.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Mititei** — -wuppertaler. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:ROM_Bucure%C8%99ti,_Mititei_0001.jpg). Local asset: `reviewed-commons-203617814.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

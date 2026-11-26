@@ -179089,5 +179089,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 640,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-203617814",
+    "title": "File:ROM București, Mititei 0001.jpg",
+    "author": "-wuppertaler",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:ROM_Bucure%C8%99ti,_Mititei_0001.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0e/ROM_Bucure%C8%99ti%2C_Mititei_0001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "d72abaeae11d6933a1dd36109b157319a696c441",
+    "name": "Mititei",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-203617814.jpg",
+    "assetSha256": "b0998dcc1b16389d294c8b9ce7adf4cb36ab1ca4aebd005d3260bf20db804127",
+    "reviewedAt": "2026-11-26",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
