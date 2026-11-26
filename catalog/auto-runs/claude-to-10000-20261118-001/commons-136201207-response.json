@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChSHs6gihsQA7mfCLXTkr",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows multiple cooking pots on stovetop in preparation/cooking phase\",\n    \"Central pot contains what appears to be meat and liquid in active cooking state\",\n    \"Foreground shows raw/partially prepared lamb rack with decorative bone frills and minimal garnish\",\n    \"Scene is clearly a kitchen preparation and cooking stage, not a finished plated dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title claims 'Lamb Guard of Honour' but the visible foreground subject shows raw/uncooked lamb rack with decorative frills—a preparation stage, not a finished, exposed, cooked dish\",\n    \"Multiple pots on stove indicate mid-cooking process, not plating stage\",\n    \"No finished, plated presentation visible in either full image or thumbnail\"\n  ],\n  \"reason\": \"Rejection: The source describes a finished dish ('Lamb Guard of Honour with Pommes Dauphinoise, buttered Sweetheart cabbage...'), but both the full photograph and phone thumbnail show a kitchen preparation and active cooking scene. The foreground lamb rack displays raw/partially cooked meat with decorative bone frills, and multiple pots on the stove are still cooking. This is a preparation/cooking-stage photograph, not a finished, exposed, plated dish suitable for Tavue review. The requirement for 'a finished, exposed, likely photographic dish' with 'appetising, prominent' presentation is not met.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1738,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 473,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
