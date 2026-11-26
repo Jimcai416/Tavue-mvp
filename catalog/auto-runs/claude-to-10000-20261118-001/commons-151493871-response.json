@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChS3oVJ2EwDPHXxV67tR7",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown gratinéed surface with crispy top layer\",\n    \"Served in black individual gratin dish\",\n    \"Fresh herb garnish (parsley) visible\",\n    \"Bread slices in background\",\n    \"Restaurant plating and presentation\",\n    \"Phone thumbnail clearly shows gratin dish and setting\"\n  ],\n  \"phone_observations\": [\n    \"Gratin dish prominent and sharp in thumbnail centre-cover\",\n    \"Golden brown colour and texture clearly visible\",\n    \"Herb garnish visible even in reduced size\",\n    \"Plating context (bread, utensils) recognisable\",\n    \"Subject adequately sized and not clipped\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title declares 'Gratin de coquilles de St. Jacques' (scallop gratin), but scallops are not an allowed protein category (seafood category requires exact source naming, and this generic seafood type is not explicitly listed as chicken/beef/pork/duck/lamb/seafood with a species quote)\",\n    \"The visible form shows a gratinéed dish but does not prove the specific seafood identity beyond source metadata\",\n    \"Seafood is an allowed category but requires explicit source naming; 'coquilles de St. Jacques' is a traditional French dish name that refers to scallops, but the instruction requires exact naming and scallops are not explicitly listed in the allowed proteins\"\n  ],\n  \"reason\": \"The photograph is sharp, well-lit, appetising, and properly plated. The phone thumbnail is clear and shows the finished dish prominently. However, the source title claims 'Gratin de coquilles de St. Jacques' (scallop gratin). Scallops are a seafood product, and the protein_evidence category allows 'seafood' only with explicit source naming of the animal. The source text uses the French classical name 'coquilles de St. Jacques' rather than the English 'scallops', and scallops are not among the explicitly listed allowed proteins (chicken/beef/pork/duck/lamb/seafood with specific animals). The visual appearance of a golden gratinéed dish does not resolve the species ambiguity. Hold pending clarification of protein identity or acceptance of seafood as a valid category with this traditional French naming.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1747,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 661,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
