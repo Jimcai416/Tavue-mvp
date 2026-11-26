@@ -179581,5 +179581,28 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-10234307",
+    "title": "File:Parmesan Pannacotta - Amuse Bouche - Lake House Restaurant, Daylesford.jpg",
+    "author": "Alpha",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parmesan_Pannacotta_-_Amuse_Bouche_-_Lake_House_Restaurant,_Daylesford.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/21/Parmesan_Pannacotta_-_Amuse_Bouche_-_Lake_House_Restaurant%2C_Daylesford.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "e5491830251e0b777829e2c4e927e6ce1834d920",
+    "name": "Parmesan Pannacotta - Amuse Bouche",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-10234307.jpg",
+    "assetSha256": "eac763091bce33b2d13f92836da04a4e968cd80917e019141ee7550b032cf89f",
+    "reviewedAt": "2026-11-26",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 800,
+    "height": 600,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://flickr.com/people/10559879@N00"
   }
 ];
