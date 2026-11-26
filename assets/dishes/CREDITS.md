@@ -14890,3 +14890,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Linguine con Gamberi** — Missvain. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Ambrosia_Italian_Restaurant_-_June_2022_-_Sarah_Stierch_12.jpg). Local asset: `reviewed-commons-119143017.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Civet of spiny lobster** — EnGuillem. [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Civet_de_langouste.jpg). Local asset: `reviewed-commons-14784171.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
