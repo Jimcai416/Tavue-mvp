@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChS3hmYfXisvtMh7XVuxv",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"White cheese block clearly visible on golden plate\",\n    \"Decorative flowers visible at top margin\",\n    \"Cheese dimensions and form recognisable at thumbnail scale\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title contains 'File:' prefix and filename extension (.jpg) which must be removed per canonical_name rules\",\n    \"Description 'Tranche de tomme des Pyrénées' is in French; English equivalent 'Slice of tomme des Pyrénées' should be used for canonical_name\",\n    \"Image shows uncooked cheese (a dairy product), not a finished, cooked, exposed food dish\",\n    \"Cheese is a raw/minimally processed ingredient rather than a prepared dish\"\n  ],\n  \"reason\": \"Reject: This is an uncooked cheese subject (Tomme des Pyrénées), a dairy ingredient photographed in its block form rather than a finished, cooked, or prepared food dish. While the photograph quality, lighting, and phone thumbnail visibility are acceptable, the subject matter falls outside the scope of Tavue's food dish review criteria, which require finished, exposed, cooked or plated dishes. Cheese wheels and blocks in isolation are ingredients or dairy products, not prepared dishes. The source title metadata also contains prohibited elements (File: prefix, filename extension) that complicate canonical name extraction.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1836,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 450,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
