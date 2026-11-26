@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChQbZ6epUJHnJtokiKQxE",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Sliced white protein-rich items dominate the plate in phone thumbnail\",\n    \"Green salad elements visible but minimal in phone view\",\n    \"Plate composition clear but monochromatic rendering obscures colour verification\",\n    \"Thumbnail confirms sliced format and mixed accompaniments\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title declares 'mozzarella and tomato' but no tomato is visually prominent in either full image or phone thumbnail\",\n    \"Monochromatic photograph prevents verification of red tomato or natural colour palette as required\",\n    \"Sliced white items are consistent with mozzarella but photograph cannot confirm tomato presence despite source description\",\n    \"Identity mismatch between declared dish (mozzarella and tomato salad) and visible composition (sliced mozzarella with green salad, tomato not evident)\"\n  ],\n  \"reason\": \"Reject: Source title declares 'mozzarella and tomato with mixed green salad' but the monochromatic photograph cannot verify the essential tomato component visually, and no red tomato is prominently visible in either the full image or phone thumbnail. The identity check fails because a key declared ingredient (tomato) is not visually evident. Naturally coloured, appetising appearance cannot be confirmed from black-and-white photography. While the photograph shows a finished dish with sharp detail and reasonable composition, the colour verification requirement and essential ingredient visibility are not met.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1749,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 473,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
