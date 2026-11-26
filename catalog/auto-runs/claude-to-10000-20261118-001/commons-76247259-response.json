@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChRhFu7mgzMYwqHFtw7RP",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Raw meat in plastic retail packaging\",\n    \"Label partially visible but essential components not clearly readable in thumbnail\",\n    \"Uncooked meat cuts with marbling visible\",\n    \"Supermarket display context, not a finished dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"This is raw/preparation stage meat, not a cooked or finished dish\",\n    \"Despite label visibility, the image shows packaged raw meat in a supermarket, not food prepared for consumption\",\n    \"No finished, exposed, appetising dish is present\"\n  ],\n  \"reason\": \"Rejection: This is raw packaged meat in a retail supermarket setting, representing a preparation stage rather than a finished, exposed, appetising dish. The guidelines explicitly reject raw/preparation stages. The photograph shows uncooked meat cuts in plastic wrapping with a price label—characteristic of a grocery product display, not food photography suitable for a food intake system. Neither the full source nor the phone thumbnail presents a dish ready for consumption or appropriate for food review.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1591,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 372,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
