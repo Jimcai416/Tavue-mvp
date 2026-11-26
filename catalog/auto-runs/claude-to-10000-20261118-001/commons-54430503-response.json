@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChQkvUhmMHDEr1h2RKP1X",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 1,\n    \"composition\": 1,\n    \"appeal\": 0\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail is entirely text/recipe body in Cyrillic script\",\n    \"No food image visible in phone thumbnail\",\n    \"No finished dish, plating, or appetising food presentation\",\n    \"Only printed recipe documentation\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'chicken or veal' but this is a recipe document, not a photograph of prepared food\",\n    \"Full source image is printed text from historical cookbook, not a food photograph\",\n    \"No actual dish is photographed or exposed for review\"\n  ],\n  \"reason\": \"Rejection: Source material is a printed historical recipe page in Cyrillic (Cookery Digest, 1913–1914), not a photograph of a finished, prepared dish. Both full source and phone thumbnail display only text documentation. No food image, plating, natural colour, sharpness, lighting, or appetising presentation exists. Illustrations and printed material on pages are explicitly excluded. This fails all photograph, phone, quality, and identity checks.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1532,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 376,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
