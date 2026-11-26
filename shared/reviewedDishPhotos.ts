@@ -181976,5 +181976,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 914,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-77696997",
+    "title": "File:Rigatoni al forno.jpg",
+    "author": "Marica Massaro",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rigatoni_al_forno.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/00/Rigatoni_al_forno.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "4db2c3a2627ab80e39d02d6ab675cf8fa1a68842",
+    "name": "Rigatoni al forno",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-77696997.jpg",
+    "assetSha256": "2d33f691455045cdbb790e00a9f0fc12ae2b9848c8d0b9d7b120d8b1036a9d0e",
+    "reviewedAt": "2026-11-26",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];

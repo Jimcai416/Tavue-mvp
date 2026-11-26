@@ -15133,3 +15133,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 
 - **Two white-chocolate cinnamon scones on a plate** — Infrogmation of New Orleans. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Two_white-chocolate_cinnamon_scones_on_a_plate.jpg). Local asset: `reviewed-commons-92182535.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Za'tar Scones** — CallMeBarcode. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Za%27tar_Scones.jpg). Local asset: `reviewed-commons-102600259.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Rigatoni al forno** — Marica Massaro. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Rigatoni_al_forno.jpg). Local asset: `reviewed-commons-77696997.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
