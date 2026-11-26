@@ -178932,5 +178932,28 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 600,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-159898681",
+    "title": "File:Zeppelines (18922030160).jpg",
+    "author": "Antonio Campoy  from Madrid, España",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zeppelines_(18922030160).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/Zeppelines_%2818922030160%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "0a201e6a622d1f924906bb9abc72bf265aa3e0f1",
+    "name": "Zeppelines",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-159898681.jpg",
+    "assetSha256": "611575a3c76638d3d36835ec64c2270909a36d0ae4a1d91f594ff842b102c96e",
+    "reviewedAt": "2026-11-26",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 568,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/10205031@N07"
   }
 ];

@@ -14785,3 +14785,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Chicken saute with Chaliapin sauce set meal** — 毒島みるく. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Chicken_saute_with_Chaliapin_sauce_set_meal_of_Matsuya.jpg). Local asset: `reviewed-commons-123315322.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Zeppelines** — [Antonio Campoy  from Madrid, España](https://www.flickr.com/people/10205031@N07). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Zeppelines_(18922030160).jpg). Local asset: `reviewed-commons-159898681.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
