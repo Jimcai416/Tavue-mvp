@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChRt8Mgk38SzZvrE3YFDu",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"Timbal de poma i botifarra dolça\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Stacked/layered savoury composition with apple and meat component visible\",\n    \"Caramelised apple top layer clearly visible\",\n    \"Crumb garnish on plate consistent with dessert-meat hybrid dish\",\n    \"Fine dining plating on white dish\"\n  ],\n  \"phone_observations\": [\n    \"Stacked cylindrical form clearly visible in thumbnail\",\n    \"Top glazed component readable\",\n    \"Plate garnish visible\",\n    \"Composition and overall structure preserved in phone view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Botifarra is a sausage of unspecified animal origin; source does not explicitly name which animal (pork, beef, etc.) the sausage contains\",\n    \"Visual appearance alone cannot confirm sausage species from the photograph\",\n    \"Dolça (sweet) qualifier creates ambiguity about whether this is primarily savoury or dessert, but does not resolve species uncertainty\"\n  ],\n  \"reason\": \"Image quality and composition are strong, and the dish is a finished, plated, appetising presentation with sharp detail and natural colour. However, the source description names 'botifarra dolça' (sweet sausage) without explicitly stating the animal species from which it is made. Per protocol, sausage cannot be used as a protein category key, and species must be explicitly named in source text, never inferred from appearance or tradition. Without an explicit animal qualifier in the source title/description (e.g. 'pork botifarra' or 'beef botifarra'), protein_evidence cannot be populated with an allowed category, and identity cannot be verified. Hold pending source clarification of sausage species.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1547,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 532,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
