@@ -181106,5 +181106,53 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 641,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/people/26242865@N04"
+  },
+  {
+    "id": "commons-70225540",
+    "title": "File:Œufs à la neige infusés à la verveine et sa soupe de fraises, Maison Pic, Valence.JPG",
+    "author": "Benoît Prieur",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%C5%92ufs_%C3%A0_la_neige_infus%C3%A9s_%C3%A0_la_verveine_et_sa_soupe_de_fraises,_Maison_Pic,_Valence.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/28/%C5%92ufs_%C3%A0_la_neige_infus%C3%A9s_%C3%A0_la_verveine_et_sa_soupe_de_fraises%2C_Maison_Pic%2C_Valence.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "606d77a10ebcf4a07045f40b19d548efad5faf33",
+    "name": "Œufs à la neige infusés à la verveine et sa soupe de fraises",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-70225540.jpg",
+    "assetSha256": "c48de40f78c3b6a987689af977f5f905adaea4e35a55e9e0be9563013095338b",
+    "reviewedAt": "2026-11-26",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.wikidata.org/wiki/Q42790984"
+  },
+  {
+    "id": "commons-69509665",
+    "title": "File:Filet de bœuf sauce forestière, crique maison et légumes.JPG",
+    "author": "Benoît Prieur",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Filet_de_b%C5%93uf_sauce_foresti%C3%A8re,_crique_maison_et_l%C3%A9gumes.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/12/Filet_de_b%C5%93uf_sauce_foresti%C3%A8re%2C_crique_maison_et_l%C3%A9gumes.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "2a228d5417dfba671c31c11bd985253360b7f872",
+    "name": "Filet de bœuf sauce forestière, crique maison et légumes",
+    "aliases": [],
+    "proteins": [
+      "beef"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-69509665.jpg",
+    "assetSha256": "0feae5941f45d86967970b7e7c96144c40818136f981cdb0e6701d6db34b137b",
+    "reviewedAt": "2026-11-26",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 875,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.wikidata.org/wiki/Q42790984"
   }
 ];
