@@ -14917,3 +14917,8 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **tarte bourdaloue** — Jebulon. [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:Tarte_aux_poires_2a.jpg). Local asset: `reviewed-commons-11751408.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **financiers** — [Guillaume Capron  from Issy les Moulineaux, France](https://www.flickr.com/people/7883724@N05). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:En_ces_temps_de_crise,_je_me_fais_une_petite_fourn%C3%A9e_de_financiers..._(7033132233).jpg). Local asset: `reviewed-commons-37315822.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Financiers aux amandes** — Matthieu Blanco. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Financiers_aux_amandes.JPG). Local asset: `reviewed-commons-28742111.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
