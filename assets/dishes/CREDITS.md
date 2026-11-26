@@ -15228,3 +15228,10 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Nougat de Tours** — GrandCelinien. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Nougat_de_Tours.jpg). Local asset: `reviewed-commons-59654683.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Boston brown bread, toasted with cheddar cheese and caraway seeds** — Daderot. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Boston_brown_bread,_toasted_with_cheddar_cheese_and_carroway_seeds_-_Massachusetts.jpg). Local asset: `reviewed-commons-141570930.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Boston brown bread (slice)** — Daderot. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Boston_brown_bread_(slice)_-_Massachusetts.jpg). Local asset: `reviewed-commons-97049799.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Brown bread made with dinkel wheat and millet** — Kritzolina. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Brown_bread_made_with_dinkel_wheat_and_millet_01.jpg). Local asset: `reviewed-commons-136390423.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Boston brown bread with cream cheese** — [jeffreyw](https://www.flickr.com/people/7927684@N03). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Mmm..._Boston_brown_bread_with_cream_cheese_(6280629398).jpg). Local asset: `reviewed-commons-23107861.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
