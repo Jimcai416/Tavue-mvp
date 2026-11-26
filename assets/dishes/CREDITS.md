@@ -15016,3 +15016,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 - **Sopa minestrone** — Jrfdiaz. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Minestrone_El_Rinconin.jpg). Local asset: `reviewed-commons-5669643.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Embutido (Filipino-style Pork Meatloaf)** — Ralff Nestor Nacor. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Embutido_(Filipino-style_Pork_Meatloaf).jpg). Local asset: `reviewed-commons-146408317.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Fabada** — Amasuela - Luis Lafuente Agudín. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Fabada_3.jpg). Local asset: `reviewed-commons-50375651.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Poulet Marengo** — Arnaud 25. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Poulet_Marengo.jpg). Local asset: `reviewed-commons-86129784.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

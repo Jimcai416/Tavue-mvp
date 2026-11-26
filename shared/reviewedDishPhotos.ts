@@ -180966,5 +180966,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 800,
     "height": 754,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-86129784",
+    "title": "File:Poulet Marengo.jpg",
+    "author": "Arnaud 25",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Poulet_Marengo.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Poulet_Marengo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "73f7dcb9c2ef403c687efb1adaf67464e7b85456",
+    "name": "Poulet Marengo",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-86129784.jpg",
+    "assetSha256": "85b3fb1b4d60de71e3eff956d349dc2c0029b02a49c751557f0a4cc15d521a02",
+    "reviewedAt": "2026-11-26",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
