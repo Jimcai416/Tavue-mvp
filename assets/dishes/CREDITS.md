@@ -14705,3 +14705,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 
 - **Salade comtoise** — Arnaud 25. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Assiette_comtoise_001.jpg). Local asset: `reviewed-commons-25715999.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Assiette comtoise** — Arnaud 25. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Assiette_comtoise_002.JPG). Local asset: `reviewed-commons-25716350.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Poached egg, Salade Auvergnate** — [Guilhem Vellut  from Paris, France](https://www.flickr.com/people/22539273@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Poached_egg,_Salade_Auvergnate,_L%27Express_27,_Paris_001.jpg). Local asset: `reviewed-commons-56616658.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

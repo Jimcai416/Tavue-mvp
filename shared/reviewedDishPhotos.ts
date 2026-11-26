@@ -178147,5 +178147,28 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-56616658",
+    "title": "File:Poached egg, Salade Auvergnate, L'Express 27, Paris 001.jpg",
+    "author": "Guilhem Vellut  from Paris, France",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Poached_egg,_Salade_Auvergnate,_L%27Express_27,_Paris_001.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/52/Poached_egg%2C_Salade_Auvergnate%2C_L%27Express_27%2C_Paris_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "92e40511dd6abd63de9ef9a11687ff5976917932",
+    "name": "Poached egg, Salade Auvergnate",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-56616658.jpg",
+    "assetSha256": "65b3823a3f8031fef016b8cccb7533ff4e721e49db0a14690f885544968ca365",
+    "reviewedAt": "2026-11-26",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 640,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/22539273@N00"
   }
 ];
