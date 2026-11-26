@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChQb65rwf1cYsJFz6JDwv",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Sliced cured meat visible on paper/cloth\",\n    \"Natural colour and translucence consistent with prosciutto\",\n    \"Prominent slices occupy centre thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title/description contains only 'Njeguško pršut (prosciutto) from Montenegro' with no animal species explicitly named\",\n    \"Prosciutto traditionally implies pork, but source metadata does not contain the word 'pork'\",\n    \"No exact substring from source matches any allowed protein category key\"\n  ],\n  \"reason\": \"Rejection: Although the photograph shows a finished, sharply detailed, naturally coloured, appetising cured meat product (consistent with prosciutto) with strong phone thumbnail support, the source title and description do not explicitly name the animal species. Prosciutto convention does not override the requirement for explicit source-declared protein identification. The metadata contains only 'prosciutto' as the meat qualifier without the word 'pork' or any other allowed species name. Per rules, ambiguous or undeclared species must be held, not accepted. No exact case-sensitive substring from the source supports any protein_evidence key.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1740,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 412,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
