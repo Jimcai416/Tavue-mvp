@@ -14721,3 +14721,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Pollo asado al estilo marroquí** — Juan Emilio Prades Bel. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Pollo_asado_al_estilo_marroqu%C3%AD.jpg). Local asset: `reviewed-commons-137805542.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Pélardon** — Coyau /  Wikimedia Commons. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:P%C3%A9lardon_08.jpg). Local asset: `reviewed-commons-38765146.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
