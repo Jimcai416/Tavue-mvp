@@ -179248,5 +179248,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-57382171",
+    "title": "File:Brasserie Georges - cervelle de Canut.jpg",
+    "author": "Marianne Casamance",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Brasserie_Georges_-_cervelle_de_Canut.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/07/Brasserie_Georges_-_cervelle_de_Canut.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "08e6be5eec22b630ae2d26e7dfe523bf843be723",
+    "name": "cervelle de canut",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-57382171.jpg",
+    "assetSha256": "55df6676bc62d898bc3a293bdacc6aaeab55c5289aba4967084a62d40ee7c72e",
+    "reviewedAt": "2026-11-26",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
