@@ -181909,5 +181909,28 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-6731296",
+    "title": "File:Pementos de Padrón, pan e viño galegos.jpg",
+    "author": "Rui Ornelas",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pementos_de_Padr%C3%B3n,_pan_e_vi%C3%B1o_galegos.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/81/Pementos_de_Padr%C3%B3n%2C_pan_e_vi%C3%B1o_galegos.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "19df16d3df2fc2be5735ce934fa9af8c418b4ea6",
+    "name": "Pementos de Padrón, pan e viño galegos",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-6731296.jpg",
+    "assetSha256": "8de163efed02e3485753aa9b3a143c9057dafd93312c30debd758a64c17f857d",
+    "reviewedAt": "2026-11-26",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 942,
+    "height": 697,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/photos/37777824@N00"
   }
 ];

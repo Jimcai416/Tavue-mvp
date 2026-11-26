@@ -15124,3 +15124,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 
 - **Escalope Vienés (Wiener Schnitzel)** — Robot8A. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Escalope_Vien%C3%A9s_(Wiener_Schnitzel).jpeg). Local asset: `reviewed-commons-119525964.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **boulet à la liégeoise** — Marianne Casamance. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Boulets_%C3%A0_la_li%C3%A9geoise_3.jpg). Local asset: `reviewed-commons-20613260.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Pementos de Padrón, pan e viño galegos** — [Rui Ornelas](https://www.flickr.com/photos/37777824@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Pementos_de_Padr%C3%B3n,_pan_e_vi%C3%B1o_galegos.jpg). Local asset: `reviewed-commons-6731296.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
