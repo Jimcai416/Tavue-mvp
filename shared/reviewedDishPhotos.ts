@@ -180471,5 +180471,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 806,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-133063012",
+    "title": "File:Canjica com amendoim.jpg",
+    "author": "Melsj",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Canjica_com_amendoim.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Canjica_com_amendoim.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "725274da98978b05da34c23ead6dff99f3604cb1",
+    "name": "Canjica com amendoim",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-133063012.jpg",
+    "assetSha256": "c985317afd663b7bf326bebcd9b656d8daebf587abfea79812d262410b06dd6d",
+    "reviewedAt": "2026-11-26",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 686,
+    "requiresExactMenuName": true
   }
 ];
