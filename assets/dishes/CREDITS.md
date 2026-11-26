@@ -14781,3 +14781,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 
 - **Pâtes de fruits d'Apt** — Véronique PAGNIER. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Fruits_confits_d%27Apt.jpg). Local asset: `reviewed-commons-12395915.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Parfait glacé au Grand Marnier, fruits confits et pain d'épice** — [Benoît Prieur](https://www.wikidata.org/wiki/Q42790984). [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Parfait_glac%C3%A9_au_Grand_Marnier,_fruits_confits_et_pain_d%27%C3%A9pice.JPG). Local asset: `reviewed-commons-65485698.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Chicken saute with Chaliapin sauce set meal** — 毒島みるく. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Chicken_saute_with_Chaliapin_sauce_set_meal_of_Matsuya.jpg). Local asset: `reviewed-commons-123315322.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

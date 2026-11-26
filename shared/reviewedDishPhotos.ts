@@ -178908,5 +178908,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 478,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.wikidata.org/wiki/Q42790984"
+  },
+  {
+    "id": "commons-123315322",
+    "title": "File:Chicken saute with Chaliapin sauce set meal of Matsuya.jpg",
+    "author": "毒島みるく",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chicken_saute_with_Chaliapin_sauce_set_meal_of_Matsuya.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Chicken_saute_with_Chaliapin_sauce_set_meal_of_Matsuya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "3c45f7e085655856acfeab1edcc27e504a3030ed",
+    "name": "Chicken saute with Chaliapin sauce set meal",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-123315322.jpg",
+    "assetSha256": "492034210a320c720d971c112e5719a2785b5370c7c1642c1769e1c39875fd19",
+    "reviewedAt": "2026-11-26",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 600,
+    "requiresExactMenuName": true
   }
 ];
