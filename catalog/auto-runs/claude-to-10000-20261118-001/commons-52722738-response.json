@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChQi7hzReTK3gjrYWjMq8",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Candied fruits in pear and apricot colours visible\",\n    \"Display label reads 'Fruits confits Poire'\",\n    \"Translucent, glossy preserved fruit appearance\",\n    \"Natural market setting\"\n  ],\n  \"phone_observations\": [\n    \"Orange and pale yellow candied fruits clearly visible\",\n    \"Clustered in display container\",\n    \"Bright, appetising appearance in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title is a filename descriptor ('File:Fruits confits de la place aux herbes Uzès.jpg'), not a canonical dish name\",\n    \"Exact canonical name cannot be reliably extracted from metadata—description 'Fruits confits de la place aux herbes Uzès' is a location reference, not a standardised dish specification\",\n    \"Multiple fruit varieties present (pear, apricot visible on label) but no single definitive dish identity provided in source\"\n  ],\n  \"reason\": \"Although the photograph and thumbnail show high-quality, appetising candied fruits with clear visual detail and natural colouring, the source metadata does not provide a proper canonical dish name. The title is a filename, and the description references a location rather than specifying the exact dish. Per protocol, canonical_name must be copied exactly from source title or description; a location reference does not constitute a valid dish specification. Hold for authoritative dish name clarification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1739,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 460,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
