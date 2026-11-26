@@ -14814,3 +14814,8 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Aiguillette de canard au miel et aux quatre épices** — Marianne Casamance. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Aiguillette_de_canard_au_miel_et_aux_quatre_%C3%A9pices.JPG). Local asset: `reviewed-commons-46106318.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Aebleskiver at Cal Lutheran Scandanavian Festival** — ChildofMidnight  at  English Wikipedia. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Aebleskiver_at_Cal_Lutheran_Scandanavian_Festival.jpg). Local asset: `reviewed-commons-25362360.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Aebleskiver** — Cmax18. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Pangea_Aebleskiver.jpg). Local asset: `reviewed-commons-53583120.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
