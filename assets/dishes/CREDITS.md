@@ -15325,3 +15325,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 
 - **Potato cakes** — Oo Uui. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Potato_cakes.jpg). Local asset: `reviewed-commons-195915231.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Southwestern-style potato cakes filled with cheese, corn, and chiles served with salad, quesadillas, and roasted tomato chile soup** — [Karen and Brad Emerson](https://www.flickr.com/people/10293577@N03). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Southwestern-style_potato_cakes_(3344097487).jpg). Local asset: `reviewed-commons-103534669.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **English Afternoon tea in Macau** — Pauloleong2002. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:English_Afternoon_tea_in_Macau.jpg). Local asset: `reviewed-commons-87245298.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

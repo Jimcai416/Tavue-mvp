@@ -183655,5 +183655,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 720,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/people/10293577@N03"
+  },
+  {
+    "id": "commons-87245298",
+    "title": "File:English Afternoon tea in Macau.jpg",
+    "author": "Pauloleong2002",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:English_Afternoon_tea_in_Macau.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c3/English_Afternoon_tea_in_Macau.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "621a077a210e6bd59c2b6576da47a20ea725c172",
+    "name": "English Afternoon tea in Macau",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-87245298.jpg",
+    "assetSha256": "fd08786204f311d0c05065088ba668e1ca3a43a77a4241ae2f8619ea784b9527",
+    "reviewedAt": "2026-11-27",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 668,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
