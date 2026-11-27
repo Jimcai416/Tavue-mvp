@@ -15304,3 +15304,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 - **Totò, typical Sicilian sweet** — Auregann. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Tot%C3%B2_al_cioccolato_1.jpg). Local asset: `reviewed-commons-153904871.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Castagnaccio** — DinaBenedettoFerrandina. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Castagnaccio*.jpg). Local asset: `reviewed-commons-125342940.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Castagnaccio with pine nuts and sultanas** — Gordon Joly. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Castagnaccio_with_pine_nuts.jpg). Local asset: `reviewed-commons-45612272.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Rye Bread, Chicken Skin, Lumpfish Roe and Smoked Cheese** — Studio Sarah Lou. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Rye_Bread,_Chicken_Skin,_Lumpfish_Roe_and_Smoked_Cheese.jpg). Local asset: `reviewed-commons-92692103.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

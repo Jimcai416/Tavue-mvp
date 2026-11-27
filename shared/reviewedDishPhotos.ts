@@ -183519,5 +183519,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 539,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-92692103",
+    "title": "File:Rye Bread, Chicken Skin, Lumpfish Roe and Smoked Cheese.jpg",
+    "author": "Studio Sarah Lou",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rye_Bread,_Chicken_Skin,_Lumpfish_Roe_and_Smoked_Cheese.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Rye_Bread%2C_Chicken_Skin%2C_Lumpfish_Roe_and_Smoked_Cheese.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "d3163362f9d573e37c5f1feb96abe686dad824a7",
+    "name": "Rye Bread, Chicken Skin, Lumpfish Roe and Smoked Cheese",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-92692103.jpg",
+    "assetSha256": "703ef5d4ce9fef7c2f5ba4c7f2012c872f500542f1cc7ce06ebd5f43ef4f5d54",
+    "reviewedAt": "2026-11-27",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 638,
+    "requiresExactMenuName": true
   }
 ];
