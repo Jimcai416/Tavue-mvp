@@ -183699,5 +183699,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-145527881",
+    "title": "File:Battenberg Cake.jpg",
+    "author": "MyWikiAccount5000",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Battenberg_Cake.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Battenberg_Cake.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "eb451a7bed121dd3cfff6fcb25f4def4492a9776",
+    "name": "coffee and walnut Battenberg cake",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-145527881.jpg",
+    "assetSha256": "4088f4e9483c51b8d133d3ceb3181d6f01cf1026b4c7b013d351d87709aa5f5b",
+    "reviewedAt": "2026-11-27",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
