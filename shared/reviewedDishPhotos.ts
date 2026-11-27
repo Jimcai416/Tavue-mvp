@@ -183251,5 +183251,28 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-14794937",
+    "title": "File:Pamplona-pintxos-pimiento del piquillo-eltito.jpg",
+    "author": "Yann  from Madrid, Spain",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pamplona-pintxos-pimiento_del_piquillo-eltito.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Pamplona-pintxos-pimiento_del_piquillo-eltito.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "f4dfdf247492fcbec51407a53f0fe178c6d1116f",
+    "name": "Pimiento del piquillo",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-14794937.jpg",
+    "assetSha256": "0e6dfad1a09caeeb1f3358516c6cdb9b6edbe83262cf4bfc7a2af15931255d0f",
+    "reviewedAt": "2026-11-27",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 625,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/photos/14568702@N00"
   }
 ];
