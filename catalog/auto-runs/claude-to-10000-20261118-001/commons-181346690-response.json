@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChTboMA6k7Z2VCo4cGpR5",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"Calf liver dish, Paris\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Seared liver with garnish and yellow puree\",\n    \"Plated presentation in restaurant setting\",\n    \"Herb and minced garlic garnish on meat\",\n    \"Polenta or saffron risotto accompaniment\"\n  ],\n  \"phone_observations\": [\n    \"Meat and yellow starch prominent and readable\",\n    \"Garnish visible on protein\",\n    \"Plate and cutlery shown\",\n    \"Sufficient detail for dish identification\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Calf liver' but liver is not in allowed protein category list (chicken/beef/pork/duck/lamb/seafood)\",\n    \"Cannot verify animal species from visual appearance alone\",\n    \"Exact dish name/variant not provided in source description\"\n  ],\n  \"reason\": \"While the photograph is sharp, well-lit, appetising and clearly shows a finished plated dish with seared liver and yellow accompaniment, the source description identifies the protein as 'calf liver'. Liver (including calf liver) is not an allowed protein category in the classification scheme (which restricts to chicken/beef/pork/duck/lamb/seafood). The source provides no explicit quote naming an allowed animal species. Without explicit source evidence that this qualifies under an allowed category, and without a complete canonical dish name beyond the generic descriptor, the submission must be held pending clarification of the dish identity and protein eligibility.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1726,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 474,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
