@@ -15427,3 +15427,10 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Trifle** — Екатерина Борисова. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:%D0%9F%D1%83%D1%88%D0%BA%D0%B8%D0%BD,_%D0%A2%D1%80%D0%B0%D0%B9%D1%84%D0%BB_%D0%B2_%D0%BA%D0%B0%D1%84%D0%B5.jpg). Local asset: `reviewed-commons-145165671.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **pan con sopa de zanahorias** — Wilfredor. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Plato_de_pan_con_sopa_de_zanahoria.jpg). Local asset: `reviewed-commons-9947458.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Sopa negra tica** — Aleat88. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Sopa_negra_tica_01.jpg). Local asset: `reviewed-commons-72687045.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Sopa negra de frijoles tica servida con huevo duro** — Aleat88. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Sopa_negra_tica_01.png). Local asset: `reviewed-commons-72171172.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Sopa de pollo** — Sharon Hahn Darlin. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Sopa_de_pollo_for_the_soul_-_Xpujil,_Campeche,_Mexico.jpg). Local asset: `reviewed-commons-105396872.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
