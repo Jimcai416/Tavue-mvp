@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChTozyKgcc28o8ku6qo2C",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Fine dining plated dish on white tablecloth\",\n    \"Architectural plate composition with white element (endive), brown/tan element, coloured micro-components\",\n    \"Garnished with edible flowers, herb microgreens, oil droplets\",\n    \"Professional restaurant setting with glassware and table service\"\n  ],\n  \"phone_observations\": [\n    \"Dish clearly visible in thumbnail centre-cover\",\n    \"Plated components discernible at 124x96 resolution\",\n    \"Natural colour rendering in phone view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Course -7' with multiple components including Pyrénées Brebis (sheep's cheese), prune pudding, Belgian endive, walnuts, mâché, and black winter truffle gastrique—a complex multi-component course\",\n    \"Visual inspection confirms a plated dish with white element (consistent with endive), brown element (consistent with pudding or walnut preparation), and garnishes, but individual ingredient identification at this resolution cannot definitively confirm all named components\",\n    \"The title contains 'Pyrénées Brebis' which is a cheese (not a protein category for this system), and no explicitly named animal protein (chicken/beef/pork/duck/lamb/seafood) appears in the source description\",\n    \"Without explicit animal protein naming in the source, protein_evidence remains empty despite the course name referencing brebis (sheep's milk cheese)\"\n  ],\n  \"reason\": \"While the photograph is sharp, well-lit, appetising and the dish is prominent with readable components in both full and thumbnail views, the source identity cannot be confirmed as a single named dish with clear protein category support. The title describes a complex composed course ('Course -7') with named components (cheese, pudding, vegetables, truffles, garnishes) but no explicit animal protein category is named in the source text. The filename prefix 'File:' and date metadata are present in the title field, requiring extraction. Identity agreement with a canonical single-dish name cannot be established, and the protein evidence map cannot be populated with any allowed category based on explicit source naming. Hold pending clarification of the intended canonical dish name and any explicit protein animal reference.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1677,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 640,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
