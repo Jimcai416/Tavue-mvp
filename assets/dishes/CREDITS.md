@@ -15329,3 +15329,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **English Afternoon tea in Macau** — Pauloleong2002. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:English_Afternoon_tea_in_Macau.jpg). Local asset: `reviewed-commons-87245298.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Ziti al ragù** — 10Rosso. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Ziti_al_rag%C3%B9_1.jpg). Local asset: `reviewed-commons-29568557.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

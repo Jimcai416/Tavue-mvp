@@ -183677,5 +183677,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 668,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-29568557",
+    "title": "File:Ziti al ragù 1.jpg",
+    "author": "10Rosso",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ziti_al_rag%C3%B9_1.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Ziti_al_rag%C3%B9_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "fe8547c34de7216a66378de778ae8326902e598e",
+    "name": "Ziti al ragù",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-29568557.jpg",
+    "assetSha256": "547bdc7a4f4b3e4fe5cf7eebc318e9eaa7e71dd5520e4acb994b80533be2a3a2",
+    "reviewedAt": "2026-11-27",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
