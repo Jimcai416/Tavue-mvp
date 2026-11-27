@@ -15252,3 +15252,8 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 
 - **ghapama, calabaza rellena de arroz, miel y frutos secos** — AndyHM. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Ghapama.jpg). Local asset: `reviewed-commons-95978534.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Café de olla** — Marlocanez. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:CAFE_DE_OLLA.png). Local asset: `reviewed-commons-106003683.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Traditional Greek melomakarona** — Christin568. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Greek_Melomakarona_with_Honey.jpg). Local asset: `reviewed-commons-202876951.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Melomakarona** — The original uploader was  Kalambaki2  at  English Wikipedia .. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Melomakarona.jpg). Local asset: `reviewed-commons-37254744.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
