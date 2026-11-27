@@ -15257,3 +15257,9 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 
 - **Traditional Greek melomakarona** — Christin568. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Greek_Melomakarona_with_Honey.jpg). Local asset: `reviewed-commons-202876951.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Melomakarona** — The original uploader was  Kalambaki2  at  English Wikipedia .. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Melomakarona.jpg). Local asset: `reviewed-commons-37254744.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Potato Pie** — Ralff Nestor Nacor. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Potato_Pie_at_CEDM.jpg). Local asset: `reviewed-commons-147157431.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **sweet potato pie** — [Ernesto Andrade  from San Francisco, California, United States](https://www.flickr.com/photos/dongkwan/). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:SweetPotatoPie.jpg). Local asset: `reviewed-commons-1641795.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Sweet potato pie with whipped cream** — Infrogmation of New Orleans. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Thanksgiving_2020_New_Orleans_-_Sweet_potato_pie_with_whipped_cream_03.jpg). Local asset: `reviewed-commons-97327249.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
