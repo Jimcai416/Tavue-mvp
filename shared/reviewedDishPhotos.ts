@@ -183721,5 +183721,28 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-9679089",
+    "title": "File:Arroz con costra - Elche.jpg",
+    "author": "Juan J. Martínez  from Valencia, España",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arroz_con_costra_-_Elche.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/68/Arroz_con_costra_-_Elche.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "d7ef9a9988af987ae1aac356237ff55ea3423582",
+    "name": "Arroz con costra",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-9679089.jpg",
+    "assetSha256": "aeba65df423f70c80126112bbcd542ddb5db94db10c0ec165594254daa42750c",
+    "reviewedAt": "2026-11-27",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/71399781@N00"
   }
 ];
