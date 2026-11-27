@@ -15382,3 +15382,9 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Nougat glacé** — Marianne Casamance. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:L_%26_P_Nougat_glac%C3%A9.JPG). Local asset: `reviewed-commons-46774190.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Asperges vertes à la crème de Banon, au miel de lavande avec réduction de vinaigre des Mées** — Féfé LaCuisine. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Asperges_vertes_%C3%A0_la_cr%C3%A8me_de_Banon,_au_miel_de_lavande_avec_r%C3%A9duction_de_vinaigre_des_M%C3%A9es.jpg). Local asset: `reviewed-commons-52558052.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Foie Gras -Jalisco- Salad and Gastrique of Quince Chapuline Brioche** — [T.Tseng](https://www.flickr.com/people/68147320@N02). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Foie_Gras_-Jalisco-_Salad_and_Gastrique_of_Quince_Chapuline_Brioche_(41269921511).jpg). Local asset: `reviewed-commons-75546143.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Jerk Chicken Wings - habanero gastrique, pineapple vinegar** — [Arnold Gatilao  from Oakland, CA, USA](https://www.flickr.com/people/58819758@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Jerk_Chicken_Wings_-_habanero_gastrique,_pineapple_vinegar_(14176445520).jpg). Local asset: `reviewed-commons-40530658.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
