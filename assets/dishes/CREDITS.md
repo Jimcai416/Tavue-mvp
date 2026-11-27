@@ -15514,3 +15514,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Ravioloni al Pomodoro i Basilico** — [Wagner Tamanaha  from Sao Paulo, Brazil](https://www.flickr.com/people/98899298@N00). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Ravioloni_al_Pomodoro_i_Basilico_@_Giacomo_-_Shopping_Higienopolis_(7436900118).jpg). Local asset: `reviewed-commons-101800901.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Entremés de espárragos blancos, mayonesa y york** — Juan Emilio Prades Bel. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Entrem%C3%A9s_de_esp%C3%A1rragos_blancos,_mayonesa_y_york.jpg). Local asset: `reviewed-commons-147325720.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

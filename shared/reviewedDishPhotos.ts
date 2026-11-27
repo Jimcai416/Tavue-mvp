@@ -185333,5 +185333,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 600,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/people/98899298@N00"
+  },
+  {
+    "id": "commons-147325720",
+    "title": "File:Entremés de espárragos blancos, mayonesa y york.jpg",
+    "author": "Juan Emilio Prades Bel",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Entrem%C3%A9s_de_esp%C3%A1rragos_blancos,_mayonesa_y_york.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/38/Entrem%C3%A9s_de_esp%C3%A1rragos_blancos%2C_mayonesa_y_york.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "f1f84fe1382b40968a1decb74697edfdc75b0923",
+    "name": "Entremés de espárragos blancos, mayonesa y york",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-147325720.jpg",
+    "assetSha256": "a0d006f32174928c343decd7061dd17c3ddbff9fbc3d274fea3169b6e4051e18",
+    "reviewedAt": "2026-11-27",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
