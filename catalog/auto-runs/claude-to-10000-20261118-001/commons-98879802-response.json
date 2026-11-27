@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChTiQ9mvqiiLqSeCt7Vrm",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Diced potatoes, clearly visible and golden-brown\",\n    \"Pink/red meat pieces (ham or cured pork) scattered throughout\",\n    \"Green herbs (parsley) garnish\",\n    \"Green beans or asparagus spears visible in centre\",\n    \"White plate, natural daylight, appetising presentation\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows the hash composition\",\n    \"Diced potatoes and meat visible\",\n    \"Green vegetable component readable\",\n    \"Overall dish identity recognisable in phone view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Hoppel poppel' but provides no explicit protein declaration—the exact animal species (pork/ham type) cannot be verified from the title alone\",\n    \"Green vegetable component appears to be green beans or asparagus, not typical in classic Hoppelpoppel recipes; identity variant unclear\",\n    \"Metadata contains file name, photographer credit and event context (WP20) rather than a direct dish description with protein qualifiers\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition and phone thumbnail all pass. The dish is a finished, exposed, appetising hash with sharp detail and readable components. However, the source title 'Hoppel poppel' alone does not explicitly name any animal protein. The visible pink meat pieces suggest ham or pork, but without an exact source quote naming the protein (e.g. 'Hoppel poppel with pork' or 'Hoppel poppel with ham'), protein_evidence cannot be populated. Additionally, the visible green vegetables (beans or asparagus spears) are atypical for the classic German Hoppelpoppel recipe, introducing variant uncertainty. Per protocol, identity check requires explicit protein naming in source description—metadata description fails to provide this. Hold pending source clarification of exact protein and variant confirmation.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1754,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 579,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
