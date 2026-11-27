@@ -185288,5 +185288,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-195851607",
+    "title": "File:Semmelknödel mit Rahmschwammerl.jpg",
+    "author": "Kritzolina",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Semmelkn%C3%B6del_mit_Rahmschwammerl.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/Semmelkn%C3%B6del_mit_Rahmschwammerl.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "d5cc5c3661532a91b6f6515dffd88a9514738af6",
+    "name": "Semmelknödel mit Rahmschwammerl",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-195851607.jpg",
+    "assetSha256": "700a6f35aa2aed37c4774da529ca6c4dc04ca463319f5e5411e7ea5aefa9d0fc",
+    "reviewedAt": "2026-11-27",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 768,
+    "requiresExactMenuName": true
   }
 ];

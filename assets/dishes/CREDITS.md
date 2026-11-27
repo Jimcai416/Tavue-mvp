@@ -15506,3 +15506,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Carciofi fritti** — Catia Giaccherini. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Side_dishes_15.jpg). Local asset: `reviewed-commons-31085575.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Semmelknödel mit Rahmschwammerl** — Kritzolina. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Semmelkn%C3%B6del_mit_Rahmschwammerl.jpg). Local asset: `reviewed-commons-195851607.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
