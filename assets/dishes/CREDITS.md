@@ -15345,3 +15345,8 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Trippa alla milanese** — LukeWiller. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Trippa_alla_milanese.JPG). Local asset: `reviewed-commons-38599908.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Tarte aux fraises** — No machine-readable author provided.  Monchr  assumed (based on copyright claims).. [CC BY 2.5](https://creativecommons.org/licenses/by/2.5); [source](https://commons.wikimedia.org/wiki/File:Tarte_aux_fraises.jpg). Local asset: `reviewed-commons-1437226.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Tarte aux fraises de Carpentras** — Marianne Casamance. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Tarte_aux_fraises_de_Carpentras.jpg). Local asset: `reviewed-commons-97917162.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
