@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChU9D9kXzfghguNW4BbFh",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Three whole red mullet (triglie) on decorative white plate with blue wave pattern\",\n    \"Fresh flat-leaf parsley bunch below plate\",\n    \"Breadcrumb (mollica) in white bowl with spoon\",\n    \"Olive oil in small white bowl\",\n    \"Natural daylight, neutral linen background\"\n  ],\n  \"phone_observations\": [\n    \"Plate with three whole fish clearly visible in thumbnail\",\n    \"Accompaniments (breadcrumb bowl, oil, parsley) recognizable\",\n    \"Subject sharp and prominent in phone crop\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'triglie fritte (non ancora)' – meaning 'fried mullet (not yet)' – indicating this is a preparation/mise en place photograph, not a finished cooked dish\",\n    \"Fish are raw or uncooked; no frying has occurred\",\n    \"Image shows ingredients and components arranged for cooking, not an exposed, finished, plated dish\"\n  ],\n  \"reason\": \"Rejection: The source description explicitly states '(non ancora)' meaning 'not yet', confirming this is a pre-cooking preparation photograph. The fish are raw and whole, the breadcrumb and oil are accompaniments staged for cooking, and no frying has taken place. The image violates the core requirement for 'a finished, exposed, likely photographic dish.' This is a raw/preparation stage, not an acceptably finished food photograph. Identity check fails because the dish is not yet prepared.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1745,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 485,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
