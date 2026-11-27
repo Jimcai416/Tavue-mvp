@@ -15280,3 +15280,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Tigelle of Modena** — Nerodiseppia. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Tigelle_of_Modena.JPG). Local asset: `reviewed-commons-11933596.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Soparnik** — Popo le Chien. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Soparnik.jpg). Local asset: `reviewed-commons-69436322.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
