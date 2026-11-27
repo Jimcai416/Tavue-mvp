@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChSq1s9FfLprBggVDbLE9",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Plate visible with cooked meat and potatoes\",\n    \"Red tomato slice visible\",\n    \"Overall composition recognizable but compressed\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Saucisson chaud' refers to hot sausage, but sausage species is unspecified and cannot be identified from appearance\",\n    \"No explicit statement of which animal the sausage contains (pork, beef, or other)\",\n    \"Metadata describes 'saucisson' generically without animal qualification\"\n  ],\n  \"reason\": \"Reject: The source title identifies this as 'Saucisson chaud' (hot sausage), but the protein species is not explicitly named in the source description. Sausage composition cannot be reliably inferred from visual appearance alone, and the source provides no explicit animal qualifier (pork, beef, etc.). Per instructions, unspecified or ambiguous meat species—including sausage of unknown origin—must be held or rejected. The photographs are of acceptable technical quality, but the identity cannot be verified due to missing explicit protein evidence.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1726,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 394,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

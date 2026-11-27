@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChSq1sAUyrNTFToXMTJT8",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Pink/mauve sliced sausage rounds with green pistachio pieces embedded throughout\",\n    \"Golden fried potato slices beside the sausage\",\n    \"Natural home cooking presentation on white plate\",\n    \"Sharp focus and natural lighting on finished dish\"\n  ],\n  \"phone_observations\": [\n    \"Sausage slices and potatoes clearly visible in thumbnail\",\n    \"Pink colour and pistachio garnish recognisable at reduced size\",\n    \"Essential components readable and prominent\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Saucisson chaud truffé' (hot truffle sausage) but no visual evidence of truffles is apparent in the photograph; truffles are not visible in the sliced interior\",\n    \"Species of sausage meat is not specified in source title/description; 'saucisson' is a generic term that does not declare pork, beef, or other animal\",\n    \"The dish appears to be a charcuterie/sausage product but the exact meat species cannot be confirmed from title or visible form\"\n  ],\n  \"reason\": \"Image quality, photography, composition and phone thumbnail are all excellent. However, identity cannot be confirmed because the source description does not explicitly name the meat species (only 'saucisson' without qualifier), and the purported 'truffle' component is not visually evident in the sliced sausage. Per protocol, unknown or unconfirmed meat species and source contradictions (declared truffles absent from visible interior) require hold. Pistachios are clearly visible and would be preserved, but protein category cannot be supported without explicit species naming in the source.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2014,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 517,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChSq1s9zYSb64eJU8mdFJ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked dish clearly plated\",\n    \"Pink/red sliced sausage visible and prominent\",\n    \"Dark lentil base in white bowl\",\n    \"Fresh parsley garnish and scattered nuts\",\n    \"Sharp detail in both full and thumbnail views\",\n    \"Natural colour, appetising presentation\"\n  ],\n  \"phone_observations\": [\n    \"Sausage, lentils, and herbs all recognisable in thumbnail\",\n    \"Dark legume base clear\",\n    \"Pink meat slices distinctly visible\",\n    \"Composition readable at 124x96\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title specifies 'saucisson chaud aux lentilles' but saucisson is a prepared meat product category (generic cured/fermented sausage) with unspecified animal species\",\n    \"Pink/red colour suggests pork but species cannot be visually confirmed\",\n    \"No explicit animal species declared in source title or description\",\n    \"Ambiguous meat component: saucisson alone does not name the animal (could be pork, beef, or mixed)\"\n  ],\n  \"reason\": \"Reject: protein_evidence cannot be populated. The source title names 'saucisson' (a generic sausage category) without explicitly declaring the animal species. Per protocol, unspecified meat species (including generic sausage without named animal) requires hold/reject. While the photograph is sharp, well-lit, and appetising, and the dish identity matches the title, the absence of explicit species naming in the source material creates an unresolvable uncertainty. The pink colour suggests pork, but visual appearance cannot substitute for explicit source declaration of animal type.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1942,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 522,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

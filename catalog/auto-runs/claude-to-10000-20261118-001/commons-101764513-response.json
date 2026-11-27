@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChSq2DkjSVNV48RWSjQc3",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Pink/mauve sliced sausage with green pistachio pieces visible in cross-section\",\n    \"Served on red decorative plate with white creamed side dish\",\n    \"Natural daylight, sharp detail of texture and ingredient definition\",\n    \"Professional food presentation\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows sliced cooked sausage with pistachio pieces\",\n    \"Pink/mauve colour and green garnish elements readable at reduced size\",\n    \"Plating visible; dish identity recognizable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title specifies 'saucisson' (cured sausage) but source does not explicitly name the meat species (pork is traditional but not stated)\",\n    \"Description is 'Saucisson chaud à la pistache' - no meat animal explicitly identified in source text\",\n    \"Cannot confirm species from appearance alone per protocol\"\n  ],\n  \"reason\": \"While the photograph is sharp, well-lit, appetizing and clearly shows a finished, exposed cooked sausage dish with pistachio garnish, the source title and description do not explicitly name the meat species. The dish name 'saucisson' refers to a category of sausage, and although pork is the traditional base, the protocol requires an explicit source quote naming each animal. Without explicit species identification in the supplied title or description, protein_evidence cannot be populated, failing the identity check requirement. This is a hold-worthy uncertainty per protocol.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1638,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 478,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
