@@ -15416,3 +15416,10 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **mostarda di cremona** — [Silvio  from Rome, Italy](https://www.flickr.com/people/25713407@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Mostardadicremona.jpg). Local asset: `reviewed-commons-3979578.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Pumpkin pudding trifle in a mason jar** — [Personal Creations](https://www.personalcreations.com/). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Pumpkin_pudding_trifle_in_a_mason_jar_next_to_cookies_on_a_table_(15628352130).jpg). Local asset: `reviewed-commons-148028863.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Trifle (Layered fruit custard)** — Benjah-bmm27. [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:Trifle-(custard-layer)-profile.jpg). Local asset: `reviewed-commons-658642.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Home-made trifle** — Simon Speed. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:TrifleServedInBowl.JPG). Local asset: `reviewed-commons-23334049.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Trifle made in Derby, England** — Aspdin. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Trifle_made_in_Derby,_England_IMG_5098.jpg). Local asset: `reviewed-commons-8876509.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
