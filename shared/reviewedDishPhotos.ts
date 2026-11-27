@@ -185310,5 +185310,28 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 768,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-101800901",
+    "title": "File:Ravioloni al Pomodoro i Basilico @ Giacomo - Shopping Higienopolis (7436900118).jpg",
+    "author": "Wagner Tamanaha  from Sao Paulo, Brazil",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ravioloni_al_Pomodoro_i_Basilico_@_Giacomo_-_Shopping_Higienopolis_(7436900118).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Ravioloni_al_Pomodoro_i_Basilico_%40_Giacomo_-_Shopping_Higienopolis_%287436900118%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "322486febb05cdfb44c1d789392294b0044ca234",
+    "name": "Ravioloni al Pomodoro i Basilico",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-101800901.jpg",
+    "assetSha256": "a1352fb56514f6a3b483fbb876f987de202dd7a18cc4865b9a4c28f6272c4090",
+    "reviewedAt": "2026-11-27",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 800,
+    "height": 600,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/98899298@N00"
   }
 ];
