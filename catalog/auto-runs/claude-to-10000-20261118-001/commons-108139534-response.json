@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChUJgJuzTiFjRXU5B7Rbu",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 0,\n    \"lighting\": 0,\n    \"composition\": 0,\n    \"appeal\": 0\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows a group of people at an outdoor event, not a food photograph\",\n    \"No finished dish visible or prominent in the thumbnail\",\n    \"No readable food components in centre-cover area\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'migas navideñas' (a traditional Spanish dish) but the photograph is entirely a group portrait\",\n    \"No food subject visible in either the full source image or the phone thumbnail\"\n  ],\n  \"reason\": \"The source image is a group photograph of people at an outdoor event, not a food photograph. Despite the description mentioning 'tradicionales migas navideñas en Toledo', no dish is visible in the full source or phone thumbnail. The photograph fails all mandatory checks: no finished, exposed dish; no sharp food detail; no appetising food composition; no readable essential components in the phone thumbnail. This is a portrait photograph, not a food image suitable for Tavue review.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1697,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 360,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
