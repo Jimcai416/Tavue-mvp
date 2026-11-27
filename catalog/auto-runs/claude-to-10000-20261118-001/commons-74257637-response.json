@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChSnmvUYrWtpwTQF3v3Jd",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Custard dessert in glass ramekin clearly visible in thumbnail\",\n    \"Caramelised sugar top prominent and readable\",\n    \"Creamy pale base visible beneath caramel crust\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'Costco' (retailer) but provides no specific dish name or variant descriptor beyond 'Creme Brulee'\",\n    \"Metadata indicates commercial origin (Costco product) but no product-specific identifier or flavour variant stated in title/description\",\n    \"No meaningful variant qualifier preserved beyond generic 'Creme Brulee'\"\n  ],\n  \"reason\": \"Reject: Source title 'Creme Brulee by Costco' fails identity check. The description provides only retailer context without a specific, meaningful canonical dish name or variant qualifier. Tavue canonical_name requires a specific dish phrase from source title/description that preserves meaningful variant qualifiers—here, only a generic dessert type and commercial vendor are stated. The photograph itself is well-executed and appetising, but cannot compensate for absence of a specificity requirement in the source metadata. A proper source would name flavour, preparation variant, or product line (e.g. 'Classic Creme Brulee', 'Vanilla Bean Creme Brulee', or a named Costco product line). Generic retailer attribution alone does not constitute sufficient identity documentation.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1735,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 468,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
