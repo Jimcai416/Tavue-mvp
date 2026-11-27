@@ -15293,3 +15293,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 
 - **Wiener Kaffee Melange** — Dr. Bernd Gross. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Wiener_Melange_1.JPG). Local asset: `reviewed-commons-35378675.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Wiener Melange im Hotel Sacher Wien** — Dr. Bernd Gross. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Wiener_Melange_im_Sacher.JPG). Local asset: `reviewed-commons-44434980.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Beef Roasted with Vinegar** — Mohammed Tawsif Salam. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Beef_Roasted_with_Vinegar.jpg). Local asset: `reviewed-commons-9815154.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
