@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChTeQDzCrVMCk9oHKmCs9",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows red filling in springform pan, consistent with source photo\",\n    \"Pan and drip tray visible and recognizable at small scale\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title and description claim 'Strawberry pie' but the full photograph shows raw or partially cooked strawberries in liquid within an unbaked or unfinished pan—not a finished, exposed, plated dessert dish\",\n    \"No visible pastry crust, baked top, or typical pie presentation; appears to be a preparation or cooking stage rather than a completed dish\"\n  ],\n  \"reason\": \"Identity check fails. The source describes a 'Strawberry pie' but the photograph shows strawberries in a liquid filling within a springform pan, without visible crust, baked surface, or finished presentation typical of a completed pie. This appears to be a preparation or intermediate cooking stage rather than a finished, exposed, appetising dish suitable for food intake review. Tavue accepts finished, exposed dishes; raw or mid-preparation stages must be rejected.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1802,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 382,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

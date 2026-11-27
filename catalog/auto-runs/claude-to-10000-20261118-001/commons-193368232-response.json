@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChTeQDQjaY1GH1qZ1nBeD",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows strawberry pieces in red syrup/filling within springform pan\",\n    \"Details consistent with full source but confirms raw/preparation stage\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Dish identity conflict: source title declares 'Strawberry pie' but image shows raw strawberries in liquid within an unbaked springform pan—this is a preparation stage, not a finished, exposed, baked dessert\",\n    \"No visible crust, no baked structure, no finished surface treatment visible in either full image or thumbnail\"\n  ],\n  \"reason\": \"Rejection: The image shows strawberries in syrup during preparation within a springform pan, not a finished, exposed, baked strawberry pie. The dish fails the core requirement of being a 'finished, exposed, likely photographic dish.' This is a mid-preparation photograph of an ingredient stage, not a completed plated or served dish suitable for food review. The title declares a finished pie, but the visual evidence shows only raw components being assembled.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1837,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 374,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
