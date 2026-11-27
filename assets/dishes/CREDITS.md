@@ -15443,3 +15443,9 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Spaetzle** — Arnaud 25. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Spaetzle_001.jpg). Local asset: `reviewed-commons-61956086.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Huevos rotos** — Tamorlan. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Huevos_rotos_-_Madrid.JPG). Local asset: `reviewed-commons-27684360.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Huevos rotos con patatas fritas** — Juan Emilio Prades Bel. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Huevos_rotos_con_patatas_fritas.jpg). Local asset: `reviewed-commons-129146569.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Ración de huevos rotos con patatas fritas** — Juan Emilio Prades Bel. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Raci%C3%B3n_de_huevos_rotos_con_patatas_fritas.jpg). Local asset: `reviewed-commons-129920967.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
