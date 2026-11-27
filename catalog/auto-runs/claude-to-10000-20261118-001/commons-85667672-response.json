@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChSmozSN5MDkqYBQtFp8P",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked poultry breast with rich brown sear visible\",\n    \"Walnut pieces scattered across the dish\",\n    \"Pearl onions and what appears to be bacon lardons\",\n    \"Red wine-based glossy sauce\",\n    \"Golden potato rösti cakes on the side\",\n    \"Radicchio and microgreens garnish\",\n    \"Restaurant plating on white porcelain\"\n  ],\n  \"phone_observations\": [\n    \"Pheasant breast and accompaniments clearly visible\",\n    \"Golden colour of potatoes and meat well-rendered\",\n    \"Sauce visible in thumbnail\",\n    \"Essential dish components readable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Pheasant is not an allowed protein category (only chicken/beef/pork/duck/lamb/seafood permitted)\",\n    \"Source explicitly names 'pheasant breast' but this species falls outside the canonical protein list\"\n  ],\n  \"reason\": \"The photograph is sharp, well-lit, appetising and restaurant-quality. The phone thumbnail clearly shows the finished dish with all essential components. However, the source description explicitly identifies this as 'Roasted pheasant breast', and pheasant is not among the permitted protein categories (chicken/beef/pork/duck/lamb/seafood). The instructions prohibit inferring species and require exact source quotes for protein evidence, but also limit allowable proteins strictly. Since the protein cannot be mapped to an allowed category, this dish cannot be accepted.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1774,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 478,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
