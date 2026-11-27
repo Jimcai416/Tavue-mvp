@@ -183991,5 +183991,51 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 720,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/people/11250735@N07"
+  },
+  {
+    "id": "commons-128265983",
+    "title": "File:Anse - Allée du Colombier - Restaurant Au Colombier - Filet de bœuf en paillarde et cannelloni de blettes.jpg",
+    "author": "Romainbehar",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Anse_-_All%C3%A9e_du_Colombier_-_Restaurant_Au_Colombier_-_Filet_de_b%C5%93uf_en_paillarde_et_cannelloni_de_blettes.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/26/Anse_-_All%C3%A9e_du_Colombier_-_Restaurant_Au_Colombier_-_Filet_de_b%C5%93uf_en_paillarde_et_cannelloni_de_blettes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "3d04ed2e9bebeec436a6d26d22646596048d73e4",
+    "name": "Filet de bœuf en paillarde et cannelloni de blettes",
+    "aliases": [],
+    "proteins": [
+      "beef"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-128265983.jpg",
+    "assetSha256": "2ce5213398c3b1d10f49866d62d7ed03c42e09a04ec7908dd887fceab325bf36",
+    "reviewedAt": "2026-11-27",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-12047426",
+    "title": "File:Mini grilled cheese demi tasse soup.jpg",
+    "author": "Chucullain",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mini_grilled_cheese_demi_tasse_soup.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Mini_grilled_cheese_demi_tasse_soup.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "7ae9e092d0128ea668820dad952d2a84ead2b56e",
+    "name": "Mini brie grilled cheese and roasted Tomato Bisque appetizers",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-12047426.jpg",
+    "assetSha256": "1653c441d79a309d6c69b88735936aa976c8b409d12b1b47735d48841e47df7d",
+    "reviewedAt": "2026-11-27",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 626,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
