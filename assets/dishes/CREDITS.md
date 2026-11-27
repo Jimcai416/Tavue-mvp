@@ -15297,3 +15297,10 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Beef Roasted with Vinegar** — Mohammed Tawsif Salam. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Beef_Roasted_with_Vinegar.jpg). Local asset: `reviewed-commons-9815154.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Granita al caffè e al pistacchio con brioscia col tuppo** — Rollopack. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Granite_con_brioche.jpg). Local asset: `reviewed-commons-31555431.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Totò, typical Sicilian sweet** — Auregann. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Tot%C3%B2_al_cioccolato_1.jpg). Local asset: `reviewed-commons-153904871.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Castagnaccio** — DinaBenedettoFerrandina. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Castagnaccio*.jpg). Local asset: `reviewed-commons-125342940.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Castagnaccio with pine nuts and sultanas** — Gordon Joly. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Castagnaccio_with_pine_nuts.jpg). Local asset: `reviewed-commons-45612272.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
