@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChTuTcJieZJqrLyzULUMA",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Cooked meat pieces visible on right side of plate\",\n    \"Beans/legumes clearly present in centre and left\",\n    \"Gravy/sauce coating the dish\",\n    \"White ceramic plate\",\n    \"Both full image and thumbnail show same composition\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows beans/legumes as primary visible component\",\n    \"Meat pieces visible but less prominent than beans\",\n    \"Browned sauce evident\",\n    \"Dish is adequately exposed and readable at small scale\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Andouillettes amiénoises' names a French sausage dish, but no sausage casings or recognisable sausage form is visible in the photograph—only irregular meat chunks\",\n    \"Beans/legumes are visually prominent but not mentioned in the source title\",\n    \"Species of meat cannot be identified from appearance alone; 'andouillettes' are traditionally pork tripe sausages, but tripe is unspecified in the title and not visually confirmable\",\n    \"Severe discrepancy between source title (sausage dish) and visible content (legumes + meat pieces)\"\n  ],\n  \"reason\": \"Identity mismatch. The source title 'Andouillettes amiénoises' describes a traditional French sausage (pork tripe, typically in casing form), but the photograph shows only irregular meat chunks and prominent beans/legumes with no visible sausage casings or recognisable sausage structure. No protein species is explicitly named in the title that permits confident identity confirmation. Protein evidence cannot be populated because sausage is not an allowed category key, and the actual animal cannot be reliably inferred from appearance. The dish form contradicts the named title. Hold pending source clarification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2013,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 561,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

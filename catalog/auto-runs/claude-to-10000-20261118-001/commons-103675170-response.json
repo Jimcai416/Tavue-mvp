@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChTuU9JYQPmm6gKNoMsNY",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Cooking stage visible in pan\",\n    \"Food still in preparation/cooking vessel\",\n    \"Not a finished plated dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Subject is explicitly en cours de cuisson (in the course of cooking) — a preparation stage, not a finished dish\",\n    \"Sausage identity cannot be confirmed from appearance alone; source names andouillettes but this is a processed sausage product of unknown/unspecified animal origin\"\n  ],\n  \"reason\": \"Rejection: image shows food in an active cooking stage (en cours de cuisson) in a pan, not a finished, exposed, plated dish. Additionally, andouillettes is a traditional prepared sausage of ambiguous/complex meat composition that cannot be reliably attributed to a single allowed protein category (chicken/beef/pork/duck/lamb/seafood) from visual inspection alone, and no explicit source quote names the specific animal. The requirement for a finished, appetising, prominently displayed dish is not met.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1533,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 376,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

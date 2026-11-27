@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChTuU1ffQA98BZM1Vjz76",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [\n    \"Glass bowl containing mixed ingredients\",\n    \"Diced tomatoes with visible seeds and juice\",\n    \"Shredded cabbage or coleslaw component\",\n    \"Yellow corn kernels visible\",\n    \"Chopped herbs (green onion or cilantro)\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows raw/preparation stage ingredients in bowl\",\n    \"No finished plated dish visible\",\n    \"Bowl of mixed uncooked components, not a complete dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Andouillettes amiénoises en cours d'élaboration' (Amiens sausages in preparation), but photograph shows only a vegetable/ingredient mixture in a bowl with no sausage visible\",\n    \"No finished sausage dish is visible; this is clearly a preparation/intermediate stage\",\n    \"Title and visual content do not align\"\n  ],\n  \"reason\": \"Reject: photograph shows raw/preparation stage ingredients (diced tomatoes, shredded cabbage, corn, herbs) in a mixing bowl, not a finished, exposed, plated dish. The source title references 'andouillettes amiénoises en cours d'élaboration' (sausages in preparation), which the metadata confirms is a work-in-progress. No actual sausage or finished dish is visible. Policy excludes preparation stages and requires finished, exposed, likely photographic dishes. The mismatch between title (which claims sausage preparation) and visible content (only vegetable ingredients) also creates identity uncertainty.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1572,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 499,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

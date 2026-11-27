@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChTuTcKxE8owzFgU7Luai",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Cooked meat pieces in rich brown broth on white plate\",\n    \"Golden diced starchy component (likely potatoes or root vegetables)\",\n    \"Natural home-dining setting with tablecloth and wine glass\",\n    \"Finished, exposed dish suitable for review\"\n  ],\n  \"phone_observations\": [\n    \"Meat and starch clearly visible in thumbnail\",\n    \"Broth evident\",\n    \"Plate and dining context legible\",\n    \"Subject adequately prominent\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title declares 'Andouillettes amiénoises' (a charcuterie/sausage dish from Amiens, France, traditionally made from pork tripe and intestines), but the visible photograph shows what appears to be chunks or pieces of cooked meat in a broth with diced vegetables—not the characteristic sausage form or appearance associated with andouillettes\",\n    \"The disconnect between source name (a specific sausage variety) and visible form (chunked/diced meat in broth) creates ambiguity about identity and preparation\",\n    \"Species cannot be confirmed visually; sausage/charcuterie cannot be used as a protein key per protocol\",\n    \"Source metadata lists 'sausage' category by filename but provides no explicit quote naming the animal or confirming the dish identity from title/description\"\n  ],\n  \"reason\": \"Identity check fails due to material contradiction between source title (Andouillettes amiénoises—a whole sausage dish) and visible form (chunks in broth, inconsistent with the expected presentation of that charcuterie). No explicit, citable source quote confirms the meat species. Sausage/unknown charcuterie cannot be mapped to an allowed protein category. Photograph quality, sharpness, lighting, and composition are acceptable, and the phone thumbnail is clear, but identity uncertainty and lack of valid protein evidence require hold.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1838,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 578,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

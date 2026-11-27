@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChTuU6gY715s6SDXURdVn",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Seven spherical pink meatballs in golden sauce\",\n    \"Visible texture consistent with cooked meat\",\n    \"Prominent subject, readable in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Andouillettes amiénoises' (a chitterling sausage from Amiens, France), but the full source image and thumbnail show uniformly spherical meatballs, not sausages or chitterling links\",\n    \"Andouillettes are tubular prepared offal products; these spheres contradict the canonical form of that dish\",\n    \"Source metadata describes 'en cours de cuisson' (cooking in progress), which is a preparation stage, not a finished dish\",\n    \"Meatball species (beef/pork/lamb/mixed) cannot be determined from appearance alone; source does not explicitly name the animal\"\n  ],\n  \"reason\": \"Reject: The source title identifies this as 'Andouillettes amiénoises en cours de cuisson', but the photograph shows meatballs during cooking, not the finished tubular sausage product that defines andouillettes. The image represents a preparation/cooking stage rather than a completed, exposed dish. Additionally, no explicit animal protein is named in the source description, and the visual form contradicts the dish identity. The metadata note 'en cours de cuisson' (cooking in progress) confirms this is mid-preparation, not a finished exposure suitable for intake.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1533,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 480,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
