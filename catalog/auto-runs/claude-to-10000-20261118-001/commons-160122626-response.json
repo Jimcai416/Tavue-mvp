@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChUBg1f7W3UGtS5APARb1",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked clams in shells with broth and herbs visible in full image\",\n    \"Greenish broth with parsley garnish\",\n    \"Clam shells naturally coloured and sharply detailed\",\n    \"Phone thumbnail clearly shows clams in pale broth\"\n  ],\n  \"phone_observations\": [\n    \"Clams fully visible and prominent in thumbnail\",\n    \"Natural colours preserved\",\n    \"Essential dish components readable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title specifies 'almejas escupiñas' (a specific clam species—Chamelea gallina or Venus clam), but clams are not an allowed protein category per schema\",\n    \"Species identity cannot be verified visually from photograph alone\"\n  ],\n  \"reason\": \"Reject: The source title and description clearly identify this as a clam dish ('almejas escupiñas'), but clams/shellfish are not in the allowed protein categories (chicken/beef/pork/duck/lamb/seafood). The schema excludes bivalves and unspecified molluscs. Although the photograph is well-exposed, sharp, appetising and the phone thumbnail is acceptable, the dish cannot be categorised within the allowed protein framework. Hold would be more appropriate if the exact species could not be determined, but here the species identity is precisely stated in the source—it is simply outside the approved scope.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1759,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 456,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

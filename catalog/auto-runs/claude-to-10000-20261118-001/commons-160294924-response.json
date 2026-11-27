@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChUBg2XwMhW7UZUfeEtkM",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Raw clams in orange plastic basin\",\n    \"Clams with shells intact, some opened showing pale meat and green garnish\",\n    \"Bright natural daylight, clear detail of individual specimens\"\n  ],\n  \"phone_observations\": [\n    \"Clams legible and prominent in thumbnail\",\n    \"Orange basin and green garnish clearly visible\",\n    \"Composition readable at small size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title references 'almejas' (clams) but source metadata is filename/collection context only, not a dish title\",\n    \"Image shows raw or minimally prepared clams in collection/sorting state, not a finished cooked dish\",\n    \"No cooking evident; appears to be harvesting, sorting or fresh display rather than a prepared food photograph\"\n  ],\n  \"reason\": \"Reject: This is a harvest or fresh-catch documentation photograph, not a finished, exposed, cooked dish. The clams are raw or in minimal preparation state in a transport/sorting basin. Identity cannot be established as a specific named dish (source provides only filename context 'Recolectando almejas' = 'Collecting clams', not a dish name). Tavue accepts finished, cooked, plated food; raw seafood at collection stage does not meet the culinary preparation standard. Additionally, clams are not in the allowed protein categories (chicken/beef/pork/duck/lamb/seafood must be named explicitly and clams fall outside primary seafood dish scope for this system).\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1374,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 482,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

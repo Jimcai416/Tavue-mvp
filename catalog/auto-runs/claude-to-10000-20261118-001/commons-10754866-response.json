@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChUBfbaFwzYq41Nkfjzdj",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown toasted bread with oil and salt visible in full image\",\n    \"Two bright red raw bell peppers on wooden surface\",\n    \"Sharp detail and natural colours throughout\",\n    \"Phone thumbnail clearly shows bread and red peppers\"\n  ],\n  \"phone_observations\": [\n    \"Bread portion visible in upper left\",\n    \"Red peppers prominently displayed in centre-right\",\n    \"Wooden surface visible\",\n    \"Essential components readable and well-composed\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'tomato bread catalan' but the image shows raw bell peppers, not tomatoes or tomato preparation\",\n    \"Description states 'squashed tomato with tomato bread' but photograph displays uncooked red peppers and toasted bread only\",\n    \"No tomato or tomato-based preparation is visible in either the full image or thumbnail\",\n    \"Identity mismatch between declared dish and actual photograph content\"\n  ],\n  \"reason\": \"Reject: Identity check fails. The source title and description claim 'tomato bread catalan' and 'squashed tomato with tomato bread', but the photograph shows raw red bell peppers alongside toasted bread. No tomato, squashed tomato, or tomato-based preparation is visible. This is a preparation-stage or component arrangement (bread + raw peppers), not a finished dish. The declared identity contradicts visible form. Metadata is untrusted; the actual photograph does not match the stated dish description.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1687,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 480,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
