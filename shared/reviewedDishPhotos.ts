@@ -183565,5 +183565,28 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-30372874",
+    "title": "File:Closeup of marrons glacés in Palermo (5200071943).jpg",
+    "author": "Kate Hopkins  from Seattle, WA",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Closeup_of_marrons_glac%C3%A9s_in_Palermo_(5200071943).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/05/Closeup_of_marrons_glac%C3%A9s_in_Palermo_%285200071943%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "c75a1fcbee16a395e38e25865da19a488352a914",
+    "name": "marrons glacés",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-30372874.jpg",
+    "assetSha256": "c210b0118dc135b0fbf78fa60d81b116204dead0c27a2fe20c8f6bd2bb1eba80",
+    "reviewedAt": "2026-11-27",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/54151899@N00"
   }
 ];
