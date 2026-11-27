@@ -184223,5 +184223,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-187808009",
+    "title": "File:Migas de pan, plato antiguo de la gastronomía rural del siglo XIX (España).jpg",
+    "author": "Juan Emilio Prades Bel",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Migas_de_pan,_plato_antiguo_de_la_gastronom%C3%ADa_rural_del_siglo_XIX_(Espa%C3%B1a).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/37/Migas_de_pan%2C_plato_antiguo_de_la_gastronom%C3%ADa_rural_del_siglo_XIX_%28Espa%C3%B1a%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "08be820ac8b3c78549ef890f18fdc91b78d4233b",
+    "name": "Migas de pan, plato antiguo de la gastronomía rural del siglo XIX (España)",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-187808009.jpg",
+    "assetSha256": "34312e7b5c438b48ca46ce3f18890d41331153cdfee705220bad8fa371c5ee11",
+    "reviewedAt": "2026-11-27",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
