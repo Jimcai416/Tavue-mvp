@@ -15439,3 +15439,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 
 - **Spanish Turron de Alicante and Turron de Jijona** — [Jonathan Pincas  from Leon, Spain](https://www.flickr.com/people/43243154@N07). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Turron_and_Coffee_1_(6147153767).jpg). Local asset: `reviewed-commons-45589715.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Spanish Turron de Alicante and Turron de Jijona (Turron Duro and Turron Blando)** — [Jonathan Pincas  from Leon, Spain](https://www.flickr.com/people/43243154@N07). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Turron_and_Coffee_2_(6147701516).jpg). Local asset: `reviewed-commons-45590235.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Spaetzle** — Arnaud 25. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Spaetzle_001.jpg). Local asset: `reviewed-commons-61956086.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
