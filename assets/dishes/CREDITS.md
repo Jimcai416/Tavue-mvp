@@ -15392,3 +15392,9 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Cervelle des Canuts** — Jean-Marc ALBERT. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Cervelle_des_Canuts_servis_dans_le_Vieux_Lyon.jpg). Local asset: `reviewed-commons-23207988.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Ensalada de Pollo y aderezo** — Photo.MarioVG. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Ensalada_de_Pollo_y_aderezo.jpg). Local asset: `reviewed-commons-106154876.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Ensalada de pollo oriental** — Agustín Peña (WMMX). [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Ensalada_de_pollo_oriental.jpg). Local asset: `reviewed-commons-105533869.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Ensalada de pollo y piña** — Juan Emilio Prades Bel. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Ensalada_de_pollo_y_pi%C3%B1a.jpg). Local asset: `reviewed-commons-70915370.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

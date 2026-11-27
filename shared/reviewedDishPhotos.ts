@@ -184151,5 +184151,77 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 645,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-106154876",
+    "title": "File:Ensalada de Pollo y aderezo.jpg",
+    "author": "Photo.MarioVG",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ensalada_de_Pollo_y_aderezo.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/56/Ensalada_de_Pollo_y_aderezo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "bb68532930e316d47bac0d40cdda74801c2f3163",
+    "name": "Ensalada de Pollo y aderezo",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-106154876.jpg",
+    "assetSha256": "62d73b39ddc8bb33f2fbcee7e29d2c248ddd9c1fbe9df322254bb4a55b1f7061",
+    "reviewedAt": "2026-11-27",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-105533869",
+    "title": "File:Ensalada de pollo oriental.jpg",
+    "author": "Agustín Peña (WMMX)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ensalada_de_pollo_oriental.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Ensalada_de_pollo_oriental.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "b1cbae83b475b56ad5feb16f0cb3221fee1b99c0",
+    "name": "Ensalada de pollo oriental",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-105533869.jpg",
+    "assetSha256": "766371e328d11d33bb1d32921080f2e43f45d5c8e1429511cf83f2ac1dbf7f66",
+    "reviewedAt": "2026-11-27",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 719,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-70915370",
+    "title": "File:Ensalada de pollo y piña.jpg",
+    "author": "Juan Emilio Prades Bel",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ensalada_de_pollo_y_pi%C3%B1a.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Ensalada_de_pollo_y_pi%C3%B1a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "066fe7958305007c4e7216266d6226fc1f325745",
+    "name": "Ensalada de pollo y piña",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-70915370.jpg",
+    "assetSha256": "b1ee06d015994c470bf2b13026b95d5f6658bd6800c085008067d37abaa378ef",
+    "reviewedAt": "2026-11-27",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
