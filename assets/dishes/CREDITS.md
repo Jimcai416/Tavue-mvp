@@ -15361,3 +15361,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 - **Fresh strawberry pie** — An Mai. [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Fresh_strawberry_pie.jpg). Local asset: `reviewed-commons-125914690.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Rhubarb-Strawberry Pie** — [Ewen Roberts](https://www.flickr.com/people/85979850@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Rhubarb-Strawberry_Pie,_April_2010.jpg). Local asset: `reviewed-commons-10335541.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Strawberry pie** — Carrite  at  English Wikipedia. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Strawberry-pie-2.JPG). Local asset: `reviewed-commons-123258377.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Chicken à la King over noodles** — [Chad](https://www.flickr.com/people/57734266@N00). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Chicken-a-la-King.jpg). Local asset: `reviewed-commons-20204685.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
