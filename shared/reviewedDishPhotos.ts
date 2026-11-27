@@ -183810,5 +183810,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-6900110",
+    "title": "File:Pote asturiano - 34.jpg",
+    "author": "jlastras",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pote_asturiano_-_34.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/74/Pote_asturiano_-_34.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "ae748b3b58b8de1102ab9bf599d9fe8d27be1060",
+    "name": "Pote asturiano",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-6900110.jpg",
+    "assetSha256": "cbd112e9deab2f6d2fb9314fdd8a0a79c1cab3f4daa83e43915a8943baca8133",
+    "reviewedAt": "2026-11-27",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
