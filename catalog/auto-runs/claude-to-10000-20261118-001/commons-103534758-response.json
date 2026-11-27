@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChSfvpmBVZJb455ZcKQDs",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Bright green avocado halves visible on white plate\",\n    \"Dark brown/burgundy topping distributed across avocado\",\n    \"Creamy yellow-orange interior visible beneath topping\",\n    \"White ceramic plate, minimalist plating\"\n  ],\n  \"phone_observations\": [\n    \"Avocado halves with dark topping clearly visible in thumbnail\",\n    \"Colour contrast adequate for identification\",\n    \"Subject is prominent and not clipped\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Avocado salad' but image shows avocado halves as a component, not a composed salad\",\n    \"Topping described as 'sun-dried tomato pesto' in source but cannot be visually confirmed as sun-dried tomato vs. other dark preserve/jam/reduction\",\n    \"No visible salad greens, dressing, or other salad components despite 'salad' nomenclature\",\n    \"Identity mismatch: plated preparation does not match typical 'salad' form\"\n  ],\n  \"reason\": \"Identity check fails. Source title claims 'Avocado salad' but the visible dish is a plated preparation of halved avocado with an applied topping—not a composed salad with greens, dressing, or mixed components. The description 'sun-dried tomato pesto' cannot be visually verified from the dark burgundy/brown topping. The dish form contradicts the stated identity. Lighting is subdued and composition asymmetrical. While the photograph and thumbnail are acceptable technically, the fundamental identity mismatch between source description and visible preparation prevents acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1983,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 517,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
