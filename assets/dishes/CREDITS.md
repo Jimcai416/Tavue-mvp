@@ -15378,3 +15378,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 
 - **Filet de bœuf en paillarde et cannelloni de blettes** — Romainbehar. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Anse_-_All%C3%A9e_du_Colombier_-_Restaurant_Au_Colombier_-_Filet_de_b%C5%93uf_en_paillarde_et_cannelloni_de_blettes.jpg). Local asset: `reviewed-commons-128265983.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Mini brie grilled cheese and roasted Tomato Bisque appetizers** — Chucullain. [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:Mini_grilled_cheese_demi_tasse_soup.jpg). Local asset: `reviewed-commons-12047426.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Nougat glacé** — Marianne Casamance. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:L_%26_P_Nougat_glac%C3%A9.JPG). Local asset: `reviewed-commons-46774190.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
