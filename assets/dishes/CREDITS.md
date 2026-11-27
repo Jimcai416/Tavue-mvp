@@ -15489,3 +15489,11 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Homemade tagliatelle with tomato sauce, also homemade** — Arria Belli. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Nonna_tagliatelle_03.jpg). Local asset: `reviewed-commons-20260400.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Canelons de rostit** — Juan Emilio Prades Bel. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:%22Canelons_de_rostit%22,_gastronom%C3%ADa_de_la_comarca_Conca_de_Barber%C3%A0.jpg). Local asset: `reviewed-commons-178960632.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Flan de huevo** — Tamorlan. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Flan_de_huevo.JPG). Local asset: `reviewed-commons-20457686.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Canelons d'un restaurant de l'Arenal, Xàbia** — Joanbanjo. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Canelons_d%27un_restaurant_de_l%27Arenal,_X%C3%A0bia.jpg). Local asset: `reviewed-commons-73110342.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Squash Flower or Flor de Calabaza Empanada** — Nsaum75  at  English Wikipedia. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Empanada_flor_de_Calabaza.jpg). Local asset: `reviewed-commons-11405618.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Empanadas de flor de calabaza** — Dahyana Yasada R. R.. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Empanadas_de_flor_de_calabaza.jpg). Local asset: `reviewed-commons-106166644.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
