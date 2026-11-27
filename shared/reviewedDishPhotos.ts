@@ -185001,5 +185001,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 720,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-128341606",
+    "title": "File:Xurros amb una tassa de xocolata calenta.jpg",
+    "author": "Brunnaiz",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Xurros_amb_una_tassa_de_xocolata_calenta.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/56/Xurros_amb_una_tassa_de_xocolata_calenta.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "da9e7d10b56bc8d345fa2bd4c76c43917aa4bea4",
+    "name": "Xurros amb una tassa de xocolata calenta",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-128341606.jpg",
+    "assetSha256": "9a690fe1ba59854e423657aadd3c5de512861caa4b2acdaeafbf7758bbcb4045",
+    "reviewedAt": "2026-11-27",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 795,
+    "requiresExactMenuName": true
   }
 ];
