@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChUBqyZsLU1v6TxFtYJuo",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Seared meat slices with caramelized surface\",\n    \"Bright green arugula/rocket salad leaves\",\n    \"Crumbled white cheese (consistent with feta)\",\n    \"Pale yellow pasta base visible beneath meat\",\n    \"Thin-sliced presentation\",\n    \"Professional plating on white dish\"\n  ],\n  \"phone_observations\": [\n    \"Meat and greens clearly visible and prominent\",\n    \"White cheese crumbles readable\",\n    \"Pasta base distinguishable beneath protein\",\n    \"Overall composition legible at thumbnail scale\",\n    \"No critical elements clipped\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Veal' but veal is not an allowed protein category; source lists only chicken/beef/pork/duck/lamb/seafood\",\n    \"Meat species cannot be visually confirmed from photograph alone\",\n    \"No explicit source quote available that names an allowed protein category\",\n    \"Swiss Chard Ravioli mentioned in title but filled pasta component not distinctly visible in image\"\n  ],\n  \"reason\": \"Source title names 'Veal' as the primary protein, but veal is not an allowed category in the protein_evidence map (only chicken/beef/pork/duck/lamb/seafood are permitted). The photograph quality, sharpness, lighting, composition and appeal are all strong (scores ≥4), and both full image and phone thumbnail show a finished, sharply detailed, appetising dish with readable components. However, the identity check fails because the named protein cannot be mapped to an allowed category and cannot be inferred from visual appearance alone. Hold pending clarification of protein species using only allowed categories.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1738,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 526,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
