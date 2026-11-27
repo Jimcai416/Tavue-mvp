@@ -15481,3 +15481,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 
 - **Semolina Halva (Irmik Helvasi)** — [Leslie Seaton  from Seattle, WA, USA](https://www.flickr.com/people/38559542@N02). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:S%C3%BCtl%C3%BC_irmik_tatl%C4%B1s%C4%B1_in_Turkey.jpg). Local asset: `reviewed-commons-33881755.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Semolina halva made of Molasses** — Munni Akter Mim. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:%E0%A6%97%E0%A7%81%E0%A6%A1%E0%A6%BC_%E0%A6%A6%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A7%87_%E0%A6%B8%E0%A7%81%E0%A6%9C%E0%A6%BF%E0%A6%B0_%E0%A6%B9%E0%A6%BE%E0%A6%B2%E0%A7%81%E0%A6%AF%E0%A6%BC%E0%A6%BE.jpg). Local asset: `reviewed-commons-144650119.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Tiramisu Freakshake** — Sannidhishetty. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Tiramisu_Freakshake.jpg). Local asset: `reviewed-commons-203334488.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

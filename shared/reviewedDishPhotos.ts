@@ -185068,5 +185068,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 640,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-203334488",
+    "title": "File:Tiramisu Freakshake.jpg",
+    "author": "Sannidhishetty",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tiramisu_Freakshake.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Tiramisu_Freakshake.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "d9812dc8647fe1f8acddd3c1a00430b9c8c7ce7a",
+    "name": "Tiramisu Freakshake",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-203334488.jpg",
+    "assetSha256": "5961b2fdbb3b24d67cc95167f9f77d2592e23c9b54e11102795e7afb6e1760d6",
+    "reviewedAt": "2026-11-27",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 600,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
