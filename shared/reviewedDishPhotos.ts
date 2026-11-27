@@ -183588,5 +183588,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 720,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/people/54151899@N00"
+  },
+  {
+    "id": "commons-2575362",
+    "title": "File:Religieuses au chocolat.jpg",
+    "author": "Sonia Geffrier",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Religieuses_au_chocolat.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/53/Religieuses_au_chocolat.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "66af1563cfcd47f6cfaa2fcb1c0cc5702537a0ca",
+    "name": "Religieuses au chocolat",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-2575362.jpg",
+    "assetSha256": "b365d11eba72435966335546c8e1984a216627860a3dc95f166c9d81eb951a49",
+    "reviewedAt": "2026-11-27",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 801,
+    "requiresExactMenuName": true
   }
 ];
