@@ -183543,5 +183543,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 638,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-90556093",
+    "title": "File:Avocado salad.jpg",
+    "author": "Nowforever",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Avocado_salad.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/66/Avocado_salad.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "b12778b723d01f85e5ba4ab8fa70151d611fffc4",
+    "name": "Avocado salad",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-90556093.jpg",
+    "assetSha256": "ba61bd52130b1ebc9251b60138d8e3cd5bde11bca88c4e81b2d19c7669b20a81",
+    "reviewedAt": "2026-11-27",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
