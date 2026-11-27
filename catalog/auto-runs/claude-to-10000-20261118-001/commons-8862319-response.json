@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChSZuyXZvKe217SSNMVXN",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Shellfish visible in thumbnail with charred/cooked surface\",\n    \"Rock salt bed clearly present\",\n    \"Lemon wedge visible\",\n    \"Green parsley garnish visible\",\n    \"Thumbnail composition coherent with full source\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Clams cannot be accepted as a protein category—only chicken, beef, pork, duck, lamb, and seafood are allowed, and clams do not constitute a named category under the seafood umbrella sufficient for independent indexing\",\n    \"Source title explicitly names 'Clams casino' but clams are shellfish/molluscs, not an approved protein species in the canonical protein set\"\n  ],\n  \"reason\": \"Clams are shellfish and do not match the restricted protein categories (chicken, beef, pork, duck, lamb, seafood). The source dish name is 'Clams casino', but the protocol does not permit clams as a valid protein_evidence key. The dish identity cannot be preserved within the system's protein constraints. Hold pending clarification of whether shellfish seafood variants qualify, or reject if the protein whitelist is strictly limited to those six named categories only.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1736,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 414,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
