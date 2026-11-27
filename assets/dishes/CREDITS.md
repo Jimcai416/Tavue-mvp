@@ -15239,3 +15239,11 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Torta Pasqualina** — DrTrumpet. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Torta_Pasqualina_(Ostertorte_aus_Ligurien).jpg). Local asset: `reviewed-commons-103059255.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Koulourakia** — [foodistablog](https://www.flickr.com/photos/foodista/). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Koulourakia.jpg). Local asset: `reviewed-commons-7635051.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Mint Potica** — SaraKHintz. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:MintpoticabySara.jpg). Local asset: `reviewed-commons-130437124.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Sloveenia pähklikeeks "Potica"** — Ave Maria Mõistlik. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Potica.IMG_9805.JPG). Local asset: `reviewed-commons-15140584.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Potica** — [Michael R Perry](https://www.flickr.com/people/9333548@N04). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Potica_(9501040588).jpg). Local asset: `reviewed-commons-27724463.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Potica na Bledu** — [Selena N. B. H.  from Fayetteville, USA](https://www.flickr.com/people/24532534@N02). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Potica_na_Bledu.jpg). Local asset: `reviewed-commons-20275458.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
