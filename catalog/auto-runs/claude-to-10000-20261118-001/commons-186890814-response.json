@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChThLfnjWeh761gSXAyuQ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Fish-shaped pastries (taiyaki) visible in rows\",\n    \"Cabbage/slaw topping clearly visible\",\n    \"Pink cured meat (bacon) visible on multiple pieces\",\n    \"Commercial food preparation setting\"\n  ],\n  \"phone_observations\": [\n    \"Multiple taiyaki arranged in rows\",\n    \"Toppings (cabbage, bacon) distinguishable\",\n    \"Adequate sharpness for thumbnail review\",\n    \"Commercial kitchen environment visible\"\n  ],\n  \"protein_evidence\": {\n    \"pork\": \"bacon\"\n  },\n  \"uncertainties\": [\n    \"Title claims 'Okonomiyaki-style taiyaki' but source description does not appear in title field—title field contains only filename 'File:Okonomiyaki-style taiyaki.jpg'\",\n    \"Metadata shows description separately from canonical title; filename convention suggests this is a Wikipedia/Wikimedia upload where description ≠ authoritative title\",\n    \"No explicit source document provided confirming the exact canonical dish name as it appears in a primary title or menu\"\n  ],\n  \"reason\": \"Identity check fails. The canonical name cannot be reliably extracted from the supplied 'title' field, which contains only 'File:Okonomiyaki-style taiyaki.jpg' (a filename). The actual dish description ('Okonomiyaki-style taiyaki with cabbage and bacon') appears only in a separate 'description' metadata field. Per protocol, canonical_name must be copied exactly from source title or description, but source title is a filename with 'File:' prefix. The dish itself is visually identifiable and well-photographed (all quality and photograph checks pass), but without a reliable, non-filename source title matching the dish, identity cannot be confirmed as matching exact source wording. Hold pending a source that provides the canonical dish name in a proper title field rather than filename metadata.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1644,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 568,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
