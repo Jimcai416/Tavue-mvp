@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChU5BBVwmmgRYSZqaUk9S",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked protein patty with herb/grain crust\",\n    \"Golden roasted potatoes\",\n    \"Broccoli florets\",\n    \"Cauliflower pieces\",\n    \"Carrot batons\",\n    \"Mashed component (turnip/potato)\"\n  ],\n  \"phone_observations\": [\n    \"Herb-crusted patty clearly visible in phone thumbnail\",\n    \"Roasted potatoes prominent\",\n    \"Vegetables present but less distinct\",\n    \"Adequate detail for recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source identifies dish as 'nut roast' but nut roast is not an allowed protein category (chicken/beef/pork/duck/lamb/seafood only)\",\n    \"No animal protein explicitly named in source title or description\",\n    \"Vegetarian/vegan protein cannot be categorised under permitted categories\",\n    \"Mashed turnips mentioned but turnips are garnish/side, not the protein\"\n  ],\n  \"reason\": \"Identity check fails. The source explicitly describes this as a 'nut roast', which is a plant-based dish. No animal protein is named in the title or description. Nut roast does not map to any of the permitted protein categories (chicken/beef/pork/duck/lamb/seafood). Although the photograph quality is excellent and the dish is clearly presented and appetising, Tavue's protocol accepts only dishes containing explicitly named animal proteins from the allowed list. Vegetarian dishes fall outside the acceptance criteria.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1659,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 488,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
