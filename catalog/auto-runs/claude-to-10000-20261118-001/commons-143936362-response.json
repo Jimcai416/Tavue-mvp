@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChSm3ZYRwEJrAd74av8zf",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 5,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Two sausages in rolls with mustard on outdoor café table\",\n    \"Natural daylight, sharp focus on food\",\n    \"Beverages and street setting visible\",\n    \"High-quality appetising presentation\"\n  ],\n  \"phone_observations\": [\n    \"Sausages and buns clearly visible in thumbnail\",\n    \"Yellow mustard streaks evident\",\n    \"Food prominence adequate for phone crop\",\n    \"Essential components readable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title/description contains ambiguous 'German term' statement claiming both 'Bockwurst' or 'Bratwurst im Brötchen' without specifying which dish is actually shown or which sausage species this contains\",\n    \"Metadata states 'sausages are heated in a kettle of hot broth, but are also often grilled' — unclear which preparation method applies to this photograph\",\n    \"Generic term 'sausages' does not identify specific meat species (pork, beef, or mixed); no explicit animal species named\",\n    \"Cannot determine from visual appearance alone whether contents are Bockwurst (typically veal, pork, or beef) or Bratwurst (typically pork), and species designation is mandatory\"\n  ],\n  \"reason\": \"Image quality, composition, sharpness and phone thumbnail all pass. However, identity cannot be confirmed because: (1) the source description presents two alternative dish names without stating which is correct for this photograph; (2) the sausage species is not explicitly named in the source, only implied through generic 'sausages'; (3) protein_evidence requires an exact case-sensitive substring from title/description explicitly naming the animal, and 'sausages' is unspecified (could be pork, beef, veal, or mixed). Unknown meat species and source-level ambiguity between two dish variants mandate hold, not rejection. Resubmit with clarified dish identity and explicit animal species in source description.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1773,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 586,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

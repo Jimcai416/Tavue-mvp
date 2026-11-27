@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChSm3ZTxYucz77s7cjxhP",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked sausage visible in natural colour\",\n    \"Split bread roll clearly shown\",\n    \"Yellow condiment (mustard) applied\",\n    \"White disposable serving container\",\n    \"Sharp detail and natural lighting throughout\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows sausage, bread and mustard\",\n    \"Essential components readable and prominent\",\n    \"No clipping of key food elements\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Bockwurst' but metadata title says 'Hot dog with mustard'—conflicting identity\",\n    \"Bockwurst is a named German sausage type, but sausage species cannot be verified from appearance alone\",\n    \"No explicit animal source (pork/beef/chicken) stated in metadata\"\n  ],\n  \"reason\": \"Reject: identity check fails due to source contradiction (metadata 'Hot dog with mustard' vs. filename 'Bockwurst .jpg'). Sausage species is unspecified in the supplied description, and appearance alone cannot reliably determine meat type. Protein evidence map is empty because no exact case-sensitive substring from title/description explicitly names an allowed animal category. Source ambiguity and missing protein identification prevent acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1491,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 432,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
