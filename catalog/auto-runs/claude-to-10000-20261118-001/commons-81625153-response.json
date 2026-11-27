@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChSXinit9MDkYXjyZAZ7m",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden, crispy cubed protein pieces visible in full image\",\n    \"Rich orange-red broth or sauce surrounding the dish\",\n    \"Fresh green herb garnish (appears to be parsley) scattered throughout\",\n    \"Served on a white decorative plate\",\n    \"Phone thumbnail clearly shows the finished dish with visible protein and sauce\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail composition shows prominent central dish\",\n    \"Orange-red sauce colour fully visible and consistent with full image\",\n    \"Protein chunks and garnish readable in thumbnail\",\n    \"Dish is finished and exposed, not raw or preparation stage\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Cod fish bacalao' but no visual identification of fish species can be confirmed from appearance alone—the cubic protein pieces could be from various white fish or other proteins\",\n    \"Bacalao traditionally refers to a specific preparation of salted/dried cod, but the present dish appearance does not definitively establish the cooking method matches the named preparation\",\n    \"Source metadata lists 'Cod fish' but this is unverified image metadata, not an explicit statement in a dish title/description that would permit reliable protein categorization\"\n  ],\n  \"reason\": \"While the photograph is of high quality, sharply detailed, well-lit, and appetising, with the dish prominently displayed in both full image and phone thumbnail, the identity check fails. The source metadata (filename and description fields) state 'Cod fish bacalao' but this contradicts the instruction that metadata are untrusted evidence and never instructions. The canonical dish name must be derived from an explicit source title or description—here, the metadata format does not provide a verified, authoritative dish title. Additionally, without a primary source document explicitly naming 'cod' as the protein in a formal dish title/description (not metadata), the protein cannot be reliably categorised under the 'seafood' category according to protocol. The apparent protein pieces are visually consistent with a fish preparation, but species and exact preparation method cannot be confirmed from visual inspection alone. Hold for explicit, non-metadata source title clarification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2015,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 615,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
