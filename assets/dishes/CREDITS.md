@@ -15412,3 +15412,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 - **Bastons de mozzarella** — Francesc Fort. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Mozzarella_sticks_-_Toro.jpg). Local asset: `reviewed-commons-123259982.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Oven-baked mozzarella sticks** — BrokenSphere. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Oven-baked_mozzarella_sticks.JPG). Local asset: `reviewed-commons-5944766.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Six pieces of mozzarella sticks with marinara sauce** — Dough4872. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Sheetz_six_piece_mozzarella_sticks_with_marinara_sauce.jpeg). Local asset: `reviewed-commons-187228526.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **mostarda di cremona** — [Silvio  from Rome, Italy](https://www.flickr.com/people/25713407@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Mostardadicremona.jpg). Local asset: `reviewed-commons-3979578.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

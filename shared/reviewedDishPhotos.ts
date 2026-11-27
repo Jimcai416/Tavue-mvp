@@ -184399,5 +184399,28 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-3979578",
+    "title": "File:Mostardadicremona.jpg",
+    "author": "Silvio  from Rome, Italy",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mostardadicremona.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Mostardadicremona.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "aa18000625a320fb2465a72006798b632932a876",
+    "name": "mostarda di cremona",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-3979578.jpg",
+    "assetSha256": "7c3a5401590175b23d1b56f3354fc81f54f75694e8a031314e36ce31b340d49d",
+    "reviewedAt": "2026-11-27",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 799,
+    "height": 600,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/25713407@N00"
   }
 ];
