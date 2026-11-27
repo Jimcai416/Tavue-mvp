@@ -183744,5 +183744,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 720,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/people/71399781@N00"
+  },
+  {
+    "id": "commons-38599908",
+    "title": "File:Trippa alla milanese.JPG",
+    "author": "LukeWiller",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Trippa_alla_milanese.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Trippa_alla_milanese.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "056f37ad90fd981fe570e198ae3c31a391b670bf",
+    "name": "Trippa alla milanese",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-38599908.jpg",
+    "assetSha256": "1be37cd2a8c2261c274b79e5189eaf29a9042ee098a4c76b7042261252d9da16",
+    "reviewedAt": "2026-11-27",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 720,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
