@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChUBAsrztuEtU4tHfGGmZ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-fried breaded patty, prominent right side\",\n    \"Abundant thin-cut fried potatoes, clearly visible\",\n    \"Green herb garnish border on white plate\",\n    \"Natural daylight, sharp detail throughout\",\n    \"Home-plated presentation on decorative tableware\"\n  ],\n  \"phone_observations\": [\n    \"Breaded patty distinctly visible\",\n    \"Fried potato sticks prominent and readable\",\n    \"White plate with herb trim clear in thumbnail\",\n    \"Composition and components unambiguous at 124x96\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title specifies 'Kotlet mielony' (ground meat patty) but does not name the meat species (beef, pork, chicken, etc.)\",\n    \"Description mentions 'fasolka szparagową' (green beans) but only fried potatoes are visible in photograph; green beans not identifiable\",\n    \"Title references 'gotowanymi ziemniakami' (boiled potatoes) but only fried potatoes appear; no boiled potatoes visible\",\n    \"Meat species cannot be inferred from appearance alone; source does not explicitly name animal\"\n  ],\n  \"reason\": \"Source title does not explicitly name the meat species in 'Kotlet mielony' (ground meat patty). Protocol requires exact source quote naming the animal; species cannot be inferred from appearance or tradition. Additionally, the visible dish (fried potatoes) contradicts the description (green beans and boiled potatoes not visible). These source ambiguities and photo-to-description mismatches require hold pending clarification of meat type and accurate component list.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1938,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 521,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
