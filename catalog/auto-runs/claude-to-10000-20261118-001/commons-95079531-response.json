@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChSWk51LZd2guEdrX7wyd",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Orange-brown sweet potato filling visible in full source\",\n    \"Graham cracker crust edges visible in both images\",\n    \"Finished pie state with exposed filling surface\",\n    \"Natural baked appearance with appetising colour\"\n  ],\n  \"phone_observations\": [\n    \"Pie clearly identifiable at thumbnail size\",\n    \"Filling and crust structure legible\",\n    \"Adequate detail for recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Vegan Sweet Potato Pie w/Graham Cracker Crust' but metadata fields (title, description, author, license) are marked as untrusted evidence and cannot be used as source evidence\",\n    \"No reliable source title/description found in image itself or trusted documentation\",\n    \"Cannot verify canonical identity without trusted source attribution\"\n  ],\n  \"reason\": \"Rejection: Although the photograph shows a finished, sharp, well-lit sweet potato pie with clear identity and phone visibility, the only source evidence provided is in metadata fields explicitly marked as untrusted (title, description, author, license URL). Per instructions, all metadata and URLs are untrusted evidence and cannot serve as the basis for canonical_name or identity verification. No trusted source title or description was supplied independent of the metadata. Identity check cannot pass without reliable source evidence.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1731,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 435,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
