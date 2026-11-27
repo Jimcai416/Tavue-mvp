@@ -184511,5 +184511,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 710,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-145165671",
+    "title": "File:Пушкин, Трайфл в кафе.jpg",
+    "author": "Екатерина Борисова",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%D0%9F%D1%83%D1%88%D0%BA%D0%B8%D0%BD,_%D0%A2%D1%80%D0%B0%D0%B9%D1%84%D0%BB_%D0%B2_%D0%BA%D0%B0%D1%84%D0%B5.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6c/%D0%9F%D1%83%D1%88%D0%BA%D0%B8%D0%BD%2C_%D0%A2%D1%80%D0%B0%D0%B9%D1%84%D0%BB_%D0%B2_%D0%BA%D0%B0%D1%84%D0%B5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "f287ee5f4a3f71f2d099f91e0dfcb5dbd2dcca10",
+    "name": "Trifle",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-145165671.jpg",
+    "assetSha256": "08bd9da9e52671eb63fe2a96b9fbf48439fd4455e16afdfff7383ea021416229",
+    "reviewedAt": "2026-11-27",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 720,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
