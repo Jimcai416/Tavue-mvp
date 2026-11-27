@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChUEu8pvDQdxxW6gUX4vw",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Curry-sauced meat and vegetable dish clearly visible in thumbnail\",\n    \"Orange carrot pieces and leafy herbs prominent\",\n    \"Yellow-gold sauce coating visible portions\",\n    \"Plate decoration and layout match full source\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title declares 'cuisses de grenouille' (frog legs), but frog is not an allowed protein category and cannot be visually confirmed as distinct from chicken or other poultry in the cooked dish\",\n    \"Frog meat is not in the approved protein list (chicken/beef/pork/duck/lamb/seafood)\"\n  ],\n  \"reason\": \"Reject: Source identifies the protein as frog (grenouille), which is not an allowed protein category. The cooked form is indistinguishable visually from chicken or other poultry curry. Per protocol, unknown or unsupported meat species must be held or rejected. The protein cannot be confirmed from visual inspection alone, and the declared species falls outside the canonical protein list.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1739,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 382,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

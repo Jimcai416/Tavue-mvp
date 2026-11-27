@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChUEu8tPnFqKwiEdvwZVM",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked meat pieces with browning and char marks on blue plate\",\n    \"Diced pale cubes (apple or potato) scattered across dish\",\n    \"Fresh green herb garnish (parsley) throughout\",\n    \"Natural plating, home/restaurant preparation style\"\n  ],\n  \"phone_observations\": [\n    \"Central meat elements clearly visible in thumbnail\",\n    \"Diced pale components readable\",\n    \"Green garnish distinguishable\",\n    \"Overall composition intelligible at reduced resolution\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title declares 'Cuisses de grenouille à la normande' (frog legs à la normande), but frog/grenouille is not an allowed protein category (chicken/beef/pork/duck/lamb/seafood only)\",\n    \"Visual appearance alone cannot reliably distinguish frog legs from other small meat cuts\",\n    \"No explicit, unambiguous visual confirmation of frog meat identity\"\n  ],\n  \"reason\": \"The source title identifies this dish as frog legs (grenouille), which is not an allowed protein category in the submission guidelines. The allowed proteins are strictly: chicken, beef, pork, duck, lamb, and seafood. While the photograph shows well-prepared cooked meat with excellent detail, browning, garnish and composition, and the thumbnail is clear and readable, the protein identity cannot be verified against the allowed categories. The dish must be held pending clarification or recategorization under an approved protein, or rejection if frog is the definitive identity.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1523,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 486,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
