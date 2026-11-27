@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChU1ifdm4SKBrcbyFMXF6",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows a soupy, poorly defined dish with indistinct oats/grains and green vegetables in murky liquid\",\n    \"No clear component separation or appetising presentation in phone view\",\n    \"Appears to be an unfinished preparation or institutional service rather than a finished, exposed dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Metadata references 'frozen vegetable sausages' but sausage species cannot be verified—no explicit animal identification provided\",\n    \"Source title claims vegan oats and cabbage soup, but description adds non-vegan protein (sausages)—contradiction\",\n    \"Image quality too poor to visually confirm any protein component or finishing\",\n    \"Appears to be a preparation/service stage rather than finished plated dish\"\n  ],\n  \"reason\": \"Reject: Multiple failures. (1) Source metadata contradicts itself (title='vegan' but description adds sausages). (2) Protein is unspecified 'vegetable sausages'—no animal species declared; sausage cannot be accepted as a key without explicit animal identification. (3) Sharpness and lighting scores fall below threshold (2/5 and 2/5); image is soft, poorly lit, and lacks visual definition. (4) Phone thumbnail shows an indistinct soupy mass with no readable essential components or appetising form. (5) Dish appears to be in a preparation or service stage, not a finished, exposed, compositionally sound photograph. Home cooking welcome, but this lacks minimum quality and clarity standards.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1768,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 494,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
