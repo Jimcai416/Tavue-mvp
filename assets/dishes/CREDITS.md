@@ -15288,3 +15288,8 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Ensalada malagueña** — [Javier Vte Rejas](https://www.flickr.com/photos/44041787@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Ensalada_malague%C3%B1a.jpg). Local asset: `reviewed-commons-11932549.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Wiener Kaffee Melange** — Dr. Bernd Gross. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Wiener_Melange_1.JPG). Local asset: `reviewed-commons-35378675.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Wiener Melange im Hotel Sacher Wien** — Dr. Bernd Gross. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Wiener_Melange_im_Sacher.JPG). Local asset: `reviewed-commons-44434980.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
