@@ -183296,5 +183296,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-11933596",
+    "title": "File:Tigelle of Modena.JPG",
+    "author": "Nerodiseppia",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tigelle_of_Modena.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Tigelle_of_Modena.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "a491b60da844ee757e59b1675224138f9dd4d282",
+    "name": "Tigelle of Modena",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-11933596.jpg",
+    "assetSha256": "4a2c96649d73da0e6fc82a14c2255491296a6711a66dd9cab2dd71ffafc46714",
+    "reviewedAt": "2026-11-27",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 640,
+    "requiresExactMenuName": true
   }
 ];

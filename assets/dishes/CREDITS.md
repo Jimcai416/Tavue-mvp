@@ -15276,3 +15276,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Ensalada de berenjenas** — E4024. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Ensalada_de_berenjenas.jpg). Local asset: `reviewed-commons-38589401.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Tigelle of Modena** — Nerodiseppia. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Tigelle_of_Modena.JPG). Local asset: `reviewed-commons-11933596.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
