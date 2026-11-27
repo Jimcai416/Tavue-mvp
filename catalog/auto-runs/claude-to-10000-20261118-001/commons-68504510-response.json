@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChTfRNjDpg9gXfCGFZcQz",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Thinly sliced cured meat arranged in neat stacks\",\n    \"Red/pink colour consistent with smoked ham\",\n    \"Fresh watercress garnish on white serving plate\",\n    \"Clean presentation typical of charcuterie display\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows stacked sliced meat\",\n    \"Pink/red colour visible and prominent\",\n    \"Green garnish visible at sides\",\n    \"Composition fully recognizable at reduced size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'Jambon fumé de Forêt Noire' (Black Forest smoked ham) but no explicit animal species confirmation in source metadata\",\n    \"While appearance is consistent with pork ham, 'jambon' typically implies pork but source does not explicitly state 'pork'\"\n  ],\n  \"reason\": \"Reject: Although the photograph is sharp, well-lit, appetizing and clearly shows sliced cured meat with garnish, the source title and description do not contain an explicit statement of the animal species. The title 'Jambon fumé de Forêt Noire' (Black Forest Ham) in French does not explicitly state 'pork' as a named ingredient. Per instructions, animal species must come from an exact source quote explicitly naming the animal; tradition or appearance alone cannot establish the protein category. The metadata does not explicitly state 'pork' or any other allowed protein, creating an uncertainty that requires hold/reject. Identity check fails due to missing explicit species confirmation in source.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1746,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 492,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
