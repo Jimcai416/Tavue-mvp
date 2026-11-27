@@ -15462,3 +15462,9 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 
 - **Kotlet mielony z ziemniakami** — Aw58. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Kotlet_mielony_z_ziemniakami_-_2024.12.18.jpg). Local asset: `reviewed-commons-156986410.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Kotlet mielony z ziemniakami i kiszonymi ogórkami** — Aw58. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Kotlet_mielony_z_ziemniakami_i_kiszonymi_og%C3%B3rkami_-_2024.11.30.jpg). Local asset: `reviewed-commons-156051916.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Almejas cocidas** — Juan Emilio Prades Bel. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Almejas_cocidas,_Delta_del_Ebro.jpg). Local asset: `reviewed-commons-170590913.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Almejas cocinadas al vapor** — Juan Emilio Prades Bel. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Almejas_cocinadas_al_vapor,_gastronom%C3%ADa_de_Espa%C3%B1a.jpg). Local asset: `reviewed-commons-161875145.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Plato de almejas cocidas al vapor** — Juan Emilio Prades Bel. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Plato_de_almejas_cocidas_al_vapor_(Espa%C3%B1a).jpg). Local asset: `reviewed-commons-162048803.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
