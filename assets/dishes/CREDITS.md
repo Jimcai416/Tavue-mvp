@@ -15284,3 +15284,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Soparnik** — Popo le Chien. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Soparnik.jpg). Local asset: `reviewed-commons-69436322.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Ensalada malagueña** — [Javier Vte Rejas](https://www.flickr.com/photos/44041787@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Ensalada_malague%C3%B1a.jpg). Local asset: `reviewed-commons-11932549.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
