@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChVqmW8gh38g8eUasAcgB",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"Geselchtes mit Kraut und Knödel ( Semmelknödel )\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 5,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Sliced smoked meat (reddish-purple, cured appearance)\",\n    \"Cream-coloured dumpling base (consistent with Semmelknödel)\",\n    \"Brown sauce/gravy in plate\",\n    \"Fresh parsley garnish\",\n    \"White plate, formal place setting\",\n    \"Yellow-and-white checkered tablecloth\"\n  ],\n  \"phone_observations\": [\n    \"Sliced meat and dumpling clearly visible\",\n    \"Plate composition readable and prominent\",\n    \"Garnish and sauce visible\",\n    \"Appetising presentation retained in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Geselchtes (German smoked/cured meat) is a broad category not mapping to canonical allowed proteins (chicken/beef/pork/duck/lamb/seafood). Source does not explicitly name the animal species.\",\n    \"Visual appearance suggests pork (colour and curing style consistent with smoked pork products), but this is inference from tradition and appearance, not explicit declaration.\",\n    \"No exact source quote names 'pork', 'beef', 'duck', 'lamb', or 'seafood'.\"\n  ],\n  \"reason\": \"Photograph and phone thumbnail are sharp, well-lit, appetising, and show a finished plated dish with clear identity markers. However, the source title 'Geselchtes mit Kraut und Knödel (Semmelknödel)' does not explicitly name a canonical protein species. 'Geselchtes' is a cured/smoked meat category whose animal origin is not stated in the metadata. Per rules, unknown or ambiguous meat species (including when inferred only from appearance or tradition) must be held. The protein_evidence cannot be populated without an explicit source quote naming chicken, beef, pork, duck, lamb, or seafood.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1738,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 584,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
