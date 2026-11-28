@@ -186500,5 +186500,30 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-77826930",
+    "title": "File:Shrimp doria (4228393884).jpg",
+    "author": "pelican  from Tokyo, Japan",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shrimp_doria_(4228393884).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/36/Shrimp_doria_%284228393884%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "d99da3aabcaf2511d13debeee60bad5da9373048",
+    "name": "Shrimp doria",
+    "aliases": [],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-77826930.jpg",
+    "assetSha256": "a445472cc72594c654c389a78c569cc6529f7723c08c0cb8f0cdeba6883dab73",
+    "reviewedAt": "2026-11-28",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 643,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/85936780@N00"
   }
 ];
