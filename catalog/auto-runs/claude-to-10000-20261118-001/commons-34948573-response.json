@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChUm78MjBiLEBHdgjr9BZ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Two distinct fried pastry items visible: calzoni (larger, triangular, in paper bags) and crocchette (smaller, oval, on paper)\",\n    \"Items appear cooked, golden-brown, naturally coloured\",\n    \"Branding on packaging shows 'PIZZA AL TAGLIO' and 'GRANDINETTI' text\",\n    \"Phone thumbnail shows one crocchetta and partial packaging\"\n  ],\n  \"phone_observations\": [\n    \"One fried item partially visible in centre of thumbnail\",\n    \"Essential subject not fully prominent—item is partially clipped/obscured\",\n    \"Packaging and multiple items create ambiguity about primary subject\",\n    \"Resolution adequate but framing does not isolate a single finished dish clearly\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title lists two distinct dishes (Calzoni & crocchette) with no qualifier indicating which is the primary subject\",\n    \"Calzoni typically contain cheese and sometimes vegetable or meat fillings—no source description specifies contents or any protein\",\n    \"Crocchette composition unknown—could be potato, vegetable, or contain unnamed meat\",\n    \"No explicit ingredient or protein declaration in source metadata\",\n    \"Multiple items in one submission without clear identity focus\"\n  ],\n  \"reason\": \"Rejection: The source title and metadata refer to two distinct food items without clarity on identity. Calzoni and crocchette are both present but not individually described. No protein information is provided, and their fillings are not visible or declared. The phone thumbnail does not isolate a single, clearly prominent finished dish—the item shown is partially obscured by packaging and context. While photograph quality is acceptable, the lack of a single, unambiguous dish identity, absence of ingredient/protein evidence, and phone framing that clips the essential subject all violate acceptance criteria. Metadata is also untrusted (filename and title are descriptive labels, not authoritative source specifications). Hold criteria for identity and phone prominence are not met.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1730,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 592,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
