@@ -187147,5 +187147,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-5589225",
+    "title": "File:Sunday-Pork-Roast-2008.jpg",
+    "author": "Kham Tran",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sunday-Pork-Roast-2008.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/58/Sunday-Pork-Roast-2008.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "05988ec13cce729ca7da095a30e7091cfe9a6a24",
+    "name": "Sunday pork roast dinner served with roast potato, parsnip and carrot",
+    "aliases": [],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-5589225.jpg",
+    "assetSha256": "1963f3c7e9625066e831b2688580ab7b7ab99643fa0116a126a06736dd78949c",
+    "reviewedAt": "2026-11-28",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
