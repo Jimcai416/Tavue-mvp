@@ -15668,3 +15668,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Patat met mayonaise** — [www.snack-nieuws.nl](https://www.flickr.com/people/63594290@N08). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Patat_met_mayonaise_(34619021470).jpg). Local asset: `reviewed-commons-130979824.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Insalata di lampascioni con uova e peperoni cruschi** — Generale Lee. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Insalata_di_lampascioni.jpg). Local asset: `reviewed-commons-102289091.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
