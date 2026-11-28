@@ -187716,5 +187716,28 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 723,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-87389830",
+    "title": "File:Le Canard pressé (restaurant) - gaufres au sucre (1).jpg",
+    "author": "Benoît Prieur",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Le_Canard_press%C3%A9_(restaurant)_-_gaufres_au_sucre_(1).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/df/Le_Canard_press%C3%A9_%28restaurant%29_-_gaufres_au_sucre_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "d9cb009a5a14f764294f37fe3dd4ecadf8d7459b",
+    "name": "gaufres au sucre",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-87389830.jpg",
+    "assetSha256": "bfa9280e63fa16f716ca862b5a412adab2ad03a23df99dbee789e93546fae856",
+    "reviewedAt": "2026-11-28",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.wikidata.org/wiki/Q42790984"
   }
 ];
