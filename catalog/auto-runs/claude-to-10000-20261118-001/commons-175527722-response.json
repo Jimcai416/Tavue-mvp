@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChV3Fupmnj2gQwAevf2XX",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 1,\n    \"appeal\": 0\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows a sepia-toned historical photograph of a person on horseback\",\n    \"No food subject visible in phone centre-cover thumbnail\",\n    \"Image appears to be a vintage documentary photograph, not a dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source is a historical photograph from a 1930 Argentine magazine, not food imagery\",\n    \"Caption references 'Molle' and 'caballito criollo' (a horse breed), not a dish\",\n    \"Entire submission is a portrait/equestrian photograph, not a food photograph\"\n  ],\n  \"reason\": \"This is not a food photograph. The source is a historical documentary image showing a person mounted on a horse ('caballito criollo'), published in Revista argentina Plus Ultra (June 1930). No dish, meal, or food subject is present in either the full image or phone thumbnail. The assignment requires review of finished, exposed, photographic food dishes only. This fails the fundamental identity check: it is a non-food historical photograph.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1735,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 381,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
