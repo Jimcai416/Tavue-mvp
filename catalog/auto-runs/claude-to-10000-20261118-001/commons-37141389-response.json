@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChVN8UakAZjQwT4xQdv94",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Sliced sausage cross-section clearly visible in thumbnail\",\n    \"Orange/reddish casing and pale pink interior meat visible\",\n    \"Prominent subject, sharp detail in phone crop\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Jagdwurst' (a German sausage product), but this is an ingredient/component, not a finished, exposed, cooked dish ready to eat\",\n    \"Image shows raw or cured sausage in cross-section presentation, not a prepared food dish\",\n    \"Species of meat in sausage cannot be determined from appearance alone; source does not explicitly name the animal(s)\"\n  ],\n  \"reason\": \"Reject: The image displays a sliced sausage (Jagdwurst) as a raw/cured ingredient or component, not a finished, cooked, plated dish. Tavue accepts finished exposed dishes. Additionally, the protein species is not explicitly named in the source description—'sausage' alone does not qualify as an exact animal identifier per protocol. The photograph is technically sharp and well-lit, and the phone thumbnail is clear, but the subject fails the identity requirement for finished food.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1783,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 415,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
