@@ -15518,3 +15518,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Entremés de espárragos blancos, mayonesa y york** — Juan Emilio Prades Bel. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Entrem%C3%A9s_de_esp%C3%A1rragos_blancos,_mayonesa_y_york.jpg). Local asset: `reviewed-commons-147325720.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Bangers mash on old China plate on wooden table** — Andrew McMillan. [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:Bangers_mash_on_old_China_plate_on_wooden_table.jpg). Local asset: `reviewed-commons-24905028.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

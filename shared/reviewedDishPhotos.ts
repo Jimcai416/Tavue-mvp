@@ -185355,5 +185355,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-24905028",
+    "title": "File:Bangers mash on old China plate on wooden table.jpg",
+    "author": "Andrew McMillan",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bangers_mash_on_old_China_plate_on_wooden_table.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/39/Bangers_mash_on_old_China_plate_on_wooden_table.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "25f637e389e06591ab70e3bb3fc898cd5fa65c3c",
+    "name": "Bangers mash on old China plate on wooden table",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-24905028.jpg",
+    "assetSha256": "3acc61d707e99571b026acb088b9fcc9857a91b2453477c810eb7d0a6651db91",
+    "reviewedAt": "2026-11-28",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 643,
+    "requiresExactMenuName": true
   }
 ];
