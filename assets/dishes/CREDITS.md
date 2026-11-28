@@ -15795,3 +15795,10 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Custard Cream Pretzel** — Andy Li. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Custard_Cream_Pretzel_-_Milos_2025-08-25.jpg). Local asset: `reviewed-commons-173575973.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Chocolate pot de creme** — Missvain. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:25th_anniversary_-_the_girl_%26_the_fig_-_August_2022_-_Sarah_Stierch_03.jpg). Local asset: `reviewed-commons-122268703.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Butterscotch pot de creme** — Missvain. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Butterscotch_pot_de_creme_-_the_girl_and_the_fig_-_May_2023_-_Sarah_Stierch_02.jpg). Local asset: `reviewed-commons-132022333.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Chocolate Pot de Crème with toasted coconut cookie** — [Ralph Daily  from Birmingham, United States](https://www.flickr.com/people/92269745@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Chocolate_Pot_de_Cr%C3%A8me_(16250666700).jpg). Local asset: `reviewed-commons-45206047.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Sourdough English Muffin** — [Lou Stejskal](https://www.flickr.com/people/63311602@N08). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Sourdough_English_Muffin,_,_pot_de_creme,_apricot_marmalade_(28650609758).jpg). Local asset: `reviewed-commons-81341267.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
