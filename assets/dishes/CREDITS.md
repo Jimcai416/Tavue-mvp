@@ -15831,3 +15831,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 - **Semmelknödel and forest mushrooms** — Gerda Arendt. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Semmelkn%C3%B6del_and_forest_mushrooms,_Oestrich.jpg). Local asset: `reviewed-commons-142509798.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Bread dumplings with mushroom sauce** — Benreis. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Semmelkn%C3%B6del_mit_Pilzso%C3%9Fe_Prichsenstadt.jpg). Local asset: `reviewed-commons-62256886.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Waldpilze a la creme, hausgem. Tiroler Semmelknödel** — Sacha47. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Waldpilze_a_la_creme,_hausgem._Tiroler_Semmelkn.jpg). Local asset: `reviewed-commons-45124700.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Focaccia con le cipolle** — Roger469. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Focaccia_con_le_cipolle.jpg). Local asset: `reviewed-commons-23044362.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

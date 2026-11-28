@@ -188287,5 +188287,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 920,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-23044362",
+    "title": "File:Focaccia con le cipolle.jpg",
+    "author": "Roger469",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Focaccia_con_le_cipolle.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Focaccia_con_le_cipolle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "0133da8d6c3dc6fe8b7df64397de07a62eba5707",
+    "name": "Focaccia con le cipolle",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-23044362.jpg",
+    "assetSha256": "5e3350ed9c9caa537f7d4f02117d539fec0fe135d2765b03d8f712f0e628e5a6",
+    "reviewedAt": "2026-11-28",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
