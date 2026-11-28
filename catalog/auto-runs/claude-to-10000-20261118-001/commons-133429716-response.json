@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChUuJDxKNoJUKzZgpZwPv",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 1,\n    \"appeal\": 0\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Image is a hand-coloured historical engraving, not a photograph of food\",\n    \"Depicts a 17th-century peasant woman in period dress holding a wicker basket\",\n    \"No finished, exposed dish visible\",\n    \"No food preparation or plated meal present\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [],\n  \"reason\": \"This is a historical engraving (estampe) from 1637–1718 by Nicolas Bonnart, not a food photograph. It depicts a peasant woman ('La Bonne femme de Meudon') from Meudon with a basket containing a chicken/poule, but it is an illustration, not a photograph of a finished dish. The source metadata describes it as 'Estampe' (print), not food photography. The image fails all acceptance criteria: it is not a photograph of a prepared food dish, it shows a person in historical dress rather than a food subject, and it contains no appetising, plated, finished meal. Tavue reviews photographs of food dishes only.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2361,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 383,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
