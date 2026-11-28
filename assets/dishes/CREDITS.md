@@ -15819,3 +15819,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Fish and chips with mushy peas** — [Kevin Hutchinson  from Puerto Escondido, Mexico](https://www.flickr.com/people/36374942@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Fish_and_chips_with_mushy_peas.jpg). Local asset: `reviewed-commons-20287995.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Minestra Maltija** — Continentaleurope. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Minestra_Maltija_01.jpg). Local asset: `reviewed-commons-177217977.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

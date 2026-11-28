@@ -188155,5 +188155,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 720,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/people/36374942@N00"
+  },
+  {
+    "id": "commons-177217977",
+    "title": "File:Minestra Maltija 01.jpg",
+    "author": "Continentaleurope",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Minestra_Maltija_01.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Minestra_Maltija_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "fa96bc1679874f8e29c94bd45aac6943c138e7b4",
+    "name": "Minestra Maltija",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-177217977.jpg",
+    "assetSha256": "061898260040d6f15d4fcfba9b30514f094d636aefa0cba9f029d5704d7d2a63",
+    "reviewedAt": "2026-11-28",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 540,
+    "requiresExactMenuName": true
   }
 ];
