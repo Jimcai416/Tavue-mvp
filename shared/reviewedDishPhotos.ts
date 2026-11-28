@@ -185983,5 +185983,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 812,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-66628296",
+    "title": "File:Pyszny sernik własnej roboty w Poznaniu - luty 2018.jpg",
+    "author": "Koefbac",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pyszny_sernik_w%C5%82asnej_roboty_w_Poznaniu_-_luty_2018.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Pyszny_sernik_w%C5%82asnej_roboty_w_Poznaniu_-_luty_2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "037a31617084cf3325d9b33348a1f80328405b1f",
+    "name": "Pyszny sernik własnej roboty",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-66628296.jpg",
+    "assetSha256": "7ebe99273edecd2d682f3663939513683ea693255aa8283c4b08b8adcafffec2",
+    "reviewedAt": "2026-11-28",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];

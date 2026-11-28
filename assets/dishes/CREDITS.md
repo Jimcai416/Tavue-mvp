@@ -15585,3 +15585,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 - **Polish cheesecake** — Jacek Halicki. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:2023_Sernik_polski_(1).jpg). Local asset: `reviewed-commons-136209955.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Kopytka** — Chris Olszewski. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Kopytka_at_Restauracja_Miodova,_Krak%C3%B3w,_Poland,_2019.jpg). Local asset: `reviewed-commons-90964421.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **mizeria** — Mariuszjbie. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Mizeria.jpg). Local asset: `reviewed-commons-4453928.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Pyszny sernik własnej roboty** — Koefbac. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Pyszny_sernik_w%C5%82asnej_roboty_w_Poznaniu_-_luty_2018.jpg). Local asset: `reviewed-commons-66628296.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
