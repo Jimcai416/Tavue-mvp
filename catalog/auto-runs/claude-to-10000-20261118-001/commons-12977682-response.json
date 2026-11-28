@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChUobJMFN6VZhXy1rE23J",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Mozzarella cheese slices visible, sprinkled with herbs\",\n    \"Black olives clearly present\",\n    \"Red cured meat (prosciutto/salami) visible on serving boards\",\n    \"Sun-dried tomatoes present in red sections\"\n  ],\n  \"phone_observations\": [\n    \"Central plate shows cheese, olives, and tomatoes prominently\",\n    \"Thumbnail is too small and cluttered to verify individual components clearly\",\n    \"Foreground boards with sliced cured meats are present but not sharply featured in thumbnail centre\",\n    \"Essential dish identity is ambiguous in phone view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Hors d'oeuvre' is a category/course type, not a specific dish name\",\n    \"Exact species of salami and jamon claimed in description but not verifiable from image alone and not part of a canonical dish identity\",\n    \"Description states 'basilic flowers' (basil) but photo shows herb sprinkle that cannot be confirmed as basil flowers specifically\",\n    \"This is a composed appetizer platter without a single identifiable finished dish\",\n    \"Phone thumbnail does not clearly centre on or emphasize a singular complete dish\"\n  ],\n  \"reason\": \"Rejection: Source provides only a generic category name ('Hors d'oeuvre'—appetizers) rather than a specific dish canonical name. The image shows a composed charcuterie/antipasto platter with multiple components (cheese, cured meats, olives, tomatoes) arranged on separate serving boards and plates. While the photograph quality and composition are good, the identity check fails because 'Hors d'oeuvre' is not a dish name but a meal course classification. No single finished dish with a verifiable specific identity can be established. The phone thumbnail is cluttered and does not clearly present a unified dish centre. The source metadata contains unverifiable claims (basil flowers, specific jamón origin) that cannot be confirmed visually. Per guidelines, category or course type alone is not evidence of a specific dish identity; a canonical dish name must be a specific phrase that matches visible form.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1776,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 625,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
