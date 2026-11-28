@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChVfZ4cmnPirBS6ke3Eai",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown breaded exterior consistent with Cordon Bleu preparation\",\n    \"Ham and cheese visible between meat layers in cross-section\",\n    \"Served on black plate with fresh vegetable garnish (peppers, cucumber)\",\n    \"Full dish prominently displayed in both source and thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows stacked Cordon Bleu pieces with golden coating\",\n    \"Vegetable accompaniments visible at plate edges\",\n    \"Sharp enough to identify dish category and structure\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Cordon Bleu' does not explicitly name the meat species (chicken, pork, or veal are all traditional variants)\",\n    \"Description provides only generic dish name without specifying which animal protein is used\",\n    \"Visual appearance cannot definitively distinguish between chicken, pork, or veal Cordon Bleu\"\n  ],\n  \"reason\": \"Image quality, composition, and photograph authenticity are strong (all ≥4). The dish is finished, exposed, sharply detailed, appetisingly presented with readable components in phone thumbnail. However, the source title and description fail to explicitly name the specific meat protein required by protocol. 'Cordon Bleu' alone is ambiguous—it may contain chicken, pork, or veal. Without an exact source quote naming the animal, protein_evidence cannot be populated and identity check cannot pass. Holding pending clarification of meat species in source metadata.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1833,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 478,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChVfZUCbmfUvQvJkoj4A1",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown breaded and fried large cutlet\",\n    \"French fries on white plate\",\n    \"Lemon slice garnish\",\n    \"Dark berry sauce (preiselbeeren/lingonberry)\",\n    \"Tomato ketchup sachet visible\",\n    \"Professional plating on restaurant-style white plate\"\n  ],\n  \"phone_observations\": [\n    \"Cordon bleu cutlet clearly visible and prominent\",\n    \"Fries readable and well-distributed\",\n    \"Dark sauce visible in lower portion\",\n    \"Thumbnail composition preserves all major elements\",\n    \"Subject sharp and appetising at thumbnail scale\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Cordon bleu is traditionally made with chicken or veal containing ham and cheese filling, but source title/description does not explicitly name any animal protein\",\n    \"Visual appearance alone cannot confirm the meat species (chicken vs. veal vs. pork cutlet under breading)\",\n    \"No explicit protein declaration in the supplied source metadata\"\n  ],\n  \"reason\": \"Image quality, photograph authenticity, and phone thumbnail composition all pass. However, identity check fails because the source description 'Cordon bleu mit Pommes frites und Preiselbeeren' does not explicitly name the meat species (chicken, veal, or pork). Cordon bleu is a filled cutlet dish where the protein species is not visually determinable from the breaded exterior alone. Per protocol, ambiguous meat species or unspecified protein requires hold. The dish cannot be accepted without an explicit source statement naming the animal protein.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1850,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 503,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

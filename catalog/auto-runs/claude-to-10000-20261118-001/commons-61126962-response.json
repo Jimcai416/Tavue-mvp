@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChVfZ9WDYYN3raK1LK6fK",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown breaded exterior, well-crisped and evenly coloured\",\n    \"Cross-section clearly visible showing layered structure\",\n    \"Central white layer visible (cheese or filling)\",\n    \"Pink/pale layer consistent with described meat substitute\",\n    \"Sharp detail and natural food photography\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows breaded exterior and cross-section\",\n    \"Layered filling structure prominent and readable\",\n    \"Finished, cooked dish appearance maintained\",\n    \"Sufficient detail to identify as a cutlet-style preparation\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Cordon bleu' but explicitly states 'meat substitute, without meat'—no animal protein is present or claimed\",\n    \"Cordon bleu is traditionally a meat dish; this is a Quorn (mycoprotein) alternative\",\n    \"No animal protein can be visually verified or source-quoted as named\"\n  ],\n  \"reason\": \"Rejection: The source explicitly identifies this as a meat substitute without meat ('Quorn Cordon bleu (meat substitute, without meat)'). The canonical name cannot be accepted because it does not preserve the qualifier 'Quorn' or acknowledge the absence of animal protein. No protein category check can pass: the dish contains no chicken, beef, pork, duck, lamb, or seafood—only mycoprotein. The identity check fails because acceptance would require either (1) treating a Quorn dish as a standard Cordon bleu (identity contradiction) or (2) recording a non-animal protein category, which is outside the allowed set. While photograph and phone thumbnail quality are excellent, the protein_evidence map cannot be populated with any allowed key, triggering a hold/reject condition per the rules.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1736,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 546,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
