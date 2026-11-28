@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChV1LdX9oLiNMSzycGzyF",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"Spaghetti Allo Scoglio, Villa Romana's very own signature dish: Sautéed crab, scallops, prawns, Moreton bay bug, mussels, calamari, clams, cherry tomatoes, white wine, garlic,\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 5,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Whole cooked crab, clearly visible at top\",\n    \"Orange prawns/langoustine clearly visible in centre\",\n    \"Black mussels arranged around plate\",\n    \"Pale scallops visible among pasta\",\n    \"Spaghetti noodles throughout\",\n    \"Green herb garnish (parsley) throughout\",\n    \"Creamy/buttery sauce coating pasta and seafood\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows complete plated dish centred on white plate\",\n    \"Seafood components are readable and prominent\",\n    \"Mussels, crab, prawns clearly distinguishable\",\n    \"Pasta bed fully visible\",\n    \"Appetising presentation maintained in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source description includes 'clams' which are not an allowed protein category and cannot be verified visually in the photograph\",\n    \"Source description is incomplete (ends mid-sentence after 'garlic,')\",\n    \"Cannot verify all source-listed components (Moreton bay bug, calamari, clams, scallops) as distinct visual elements with certainty; some may be hidden or ambiguous\",\n    \"The incomplete source description prevents confident canonical name extraction\"\n  ],\n  \"reason\": \"The photograph shows a finished, beautifully presented dish of seafood pasta with excellent sharpness, lighting and composition. All checks pass except identity: the source description lists 'clams' which falls outside the allowed protein categories (chicken/beef/pork/duck/lamb/seafood) and cannot be reliably distinguished visually. Additionally, the description is incomplete (truncated after 'garlic,'). While the photograph quality is exceptional and most seafood components are visible and appetising, the source metadata defects (non-compliant ingredient, incomplete text) prevent confident canonical naming. Hold pending clarification of complete source description and removal of non-category ingredients.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1912,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 639,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

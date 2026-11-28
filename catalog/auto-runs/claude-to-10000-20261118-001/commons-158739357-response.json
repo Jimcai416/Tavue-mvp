@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChV1LdXeaX2SNj3mxAptg",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Spaghetti pasta bed\",\n    \"Cooked crustaceans including crab, lobster, and large prawns\",\n    \"Mussels (dark shells) visible\",\n    \"Calamari rings visible\",\n    \"Fresh parsley garnish\",\n    \"White plate, professional plating\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows seafood pasta dish clearly\",\n    \"Mixed shellfish and crustaceans prominent\",\n    \"Pasta visible beneath seafood\",\n    \"Adequate detail for recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source description lists 'clams' as component, but clams are not an allowed protein_evidence category per instructions\",\n    \"Source lists multiple seafood species (crab, scallops, prawns, Moreton bay bug, mussels, calamari, clams) but only seafood as a category is permitted; individual species cannot be mapped to canonical protein categories (chicken/beef/pork/duck/lamb/seafood)\",\n    \"Moreton bay bug is a crustacean species (Thenus australiensis) not explicitly named in the allowed protein list; cannot determine if it qualifies under generic 'seafood'\"\n  ],\n  \"reason\": \"While the photograph is excellent (all quality, sharpness, lighting, and composition scores ≥4) and the dish identity as Spaghetti Allo Scoglio is visually confirmed, the source description contains 'clams' which cannot be mapped to protein_evidence keys under the allowed category structure. The instructions explicitly state that unknown meat species or unresolved protein ambiguities require a hold. Additionally, 'Moreton bay bug' is a specific regional crustacean that does not map clearly to the canonical protein categories (chicken/beef/pork/duck/lamb/seafood). The protein_evidence object cannot be populated without introducing either unallowed category keys or unjustified inference. Per rules, this uncertainty must result in rejection rather than acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1877,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 601,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
