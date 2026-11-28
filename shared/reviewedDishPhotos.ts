@@ -186049,5 +186049,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 948,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-114879185",
+    "title": "File:A Runeberg's torte.jpg",
+    "author": "k",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_Runeberg%27s_torte.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e7/A_Runeberg%27s_torte.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "efb2bdb5b91f41eeb3f2e51cb4a73e6233a892f2",
+    "name": "Runebergintorttu",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-114879185.jpg",
+    "assetSha256": "bb6b48be971a28d146218b8431c330972d955cdedf449fc7de610dc093e849c8",
+    "reviewedAt": "2026-11-28",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 863,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
