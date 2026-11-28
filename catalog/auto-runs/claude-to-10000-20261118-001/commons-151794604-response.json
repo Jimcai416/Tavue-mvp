@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChVdrrYFyEcypQANRV1Az",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows a person in historical dress holding a basket, not a finished dish\",\n    \"Subject is a human figure, not food\",\n    \"No recognizable food dish visible in phone thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'À la crème, fromage à la crème' (cream cheese products) but no such dish is visible or plated\",\n    \"Image appears to be a historical documentary photograph of a Parisian street vendor, not a food photograph of a prepared dish\"\n  ],\n  \"reason\": \"This is a historical photograph of a person (likely a cream cheese vendor from early 20th-century Paris based on the text 'Les p'tits métiers de Paris'), not a photograph of a finished, exposed, appetizing food dish. The subject is not food but a human figure in period costume holding a basket. No prepared dish is visible in either the full photograph or phone thumbnail. The image violates the core requirement of depicting an actual finished food dish that is prominent and visibly identifiable.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1624,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 380,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
