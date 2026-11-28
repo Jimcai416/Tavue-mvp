@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChUXEhkj4zWtUuj9uqaN7",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 0,\n    \"lighting\": 0,\n    \"composition\": 0,\n    \"appeal\": 0\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Image shows a person speaking at a microphone at an event\",\n    \"No food dish is visible in the phone thumbnail\",\n    \"Event backdrop with partial text visible\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Filename references 'Pizza Fritta' but no pizza or food is visible in either the full photograph or thumbnail\",\n    \"Source description is about a film director and producer, not food\",\n    \"No finished, exposed dish is present\"\n  ],\n  \"reason\": \"This is not a food photograph. The full source and phone thumbnail both show a person speaking at a media event, with visible event signage and a microphone. The filename suggests 'Pizza Fritta' but no food dish of any kind is visible in either image. The source description explicitly identifies this as an image of a film director and producer at an event ('40 Mostra de València'). This fails all identity, quality, and photograph criteria for food intake. It is a non-food event photograph.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1639,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 368,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
