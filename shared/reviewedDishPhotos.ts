@@ -185377,5 +185377,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 643,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-192979737",
+    "title": "File:Pasta con le fave.jpg",
+    "author": "Marica Massaro",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pasta_con_le_fave.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Pasta_con_le_fave.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "ac5e7fdea3d54f89629e141daf2ff70460457bf4",
+    "name": "Pasta con le fave",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-192979737.jpg",
+    "assetSha256": "bf0fdd75906bee683e2e8b816452cf4726da7c09c542fa168c89b03c6e671319",
+    "reviewedAt": "2026-11-28",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];

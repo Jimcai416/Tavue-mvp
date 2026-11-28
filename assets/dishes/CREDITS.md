@@ -15522,3 +15522,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Bangers mash on old China plate on wooden table** — Andrew McMillan. [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:Bangers_mash_on_old_China_plate_on_wooden_table.jpg). Local asset: `reviewed-commons-24905028.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Pasta con le fave** — Marica Massaro. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Pasta_con_le_fave.jpg). Local asset: `reviewed-commons-192979737.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
