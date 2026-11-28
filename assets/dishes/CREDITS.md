@@ -15839,3 +15839,10 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Spaghetti arrabbiata with grilled chicken** — 毒島みるく. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Spaghetti_arrabbiata_with_grilled_chicken_of_Mister_Donut_in_Japan.jpg). Local asset: `reviewed-commons-90013552.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Classic cream tea** — Andy Li. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Classic_cream_tea_-_Nymans_Garden_Riding_House.jpg). Local asset: `reviewed-commons-130047813.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Scones with butter, jam and clotted cream** — [Jeremy Keith  from Brighton & Hove, United Kingdom](https://www.flickr.com/people/74105777@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Cream_tea_Brighton.jpg). Local asset: `reviewed-commons-2217156.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Devonshire tea** — ( Liyster ). [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Devonshire_tea.jpg). Local asset: `reviewed-commons-4119253.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Afternoon cream tea** — Pymouss. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Saint_Peter_Port_-_Afternoon_cream_tea_20260806.jpg). Local asset: `reviewed-commons-198493700.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
