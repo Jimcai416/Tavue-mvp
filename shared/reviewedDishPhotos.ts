@@ -186945,5 +186945,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-95987890",
+    "title": "File:Pane Pugliese.jpg",
+    "author": "© Alice Wiegand",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pane_Pugliese.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Pane_Pugliese.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "f9d9a04fa6f2a0531eea53a02b5ab0b97a8ee27c",
+    "name": "Pane Pugliese",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-95987890.jpg",
+    "assetSha256": "96f1a3381c20dcdf3d4166775d0b755ee66ae105309d1fb8e9a1382fad24caae",
+    "reviewedAt": "2026-11-28",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 768,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
