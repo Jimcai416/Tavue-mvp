@@ -15850,3 +15850,8 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Palet breton** — Arnaud 25. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Palet_breton_02.jpg). Local asset: `reviewed-commons-120555285.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Roast camember with its accompaniments** — Bretwa. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Roast_camember_with_its_accompaniments_-_2019-10-09.jpg). Local asset: `reviewed-commons-84363428.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Ensalada campera** — Juan Emilio Prades Bel. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Ensalada_campera,_gastronom%C3%ADa_de_Espa%C3%B1a.jpg). Local asset: `reviewed-commons-166834161.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
