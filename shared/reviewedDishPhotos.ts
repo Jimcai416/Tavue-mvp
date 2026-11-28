@@ -187215,5 +187215,55 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 720,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-104711651",
+    "title": "File:Goresa Fish Cake Haeundae Busan (30809039947).jpg",
+    "author": "bryan...",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Goresa_Fish_Cake_Haeundae_Busan_(30809039947).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Goresa_Fish_Cake_Haeundae_Busan_%2830809039947%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "00b2425e5da89c9e6592d44cbba004700685eff7",
+    "name": "Goresa Fish Cake Haeundae Busan",
+    "aliases": [],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-104711651.jpg",
+    "assetSha256": "bd5db23bea7e932c0c3a9e8b80848b7106d9d92aa8f30445b543491881b89259",
+    "reviewedAt": "2026-11-28",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 640,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/91049143@N00"
+  },
+  {
+    "id": "commons-83172310",
+    "title": "File:Steamed curry fish cake by Leela (17320946385).jpg",
+    "author": "Vee Satayamas  from Bangkok, Thailand",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Steamed_curry_fish_cake_by_Leela_(17320946385).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Steamed_curry_fish_cake_by_Leela_%2817320946385%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "18c526dda3a4e122c4e1122ce7bb530539627109",
+    "name": "Steamed curry fish cake",
+    "aliases": [],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-83172310.jpg",
+    "assetSha256": "3ab2e8f8b9654054dfb4b4a2b4e305b621f87c99a42f145244f0179fa77d2230",
+    "reviewedAt": "2026-11-28",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 960,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/93002434@N00"
   }
 ];

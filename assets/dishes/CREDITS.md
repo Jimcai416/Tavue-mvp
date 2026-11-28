@@ -15718,3 +15718,8 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Lussekatt con Glögg** — Alequihdez. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Lussekatt_con_Gl%C3%B6gg_(2019).jpg). Local asset: `reviewed-commons-185111890.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Goresa Fish Cake Haeundae Busan** — [bryan...](https://www.flickr.com/people/91049143@N00). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Goresa_Fish_Cake_Haeundae_Busan_(30809039947).jpg). Local asset: `reviewed-commons-104711651.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Steamed curry fish cake** — [Vee Satayamas  from Bangkok, Thailand](https://www.flickr.com/people/93002434@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Steamed_curry_fish_cake_by_Leela_(17320946385).jpg). Local asset: `reviewed-commons-83172310.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
