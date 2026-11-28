@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChW4Ad1UGGHXGD6j2zWtF",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Shell pasta visible and prominent\",\n    \"Pink/ham pieces scattered throughout\",\n    \"White plate, natural indoor lighting\",\n    \"Fork present, dish appears cooked and finished\"\n  ],\n  \"phone_observations\": [\n    \"Pasta and meat clearly visible in thumbnail\",\n    \"Dish dominates centre-cover area\",\n    \"Colour and composition consistent with full image\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title claims 'Macaroni au lardon' but image shows shell pasta (shells/lumache), not macaroni\",\n    \"Lardons (cured pork belly) are referenced in source but no explicit protein animal confirmation in title/description\",\n    \"Source description mentions 'fromage' (cheese) but cheese is not visibly prominent or clearly identifiable in the photograph\",\n    \"Species ambiguity: 'lardon' is a prepared meat product; underlying animal species not explicitly stated\"\n  ],\n  \"reason\": \"Identity mismatch: source title specifies 'Macaroni' but the pasta shape is clearly shells/lumache, not macaroni tubes. While the dish appears well-photographed and finished, the shape contradiction between title and visible form creates material identity doubt. Additionally, 'lardon' as a cured pork product is not explicitly named as 'pork' in the source, violating the requirement for exact animal species citation. Hold pending clarification of actual dish name and explicit protein naming.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1735,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 472,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
