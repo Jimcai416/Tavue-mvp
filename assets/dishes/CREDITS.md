@@ -15702,3 +15702,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 
 - **Penne Arrabiata** — [Haydn Blackey  from Cardiff, Wales](https://www.flickr.com/people/54549113@N00). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Penne_Arrabiata_-_Sergio%27s_Restaurant,_Bristol_(52736975238).jpg). Local asset: `reviewed-commons-130021383.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Penne Arrabiata with Parmesan** — [Haydn Blackey  from Cardiff, Wales](https://www.flickr.com/people/54549113@N00). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Penne_Arrabiata_with_Parmesan_-_Sergio%27s_Restaurant,_Bristol_(52736908235).jpg). Local asset: `reviewed-commons-130021401.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **cheeses served with mostarda bolognese** — Justlettersandnumbers. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Cheeses_with_mostarda_0350.jpg). Local asset: `reviewed-commons-53253483.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

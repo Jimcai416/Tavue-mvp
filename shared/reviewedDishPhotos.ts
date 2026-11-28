@@ -187125,5 +187125,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 747,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/people/54549113@N00"
+  },
+  {
+    "id": "commons-53253483",
+    "title": "File:Cheeses with mostarda 0350.jpg",
+    "author": "Justlettersandnumbers",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cheeses_with_mostarda_0350.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/80/Cheeses_with_mostarda_0350.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "906d63e8c9489a66389acd10a9919a6c160d5132",
+    "name": "cheeses served with mostarda bolognese",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-53253483.jpg",
+    "assetSha256": "11f08f09cd8c7079e23e8fc9607be979184c7e09ac75d82de5e4f104526c5fb5",
+    "reviewedAt": "2026-11-28",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
