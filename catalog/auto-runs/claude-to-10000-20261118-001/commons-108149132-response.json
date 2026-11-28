@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChVisDadm9Y4gANcqdkzX",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 5,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Golden-brown fried fish fillets, crispy exterior\",\n    \"Thick-cut chips (French fries)\",\n    \"Bright green mushy peas\",\n    \"Fresh watermelon wedge\",\n    \"Slice of toasted bread\",\n    \"White plate on outdoor dining table\",\n    \"Glass of water with lid\",\n    \"Natural daylight, sharp detail, appetising presentation\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows fried fish with chips\",\n    \"Watermelon and bread visible and identifiable\",\n    \"Bright colours preserved in reduction\",\n    \"Dish remains prominent and recognisable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Fish and chips' but provides no explicit species identification for the fish\",\n    \"Species of fish not named in title or description—only generic 'fish' used\",\n    \"Protocol requires exact source quote naming the animal; 'fish' alone is unspecified species\"\n  ],\n  \"reason\": \"Image quality, photograph composition, phone thumbnail clarity and visual appeal all meet acceptance thresholds. However, identity check fails: the source title and description refer only to 'fish' without naming a specific species. Protocol requires an exact source quote explicitly naming the animal for protein_evidence. Generic 'fish' does not meet the specificity requirement for acceptance. Hold or reject is mandated by the uncertainties rule.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1770,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 463,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
