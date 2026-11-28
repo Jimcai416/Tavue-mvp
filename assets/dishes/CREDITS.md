@@ -15601,3 +15601,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Runebergintorttu** — k. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:A_Runeberg%27s_torte.jpg). Local asset: `reviewed-commons-114879185.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Jamoncitos de pollo con salsa de setas** — Juan Emilio Prades Bel. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Jamoncitos_de_pollo_con_salsa_de_setas.jpg). Local asset: `reviewed-commons-154881068.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

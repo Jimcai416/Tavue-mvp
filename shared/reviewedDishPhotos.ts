@@ -186071,5 +186071,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 863,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-154881068",
+    "title": "File:Jamoncitos de pollo con salsa de setas.jpg",
+    "author": "Juan Emilio Prades Bel",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jamoncitos_de_pollo_con_salsa_de_setas.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Jamoncitos_de_pollo_con_salsa_de_setas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "e80692c6a1cabb0fda795c07b6bf95cdac5ccd4b",
+    "name": "Jamoncitos de pollo con salsa de setas",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-154881068.jpg",
+    "assetSha256": "e2031507ee68746f6fd2af807da273e88c5ecb3496f870ae6a32b208877a15f7",
+    "reviewedAt": "2026-11-28",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
