@@ -15883,3 +15883,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Boniato frito japonés** — Juan Emilio Prades Bel. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Boniato_frito_japon%C3%A9s.jpg). Local asset: `reviewed-commons-194014099.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Gnocchi di zucca** — Ricettario di Mamidoli. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Gnocchi_di_zucca.jpg). Local asset: `reviewed-commons-101848474.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
