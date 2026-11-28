@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChVDh96LuxTBkamyAC1A1",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown, smooth, oval cake on white plate\",\n    \"Natural lighting, no glare or severe casts\",\n    \"Finished, exposed food product with appetising appearance\",\n    \"Sharp detail and readable form in both full and thumbnail views\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows complete oval cake\",\n    \"Golden-brown colour visible and consistent with full image\",\n    \"Proportions and detail readable at 124x96\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Tempura Fish Cake' but photograph shows no visible tempura batter coating, egg wash, or crispy exterior typical of tempura preparation\",\n    \"Appearance is consistent with a plain sponge cake, chiffon cake, or uncoated sweet cake—not a fish cake or tempura dish\",\n    \"No visible fish, seafood components, or batter structure matches source title\",\n    \"Identity contradiction: source title does not match visible form\"\n  ],\n  \"reason\": \"Reject: identity check fails. The photograph shows a plain golden-brown sponge or chiffon cake with smooth, sugary surface and soft crumb structure. The source title 'Tempura Fish Cake (Taiwan)' implies a savoury seafood product with tempura-style coating and fish content. No fish, batter, or tempura characteristics are visible. The visible form contradicts the source title, triggering a hold-or-reject condition under identity rules. Without explicit protein evidence in the title or visible confirmation of tempura technique or fish components, this cannot be accepted as the claimed dish.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1732,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 505,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
