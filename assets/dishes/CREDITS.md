@@ -15535,3 +15535,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 
 - **salade grecque** — [Benoît Prieur](https://www.wikidata.org/wiki/Q42790984). [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Tavern_Library_(Likotinarea)_-_salade_grecque.jpg). Local asset: `reviewed-commons-107766321.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Une salade grecque à Kókkino Chorió (Crète) en juillet 2021** — [Benoît Prieur](https://www.wikidata.org/wiki/Q42790984). [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Une_salade_grecque_%C3%A0_K%C3%B3kkino_Chori%C3%B3_(Cr%C3%A8te)_en_juillet_2021.jpg). Local asset: `reviewed-commons-107597084.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Filet de bœuf Richelieu** — daryl_mitchell. [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Filet_de_b%C5%93uf_Richelieu.jpg). Local asset: `reviewed-commons-44274156.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

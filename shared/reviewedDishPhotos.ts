@@ -185467,5 +185467,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 720,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.wikidata.org/wiki/Q42790984"
+  },
+  {
+    "id": "commons-44274156",
+    "title": "File:Filet de bœuf Richelieu.jpg",
+    "author": "daryl_mitchell",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Filet_de_b%C5%93uf_Richelieu.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Filet_de_b%C5%93uf_Richelieu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "5ea426f34707ac09b80390063f494ec8005f7d6f",
+    "name": "Filet de bœuf Richelieu",
+    "aliases": [],
+    "proteins": [
+      "beef"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-44274156.jpg",
+    "assetSha256": "371ab90dcc143b837c192a28f1a1591265a699f825f728f10f18fe412cd6a784",
+    "reviewedAt": "2026-11-28",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
