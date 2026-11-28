@@ -15891,3 +15891,9 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **sopa tarasca** — Wotancito. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Sopa_tarasca.jpg). Local asset: `reviewed-commons-163450513.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Tomates farcies** — Arnaud 25. [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:Tomates_facies.jpg). Local asset: `reviewed-commons-4829613.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Tomates farcies à la provençale** — Véronique PAGNIER. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Tomates_farcies.jpg). Local asset: `reviewed-commons-16979454.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Tomates farcies à la ferme de Gally** — -Jérôme-. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Tomates_farcies_%C3%A0_la_ferme_de_Gally.jpg). Local asset: `reviewed-commons-33667392.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
