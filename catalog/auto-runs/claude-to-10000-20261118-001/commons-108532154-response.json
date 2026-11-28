@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChV1357HJGF2r9Md2DTry",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows folded crêpe surface with uniform tan/brown colour\",\n    \"Visible texture consistent with cooked crêpe\",\n    \"No visible ham or cheese filling is distinguishable in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title declares 'jambon-fromage' (ham and cheese) but neither ham nor cheese is visibly confirmed in the full photograph or thumbnail\",\n    \"The crêpe appears plain or filled with ingredients that do not display visual proof of ham or cheese filling\",\n    \"No ham meat or cheese layer is distinctly visible in either image\"\n  ],\n  \"reason\": \"Reject: The source title claims 'Crêpe jambon-fromage' (ham and cheese crêpe), but the photograph shows only a folded crêpe with no visibly discernible ham or cheese filling. The filling ingredients are not photographically proven. Per protocol, hidden flavours may be source-declared but cannot be claimed as visually proven. The visible form does not support the stated identity, triggering an identity check failure and mandatory hold for source contradiction. Protein evidence cannot be established from visual inspection.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1759,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 405,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

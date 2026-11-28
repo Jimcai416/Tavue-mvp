@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChV1356HMU6wA4RHDgVjp",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Folded crêpe visible with golden-brown exterior\",\n    \"Pink/ham-coloured filling visible at fold edge\",\n    \"White plate visible\",\n    \"Utensils partially visible at edges\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'crêpe jambon fromage' (ham and cheese crêpe), but no ham or cheese is visually identifiable in either the full source or thumbnail\",\n    \"The filling colour at the fold edge appears pinkish, which could suggest ham, but no ham is explicitly or clearly visible in the composition\",\n    \"No cheese visible or distinguishable\",\n    \"Source metadata title describes the dish, but visual evidence does not support the named proteins\",\n    \"Cannot confirm jambon (ham) or fromage (cheese) from the photograph alone\"\n  ],\n  \"reason\": \"Identity check fails. The source title claims 'crêpe jambon fromage' but neither ham nor cheese is visually evident or readable in the photograph or thumbnail. While a pinkish tint at the fold edge might suggest ham filling, no meat or cheese component is clearly identifiable or distinguishable. Per protocol, hidden flavours may be source-declared but cannot be claimed as visually proven. Source contradiction between title and visible form requires hold, but the absence of verifiable protein identification and invisible filled components warrants rejection.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1760,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 453,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
