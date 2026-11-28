@@ -15780,3 +15780,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **gaufres au sucre** — [Benoît Prieur](https://www.wikidata.org/wiki/Q42790984). [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Le_Canard_press%C3%A9_(restaurant)_-_gaufres_au_sucre_(1).jpg). Local asset: `reviewed-commons-87389830.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Salade Landaise** — Arnaud 25. [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:Salade_Landaise.jpg). Local asset: `reviewed-commons-10967641.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

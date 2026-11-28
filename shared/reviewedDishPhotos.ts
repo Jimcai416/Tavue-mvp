@@ -187739,5 +187739,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 720,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.wikidata.org/wiki/Q42790984"
+  },
+  {
+    "id": "commons-10967641",
+    "title": "File:Salade Landaise.jpg",
+    "author": "Arnaud 25",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Salade_Landaise.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Salade_Landaise.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "b33dd98913dabcb0fba6a333719282bf5fbb6519",
+    "name": "Salade Landaise",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-10967641.jpg",
+    "assetSha256": "fb07b015b88a9b0af3c97d91694600b5776e67c8d0017ac33085ab59c5824956",
+    "reviewedAt": "2026-11-28",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
