@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChVzrZY1KQJcZqssht32s",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Pizza base with tomato sauce visible\",\n    \"Cooked toppings distributed across surface\",\n    \"Golden-brown crust edges\",\n    \"Restaurant setting with checkered tablecloth\"\n  ],\n  \"phone_observations\": [\n    \"Pizza clearly visible in thumbnail\",\n    \"Toppings readable as meat and other components\",\n    \"Adequate sharpness for phone review\",\n    \"Appetising appearance maintained\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Pizza Tonno, with tuna, shrimps and sausage' but no tuna is visually identifiable in the photograph\",\n    \"Shrimps cannot be reliably distinguished in the visible toppings\",\n    \"Species of sausage is unspecified in source description\",\n    \"Visible toppings appear to be ground meat, onions, and caramelised garnish, but tuna presence is not visually supported\",\n    \"Source description contradicts visible composition\"\n  ],\n  \"reason\": \"Source description lists tuna, shrimps and sausage as named proteins, but visual inspection cannot confirm tuna or shrimps on the pizza surface. The photograph shows what appears to be ground/minced meat and sautéed onions, not the described toppings. Sausage species is unspecified. Per protocol, source contradictions regarding visible identity and unspecified meat species require hold pending clarification. No protein_evidence keys can be populated with exact source quotes for visually supported components.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1747,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 486,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
