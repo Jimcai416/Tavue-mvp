@@ -15868,3 +15868,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 - **Pechuga de pollo cocinada a la brasa de leña (España)** — Juan Emilio Prades Bel. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Pechuga_de_pollo_cocinada_a_la_brasa_de_le%C3%B1a_(Espa%C3%B1a).jpg). Local asset: `reviewed-commons-201268111.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Pechuga de pollo con queso** — Luxbane. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Pechuga_de_pollo_con_queso.jpg). Local asset: `reviewed-commons-190301107.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Pechuga de pollo rebozado y frito** — Juan Emilio Prades Bel. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Pechuga_de_pollo_rebozado_y_frito.jpg). Local asset: `reviewed-commons-129528027.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Pollo a la Plancha** — Ovruni. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Pollo_a_la_Plancha.jpg). Local asset: `reviewed-commons-127244364.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
