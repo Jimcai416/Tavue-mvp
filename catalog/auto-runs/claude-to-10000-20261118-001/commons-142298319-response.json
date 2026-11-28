@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChVT8miy2xTJcnDksKCoZ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Grilled sandwich with visible grill marks on bread\",\n    \"Layered filling visible in cross-section\",\n    \"Fresh salad greens and beet strips as accompaniment\",\n    \"Plate presentation on white dish and wooden table\"\n  ],\n  \"phone_observations\": [\n    \"Grilled panini clearly visible with distinctive grill pattern\",\n    \"Sandwich fills most of thumbnail frame\",\n    \"Salad accompaniment visible at side\",\n    \"Overall dish identity recognizable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Ham' but no ham is visibly identifiable in the cross-section; visible filling appears to be cheese and possibly other ingredients without clear ham presence\",\n    \"Source title lists 'Ham' as explicit protein but visual evidence does not support ham identification from the photograph\"\n  ],\n  \"reason\": \"Identity mismatch: source title specifies 'Panini with Ham, Red Onion & Cheese' but the visible cross-section and surfaces of the cooked sandwich do not show identifiable ham. The filling appears to be primarily cheese-based with possible vegetables, but no ham is visually evident. Per rules, protein_evidence requires exact source quote matching and explicit visual support—ham cannot be claimed as visually proven when not discernible. Source contradiction between title declaration and visible form requires hold on protein identity, failing the identity check. All quality and photograph checks pass, but identity check failure alone triggers rejection.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1752,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 468,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
