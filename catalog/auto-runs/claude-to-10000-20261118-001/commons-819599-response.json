@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChVjH58JYhHufGRkc3R1N",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows cooked meat pieces, consistent with full image\",\n    \"Brown/tan colouration visible in both images\",\n    \"Pieces appear organ meat-sized and shaped\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Lamb kidneys' but kidneys are organ meat, not an allowed protein category (chicken/beef/pork/duck/lamb/seafood only as muscle meat)\",\n    \"Lamb is a valid category only when referring to muscle meat, not organ meat\",\n    \"No explicit source quote identifies a muscle meat dish\"\n  ],\n  \"reason\": \"Rejection: The source identifies this as 'Lamb kidneys, baked'—an organ meat preparation. The review protocol allows only muscle meat categories (chicken, beef, pork, duck, lamb, seafood). Kidneys do not qualify under the 'lamb' category, which is restricted to muscle meat. The protein cannot be mapped to an allowed category, so the dish cannot be accepted despite adequate image quality and photograph standards.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1780,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 379,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
