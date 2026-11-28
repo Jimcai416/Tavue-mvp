@@ -185783,5 +185783,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 960,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/people/alfreddiem/"
+  },
+  {
+    "id": "commons-103338681",
+    "title": "File:Pâté de canard d'Amiens 01.jpg",
+    "author": "Bycro",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:P%C3%A2t%C3%A9_de_canard_d%27Amiens_01.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d0/P%C3%A2t%C3%A9_de_canard_d%27Amiens_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "bfe7fc91b2048e2677fe57caf1dd945ec875fa57",
+    "name": "Pâté de canard d'Amiens",
+    "aliases": [],
+    "proteins": [
+      "duck"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-103338681.jpg",
+    "assetSha256": "bcb3732b7647d5815a83eca38c33874dbf03b8a2165bffa0ea02ed02c8fc66fe",
+    "reviewedAt": "2026-11-28",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 633,
+    "requiresExactMenuName": true
   }
 ];
