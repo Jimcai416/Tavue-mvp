@@ -186923,5 +186923,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 640,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-127837122",
+    "title": "File:Lyon 1er - Rue du Major Martin - Café des Fédérations - Tablier de sapeur.jpg",
+    "author": "Romainbehar",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lyon_1er_-_Rue_du_Major_Martin_-_Caf%C3%A9_des_F%C3%A9d%C3%A9rations_-_Tablier_de_sapeur.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Lyon_1er_-_Rue_du_Major_Martin_-_Caf%C3%A9_des_F%C3%A9d%C3%A9rations_-_Tablier_de_sapeur.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "3008cb2f59ac929029b17b34a2f571bd30ea37fc",
+    "name": "Tablier de sapeur",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-127837122.jpg",
+    "assetSha256": "67e845295b8f3375857e9a18565d5a17b5c9d77625d1fa303f2a3686cf3283e7",
+    "reviewedAt": "2026-11-28",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];

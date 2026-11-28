@@ -15681,3 +15681,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Soplillos Alpujarreños** — Tamorlan. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Soplillos_Alpujarre%C3%B1os.jpg). Local asset: `reviewed-commons-9388094.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Tablier de sapeur** — Romainbehar. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Lyon_1er_-_Rue_du_Major_Martin_-_Caf%C3%A9_des_F%C3%A9d%C3%A9rations_-_Tablier_de_sapeur.jpg). Local asset: `reviewed-commons-127837122.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
