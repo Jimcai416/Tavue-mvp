@@ -187423,5 +187423,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 540,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-133155696",
+    "title": "File:Crema de espinaca.jpg",
+    "author": "Pequeño mar",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Crema_de_espinaca.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Crema_de_espinaca.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "2e9865455d3d30e9f58b6180bccf3deb2af052ce",
+    "name": "Crema de espinaca",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-133155696.jpg",
+    "assetSha256": "d5f36f382037b49abfd26417855a4e5f05e1276aafda2958736ec42fe82c9d2d",
+    "reviewedAt": "2026-11-28",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 720,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
