@@ -187445,5 +187445,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 720,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-100458948",
+    "title": "File:Agnolini mantovani.jpg",
+    "author": "Teseo",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Agnolini_mantovani.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Agnolini_mantovani.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "4613723a9a293bbeaf2e7488b754794d2a7300e2",
+    "name": "Agnolini mantovani",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-100458948.jpg",
+    "assetSha256": "91632ace061f2250de7262f61b9173e245bb3116b273864df58a0bce33b3115f",
+    "reviewedAt": "2026-11-28",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 953,
+    "requiresExactMenuName": true
   }
 ];

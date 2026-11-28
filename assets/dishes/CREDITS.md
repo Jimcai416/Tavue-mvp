@@ -15749,3 +15749,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Crema de espinaca** — Pequeño mar. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Crema_de_espinaca.jpg). Local asset: `reviewed-commons-133155696.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Agnolini mantovani** — Teseo. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Agnolini_mantovani.jpg). Local asset: `reviewed-commons-100458948.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
