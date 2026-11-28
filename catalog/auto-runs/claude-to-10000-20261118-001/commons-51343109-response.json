@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChW1PHZgoWRYamYHrRVPc",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked dish on white plate\",\n    \"Prominent central protein with glossy brown sauce\",\n    \"Fresh red pepper slices\",\n    \"Cauliflower base with green herb garnish\",\n    \"Natural daylight, warm background\",\n    \"Readable components in phone thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Central braised meat clearly visible\",\n    \"Red pepper slices identifiable\",\n    \"Pale cauliflower base visible\",\n    \"Sauce sheen apparent\",\n    \"Overall composition matches full source\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title references 'csirkepaprikás' (Hungarian chicken paprikash), but no chicken can be visually confirmed in the photograph. The central protein appears to be large braised pieces inconsistent with typical chicken paprikash presentation and size.\",\n    \"Protein species is not explicitly named in the English description ('Celldömölk, csirkepaprikás'). The Hungarian term in metadata is not authoritative English source evidence.\",\n    \"Visual form does not clearly match the named dish identity.\"\n  ],\n  \"reason\": \"Identity check fails. The source title/description does not provide explicit English confirmation of the protein species. While 'csirkepaprikás' is Hungarian for chicken paprikash, this appears only in metadata filename and is not confirmed in the English description field. The visual protein morphology (large braised chunks) raises doubt about species match to declared identity. Protocol requires exact source quote naming the animal; metadata language variants and Hungarian terms do not meet this standard. Hold pending clarification of protein identity in English source documentation.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1627,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 509,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
