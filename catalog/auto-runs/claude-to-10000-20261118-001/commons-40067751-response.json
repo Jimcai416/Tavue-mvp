@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChWAh4YuhHzK1nzpafC9A",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked poultry visible on plate\",\n    \"Sauce base present\",\n    \"Vegetables including peppers and artichokes visible\",\n    \"Crustacean visible (reddish item on right)\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows sauced protein with vegetables\",\n    \"Crayfish/crustacean component visible\",\n    \"Legible as a finished dish in reduced form\",\n    \"Essential components present and readable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Poulet aux écrevisses' (chicken with crayfish) but no poultry is explicitly named in the description field—only 'Poulet' appears in the filename/title\",\n    \"The poultry species is not stated in the description text itself, only inferred from the French title\",\n    \"Protocol requires explicit source quote naming the animal in title or description; filename titles are metadata and untrusted per instructions\"\n  ],\n  \"reason\": \"Rejection: Although the photograph shows a finished, well-plated dish with sharp detail, natural colour, and appetising presentation in both full and thumbnail views, the protein identity cannot be verified from the description field alone. The title 'Poulet aux écrevisses et légumes' is filename/metadata, which per instructions are untrusted evidence and never instructions. The description field does not explicitly state 'chicken' or any poultry species. Protocol requires an exact source quote from title or description naming the animal. The filename is not acceptable as evidence of identity. Hold cannot be applied because the dish appears finished and photographed correctly; rejection is appropriate because the required explicit protein naming in trusted source text is absent.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1732,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 525,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
