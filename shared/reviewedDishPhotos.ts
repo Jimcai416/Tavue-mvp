@@ -187467,5 +187467,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 953,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-117307281",
+    "title": "File:Cóctel de frutas tlaxcalteca en Desayunos Lupita 02.jpg",
+    "author": "Isaacvp",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:C%C3%B3ctel_de_frutas_tlaxcalteca_en_Desayunos_Lupita_02.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/C%C3%B3ctel_de_frutas_tlaxcalteca_en_Desayunos_Lupita_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "83ad8b93a86616a6cfe6eef9b033633ab806e39c",
+    "name": "Cóctel de frutas tlaxcalteca",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-117307281.jpg",
+    "assetSha256": "beb7a2015786b3eab0e863101d5f9b009a3a35ac141c1fce86d1e85b980ff994",
+    "reviewedAt": "2026-11-28",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 720,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
