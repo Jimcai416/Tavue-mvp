@@ -188130,5 +188130,30 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 541,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-20287995",
+    "title": "File:Fish and chips with mushy peas.jpg",
+    "author": "Kevin Hutchinson  from Puerto Escondido, Mexico",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fish_and_chips_with_mushy_peas.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Fish_and_chips_with_mushy_peas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "7d9f94922a3d900722477634669006bdc7455def",
+    "name": "Fish and chips with mushy peas",
+    "aliases": [],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-20287995.jpg",
+    "assetSha256": "7c422755674f2c1650d5bef16b2ea26c66238e89667d7df4e663deb26ae02da6",
+    "reviewedAt": "2026-11-28",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/36374942@N00"
   }
 ];
