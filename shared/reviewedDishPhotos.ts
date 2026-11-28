@@ -187401,5 +187401,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-203615442",
+    "title": "File:Chocolate Fondue 2025.jpg",
+    "author": "Sannidhishetty",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chocolate_Fondue_2025.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/31/Chocolate_Fondue_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "89797cf94cb24b673ce266b791566581983e2727",
+    "name": "Chocolate Fondue",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-203615442.jpg",
+    "assetSha256": "fc9870584b478b13061ba35d2599ac8199184017e2f55e17d02b05919e463eac",
+    "reviewedAt": "2026-11-28",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 540,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];

@@ -15741,3 +15741,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 
 - **Dakos** — [Benoît Prieur](https://www.wikidata.org/wiki/Q42790984). [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Plat_de_Dakos_en_Cr%C3%A8te_en_juillet_2021.jpg). Local asset: `reviewed-commons-107595314.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Beef roulade with red cabbage and dumplings** — Anagoria. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:2019-04-28_Rinderroulade_mit_Rotkohl_und_Kl%C3%B6%C3%9Fen_in_Erfurt_anagoria.jpg). Local asset: `reviewed-commons-80770227.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Chocolate Fondue** — Sannidhishetty. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Chocolate_Fondue_2025.jpg). Local asset: `reviewed-commons-203615442.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
