@@ -186901,5 +186901,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-9388094",
+    "title": "File:Soplillos Alpujarreños.jpg",
+    "author": "Tamorlan",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Soplillos_Alpujarre%C3%B1os.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Soplillos_Alpujarre%C3%B1os.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "d62a542ab52b63548279871a27d3731803b4f51b",
+    "name": "Soplillos Alpujarreños",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-9388094.jpg",
+    "assetSha256": "db66e4456f605bc21d9586b0edadefe0c32ebf63a264bbf1195f6de0ada9c9e1",
+    "reviewedAt": "2026-11-28",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 640,
+    "requiresExactMenuName": true
   }
 ];

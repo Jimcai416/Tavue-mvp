@@ -15677,3 +15677,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 
 - **Pizza pomodori secchi e olive taggiasche** — Bonniebartilomo. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Pizza_pomodori_secchi_e_olive_taggiasche.jpg). Local asset: `reviewed-commons-87391741.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Pomodori secchi ripieni** — Daniele Pugliesi. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Pomodori_secchi_ripieni_-_02.jpg). Local asset: `reviewed-commons-40930054.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Soplillos Alpujarreños** — Tamorlan. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Soplillos_Alpujarre%C3%B1os.jpg). Local asset: `reviewed-commons-9388094.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
