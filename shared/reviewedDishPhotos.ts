@@ -185649,5 +185649,28 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 720,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/people/53499099@N00"
+  },
+  {
+    "id": "commons-47817929",
+    "title": "File:Antipasto, Augusta.jpg",
+    "author": "Andrew Malone",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Antipasto,_Augusta.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/88/Antipasto%2C_Augusta.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "e9ecebd7264d97f07de35d0484b3ca44fa3b8794",
+    "name": "Antipasto",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-47817929.jpg",
+    "assetSha256": "f572819b3805df5db5b3e359d4acdbc912388df9833cac2a8e4bcd1b5d956cbf",
+    "reviewedAt": "2026-11-28",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 708,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/41894170049@N01"
   }
 ];
