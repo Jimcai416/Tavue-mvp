@@ -185399,5 +185399,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-40796266",
+    "title": "File:Pana cotta.JPG",
+    "author": "Hasna e",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pana_cotta.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/44/Pana_cotta.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "39c8cadb2d1bc1839bbbf9e280d0fb2a6f64bbc9",
+    "name": "Pana cotta",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-40796266.jpg",
+    "assetSha256": "d380b6453dd590b9d20e21c49f973f3897881572b5d67d9f43dd38f6d323136d",
+    "reviewedAt": "2026-11-28",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 640,
+    "height": 640,
+    "requiresExactMenuName": true
   }
 ];
