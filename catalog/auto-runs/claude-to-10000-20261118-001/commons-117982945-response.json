@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChW6DJdjfyFDtTqx2Fsm5",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Roasted poultry half, golden-brown and charred\",\n    \"Prominent, finished dish\",\n    \"Sharp detail and natural colouring\",\n    \"Readable in phone thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Cornish hen half clearly visible\",\n    \"Charring and colour distinct\",\n    \"Sufficient detail for identification\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Lamb Cornish Hen Skewer' but only a Cornish hen half is visible—no lamb is present in the photograph\",\n    \"Species contradiction: metadata describes a dish containing both lamb and Cornish hen, but only poultry is photographed\",\n    \"Metadata title describes a skewer format, but no skewer is visible\"\n  ],\n  \"reason\": \"Identity check fails. The source title/description explicitly states 'Lamb Cornish Hen Skewer' containing both lamb and a Cornish hen, but the photograph shows only a roasted Cornish hen half with no visible lamb component or skewer. This is a material contradiction between source identity and actual visible form. The photograph quality and presentation are strong, but the dish identity cannot be verified against the metadata claim. Holding would be appropriate, but the explicit contradiction between 'Lamb Cornish Hen' (dual protein) and the visible single poultry component constitutes a failed identity check that prevents acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1834,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 463,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

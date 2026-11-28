@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChW6DJdzBin1staFVvqBV",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 5,\n    \"composition\": 3,\n    \"appeal\": 0\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows exterior building facade and parking area\",\n    \"No food visible in phone centre-cover thumbnail\",\n    \"Building architecture only, street-level perspective\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title references 'Casa do Pão de Ló de Alfeizerão' (House of Pão de Ló from Alfeizerão) but source image is an exterior architectural photograph of the building, not a food photograph\",\n    \"No finished dish, food item, or plated preparation visible in either full source or thumbnail\"\n  ],\n  \"reason\": \"Rejection: This is an exterior architectural photograph of a restaurant/food establishment building, not a photograph of a finished food dish. The source title describes a location ('Casa do Pão de Ló') rather than a prepared dish. No food is visible, prominent, or appetising in either the full photograph or phone thumbnail. The photograph fails the core requirement of depicting 'a finished, exposed, likely photographic dish' and contains no food subject matter whatsoever.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1753,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 382,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
