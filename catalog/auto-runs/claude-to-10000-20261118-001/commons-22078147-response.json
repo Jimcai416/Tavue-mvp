@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChVwdeF4uo57VgaZDQmgC",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Two scones with jam and cream visible on plate\",\n    \"Fork present on white napkin\",\n    \"Red-rimmed plate visible in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title is 'Cream tea on Guernsey'—a beverage service, not a finished plated dish\",\n    \"Image shows only the food component (scones with jam and cream), not the actual 'cream tea' service (tea, cup, saucer, etc.)\",\n    \"Cream tea is primarily a service category, not a dish identity; scones alone are not equivalent\",\n    \"No explicit dish name provided for the scone variant (flavour, filling type, preparation method unknown)\"\n  ],\n  \"reason\": \"Source title 'Cream tea on Guernsey' refers to a beverage service/afternoon tea tradition, not a finished plated food dish. The photograph shows only scones with jam and cream on a plate—the food component extracted from the service context. For Tavue intake, a cream tea service requires the complete service presentation (tea, teacup, saucer, accompanying items), or the scones must be identified by an explicit, specific dish name (e.g. 'Cornish scones with strawberry jam and clotted cream'). Without a canonical dish name and with the service identity mismatched to the plated content, identity check fails.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1682,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 463,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
