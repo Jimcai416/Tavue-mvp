@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChVKmttRPU71TJ4XZdo6K",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 5,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Cooked pasta with glossy tomato-based sauce\",\n    \"Fresh basil leaf garnish\",\n    \"Natural colours, sharp detail, appetising presentation\",\n    \"Phone thumbnail clearly shows pasta and tomato sauce\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail captures cooked pasta with red sauce and green basil\",\n    \"Essential dish components visible and identifiable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Spaghetti di Gragnano al pomodoro fresco' but the photographed dish shows ribbon-cut pasta (pappardelle-like width), not standard spaghetti strands. This is a significant morphological mismatch.\",\n    \"The pasta form appears to be a wide ribbon cut, inconsistent with Spaghetti di Gragnano, which is defined as thin, round spaghetti.\"\n  ],\n  \"reason\": \"Reject: Identity check fails. The source title claims 'Spaghetti di Gragnano' (a specific protected designation of origin thin spaghetti from Gragnano, Italy), but the actual photograph shows wide ribbon pasta (appearing closer to pappardelle or tagliatelle) with fresh tomato sauce and basil. This is a fundamental mismatch between source declaration and visible dish form. Spaghetti di Gragnano has a precise, narrow cylindrical shape; this dish does not. All quality, photographic and phone checks pass, but identity contradiction is disqualifying.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1741,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 485,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
