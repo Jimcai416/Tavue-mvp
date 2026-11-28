@@ -185807,5 +185807,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 633,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-25328875",
+    "title": "File:Sussex Pond Pudding 1.jpg",
+    "author": "Ad084257  at  English Wikipedia",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sussex_Pond_Pudding_1.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Sussex_Pond_Pudding_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "57e395d7ec1639db17673a99c663e6da37f38267",
+    "name": "Sussex Pond Pudding",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-25328875.jpg",
+    "assetSha256": "81e3dfc0a8aa91cee8ef67533b3b61045429ed5a9991f7ab72ac81ca5ed6f27d",
+    "reviewedAt": "2026-11-28",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
