@@ -186117,5 +186117,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-37134627",
+    "title": "File:Tagliatelle al pesto di menta.JPG",
+    "author": "Marinella Ferrero",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tagliatelle_al_pesto_di_menta.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/37/Tagliatelle_al_pesto_di_menta.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "308697de5275983201c427b3a5e2562cd031f4cf",
+    "name": "Tagliatelle al pesto di menta",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-37134627.jpg",
+    "assetSha256": "bf03108990dad8577c4fcd2ff09044ec2d261b922ca0cf991c8d9bfc9891f99a",
+    "reviewedAt": "2026-11-28",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];

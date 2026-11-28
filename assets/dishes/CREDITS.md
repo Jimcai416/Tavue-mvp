@@ -15609,3 +15609,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Linguine al pomodoro** — Benreis. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Linguine_al_pomodoro.jpg). Local asset: `reviewed-commons-110682085.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Tagliatelle al pesto di menta** — Marinella Ferrero. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Tagliatelle_al_pesto_di_menta.JPG). Local asset: `reviewed-commons-37134627.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
