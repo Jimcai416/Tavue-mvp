@@ -15887,3 +15887,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Gnocchi di zucca** — Ricettario di Mamidoli. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Gnocchi_di_zucca.jpg). Local asset: `reviewed-commons-101848474.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **sopa tarasca** — Wotancito. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Sopa_tarasca.jpg). Local asset: `reviewed-commons-163450513.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

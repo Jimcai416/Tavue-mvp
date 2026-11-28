@@ -188813,5 +188813,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-163450513",
+    "title": "File:Sopa tarasca.jpg",
+    "author": "Wotancito",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sopa_tarasca.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Sopa_tarasca.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "db98692abab36bd2190db53f1d08f3e590fba2d8",
+    "name": "sopa tarasca",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-163450513.jpg",
+    "assetSha256": "6b6618480e002cfa9b06f61a607c1367760d510acfb99f483ffe11011bdfa666",
+    "reviewedAt": "2026-11-28",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 723,
+    "requiresExactMenuName": true
   }
 ];
