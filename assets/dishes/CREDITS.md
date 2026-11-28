@@ -15728,3 +15728,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 
 - **Pampuchy - danie kurpiowskiej kuchni regionalnej** — Kacper Szymański. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Pampuchy_-_KS-2024-01.jpg). Local asset: `reviewed-commons-151053934.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Pampuchy** — MOs810. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Pampuchy_Donetsk.JPG). Local asset: `reviewed-commons-20267463.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Tiramisu dessert** — [Steven Depolo](https://www.flickr.com/people/10506540@N07). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Tiramisu_dessert_at_Noto%27s_in_Grand_Rapids.jpg). Local asset: `reviewed-commons-18859006.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

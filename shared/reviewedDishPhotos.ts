@@ -187309,5 +187309,28 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 637,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-18859006",
+    "title": "File:Tiramisu dessert at Noto's in Grand Rapids.jpg",
+    "author": "Steven Depolo",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tiramisu_dessert_at_Noto%27s_in_Grand_Rapids.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/80/Tiramisu_dessert_at_Noto%27s_in_Grand_Rapids.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "150bdae1025a056a914f1dc3fa0e8b7713715297",
+    "name": "Tiramisu dessert",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-18859006.jpg",
+    "assetSha256": "4611928c360690ff327bcae8493906d0d28c2ee30307ffd905982b15440f5349",
+    "reviewedAt": "2026-11-28",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 640,
+    "height": 960,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/10506540@N07"
   }
 ];
