@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChVvcQ4tQ5g45ub6gmmtx",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Monochrome photograph of boats and waterfront architecture\",\n    \"No food subject visible in phone thumbnail\",\n    \"Maritime scene dominates entire frame\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title references 'Venzia arrabbiata' (spicy tomato pasta dish) but image shows only boats and Venice waterfront with no food present\",\n    \"Severe mismatch between metadata title and actual image content\"\n  ],\n  \"reason\": \"Reject: This is a black-and-white architectural/maritime photograph of Venice showing sailboats and a church, not a food photograph. The metadata title 'Venzia arrabbiata' contradicts the actual image content entirely—no finished dish, food, or any edible item is visible in either the source or thumbnail. Identity check fails due to complete content mismatch with declared title. This is not a food photograph suitable for Tavue review.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1761,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 354,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChVvbvDax5XAgUs67wpmk",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Pasta dish in glass baking bowl visible in phone thumbnail\",\n    \"Toasted bread slices visible at edges\",\n    \"Baked cheese topping clearly seen\",\n    \"Red sauce visible beneath cheese layer\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title claims 'pasta arrabbiata' but arrabbiata is a specific Roman pasta dish made with guanciale, red chilli, and pecorino romano—never baked with cheese in a casserole. The visible preparation (baked in glass bowl with melted cheese topping) contradicts the canonical definition of arrabbiata.\",\n    \"The dish shown appears to be baked pasta (possibly lasagne, baked penne, or a layered pasta casserole) with tomato sauce and mozzarella or similar melting cheese, which is fundamentally different from the traditional sauce-based arrabbiata served on a plate.\",\n    \"No animal protein is explicitly named in the source metadata; identity mismatch prevents meaningful dish classification.\"\n  ],\n  \"reason\": \"Identity check fails. The source title 'pasta arrabbiata' does not match the visible dish. Arrabbiata is a specific Roman pasta dish tossed with sauce, not a baked casserole with melted cheese topping as shown here. The preparation method, presentation, and ingredient treatment are incompatible with the named identity. Source metadata contradicts visible form; cannot accept under a misidentified name.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1774,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 476,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
