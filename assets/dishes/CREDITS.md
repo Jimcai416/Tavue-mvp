@@ -15723,3 +15723,8 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 
 - **Goresa Fish Cake Haeundae Busan** — [bryan...](https://www.flickr.com/people/91049143@N00). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Goresa_Fish_Cake_Haeundae_Busan_(30809039947).jpg). Local asset: `reviewed-commons-104711651.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Steamed curry fish cake** — [Vee Satayamas  from Bangkok, Thailand](https://www.flickr.com/people/93002434@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Steamed_curry_fish_cake_by_Leela_(17320946385).jpg). Local asset: `reviewed-commons-83172310.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Pampuchy - danie kurpiowskiej kuchni regionalnej** — Kacper Szymański. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Pampuchy_-_KS-2024-01.jpg). Local asset: `reviewed-commons-151053934.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Pampuchy** — MOs810. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Pampuchy_Donetsk.JPG). Local asset: `reviewed-commons-20267463.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
