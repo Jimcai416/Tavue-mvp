@@ -15872,3 +15872,10 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Pollo a la Plancha** — Ovruni. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Pollo_a_la_Plancha.jpg). Local asset: `reviewed-commons-127244364.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Pão-de-Ló de Margaride** — [No Ponto](https://www.youtube.com/channel/UCNOEvOEXhsBEj67ANJcDQpw). [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:P%C3%A3o-de-L%C3%B3_de_Margaride.png). Local asset: `reviewed-commons-111088465.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Pão-de-Ló de Miragaia** — [No Ponto](https://www.youtube.com/channel/UCNOEvOEXhsBEj67ANJcDQpw). [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:P%C3%A3o-de-L%C3%B3_de_Miragaia.png). Local asset: `reviewed-commons-111102582.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Pão-de-Ló de Ovar** — [No Ponto](https://www.youtube.com/channel/UCNOEvOEXhsBEj67ANJcDQpw). [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:P%C3%A3o-de-L%C3%B3_de_Ovar.png). Local asset: `reviewed-commons-111083526.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Pão-de-ló** — Adriao. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:P%C3%A3o-de-l%C3%B3.jpg). Local asset: `reviewed-commons-4044614.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
