@@ -187354,5 +187354,52 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 640,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-107595314",
+    "title": "File:Plat de Dakos en Crète en juillet 2021.jpg",
+    "author": "Benoît Prieur",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Plat_de_Dakos_en_Cr%C3%A8te_en_juillet_2021.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Plat_de_Dakos_en_Cr%C3%A8te_en_juillet_2021.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "692db6ec3b051a377b910e30f332b92eda12ea3b",
+    "name": "Dakos",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-107595314.jpg",
+    "assetSha256": "0c9409666ac87116b6bd8f36dcd5b32c4d8a59a02e232b35bebe50d3136adfb0",
+    "reviewedAt": "2026-11-28",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 720,
+    "height": 960,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.wikidata.org/wiki/Q42790984"
+  },
+  {
+    "id": "commons-80770227",
+    "title": "File:2019-04-28 Rinderroulade mit Rotkohl und Klößen in Erfurt anagoria.jpg",
+    "author": "Anagoria",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2019-04-28_Rinderroulade_mit_Rotkohl_und_Kl%C3%B6%C3%9Fen_in_Erfurt_anagoria.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/20/2019-04-28_Rinderroulade_mit_Rotkohl_und_Kl%C3%B6%C3%9Fen_in_Erfurt_anagoria.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "9c02e79252fa7d19409196ff17a57421234d03ff",
+    "name": "Beef roulade with red cabbage and dumplings",
+    "aliases": [],
+    "proteins": [
+      "beef"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-80770227.jpg",
+    "assetSha256": "cbbb52e47ca15c35fafba5e24980438dc5115ecb4142258df058a51330f45c46",
+    "reviewedAt": "2026-11-28",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
