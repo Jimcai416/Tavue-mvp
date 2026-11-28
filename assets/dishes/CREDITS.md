@@ -15689,3 +15689,11 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Pane Pugliese** — © Alice Wiegand. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Pane_Pugliese.jpg). Local asset: `reviewed-commons-95987890.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Tarte au citron maison** — Marianne Casamance. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Remoulins_H%C3%B4tel-restaurant_du_Nord_Tarte_au_citron_maison.JPG). Local asset: `reviewed-commons-46774695.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Lemon tart** — [Neil Piddock](https://flickr.com/people/26607322@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Tarte_au_Citron...mmmmmm.jpg). Local asset: `reviewed-commons-10271852.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Tarte au Citron** — Christian Michelides. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Tarte_au_Citron.jpg). Local asset: `reviewed-commons-67025686.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **French Lemon Tart** — [syvwlch](https://flickr.com/people/27164521@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Tarte_au_citron,_February_2010.png). Local asset: `reviewed-commons-10276853.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Tarte au citron meringuée** — Guy Courtois. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Tarte_au_citron_meringu%C3%A9e.jpg). Local asset: `reviewed-commons-39281712.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
