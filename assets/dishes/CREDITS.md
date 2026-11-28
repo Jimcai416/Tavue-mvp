@@ -15642,3 +15642,8 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Shrimp doria** — [pelican  from Tokyo, Japan](https://www.flickr.com/people/85936780@N00). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Shrimp_doria_(4228393884).jpg). Local asset: `reviewed-commons-77826930.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Bakewell tart** — Whitepaw  at  English Wikipedia. [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:BakewellCake_(cropped).jpg). Local asset: `reviewed-commons-19343416.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Iced Cherry Bakewell Tart** — Peakdistrictlady. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Bakewell_Tart_LR_file.jpg). Local asset: `reviewed-commons-163642956.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
