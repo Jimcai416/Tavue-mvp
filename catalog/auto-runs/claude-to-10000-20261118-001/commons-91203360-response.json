@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChW13qyY5KVJcVeQMKc18",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Raw fish fillet on wooden display block\",\n    \"Price label visible but uncooked state dominates thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'Bachi maguro' (a tuna cut) but image shows raw, uncooked fish on a market display block with price label—this is a preparation/market stage, not a finished dish\",\n    \"Description claims 'taglio pregiato di tonno' (prized tuna cut) but provides no explicit finished-dish context\"\n  ],\n  \"reason\": \"Rejection: Image depicts raw fish at market/wholesale display stage, not a finished, cooked, or prepared dish suitable for food review. The subject is a fresh fish fillet on a wooden block with price labeling—characteristic of fish market or auction hall photography. This falls under 'raw/preparation stages' and does not meet the requirement for 'a finished, exposed, likely photographic dish.' The thumbnail confirms the uncooked state is prominent. No served or prepared dish is visible.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1697,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 380,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
