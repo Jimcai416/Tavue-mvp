@@ -15846,3 +15846,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 - **Scones with butter, jam and clotted cream** — [Jeremy Keith  from Brighton & Hove, United Kingdom](https://www.flickr.com/people/74105777@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Cream_tea_Brighton.jpg). Local asset: `reviewed-commons-2217156.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Devonshire tea** — ( Liyster ). [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Devonshire_tea.jpg). Local asset: `reviewed-commons-4119253.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Afternoon cream tea** — Pymouss. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Saint_Peter_Port_-_Afternoon_cream_tea_20260806.jpg). Local asset: `reviewed-commons-198493700.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Palet breton** — Arnaud 25. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Palet_breton_02.jpg). Local asset: `reviewed-commons-120555285.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
