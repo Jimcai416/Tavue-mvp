@@ -15823,3 +15823,11 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Minestra Maltija** — Continentaleurope. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Minestra_Maltija_01.jpg). Local asset: `reviewed-commons-177217977.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Semmelknödel mit Pilzragout** — Xocolatl  (  talk  ) 22:39, 1 September 2021 (UTC). [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:AIMG_8551_(2)_Semmelkn%C3%B6del_mit_Pilzragout.JPG). Local asset: `reviewed-commons-109581658.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Semmelknödel with mushroom sauce** — Benreis. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Semmelkn%C3%B6del_Pilzsosse.JPG). Local asset: `reviewed-commons-31130037.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Semmelknödel and forest mushrooms** — Gerda Arendt. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Semmelkn%C3%B6del_and_forest_mushrooms,_Oestrich.jpg). Local asset: `reviewed-commons-142509798.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Bread dumplings with mushroom sauce** — Benreis. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Semmelkn%C3%B6del_mit_Pilzso%C3%9Fe_Prichsenstadt.jpg). Local asset: `reviewed-commons-62256886.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Waldpilze a la creme, hausgem. Tiroler Semmelknödel** — Sacha47. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Waldpilze_a_la_creme,_hausgem._Tiroler_Semmelkn.jpg). Local asset: `reviewed-commons-45124700.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
