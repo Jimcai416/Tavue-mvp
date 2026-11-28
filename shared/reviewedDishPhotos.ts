@@ -187857,5 +187857,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-173575973",
+    "title": "File:Custard Cream Pretzel - Milos 2025-08-25.jpg",
+    "author": "Andy Li",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Custard_Cream_Pretzel_-_Milos_2025-08-25.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Custard_Cream_Pretzel_-_Milos_2025-08-25.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "684895d5416a59ab17e267b2933114df50312cf7",
+    "name": "Custard Cream Pretzel",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-173575973.jpg",
+    "assetSha256": "6d09e1915772524de6fd65f32cc71c595c9d7f38d31f12d5c21a810511cad4ec",
+    "reviewedAt": "2026-11-28",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 723,
+    "requiresExactMenuName": true
   }
 ];
