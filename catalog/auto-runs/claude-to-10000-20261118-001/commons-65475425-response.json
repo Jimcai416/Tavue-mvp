@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChUeUbgJpxaSpod1AT5SE",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"Sandacz z rydzami - Wigilia 2017 w Poznaniu\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Pale, flaky filleted fish visible on plate\",\n    \"Dark brown mushrooms (rydzmi/chanterelles) clearly present\",\n    \"Green vegetables (leek slices, lettuce)\",\n    \"White plate, finished plating\",\n    \"Phone thumbnail shows all key components clearly\"\n  ],\n  \"phone_observations\": [\n    \"Fish fillet, mushrooms, and green vegetables all prominent and readable\",\n    \"Natural colours preserved\",\n    \"No clipping of essential components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title metadata identifies fish as 'Pike perch' (sandacz in Polish), but Tavue protein categories do not include seafood/fish as an allowed key. The instructions specify allowed proteins are 'chicken/beef/pork/duck/lamb/seafood' — 'seafood' is listed as a category, but no exact case-sensitive substring from the source title explicitly names 'seafood'. The Polish 'sandacz' (pike perch) is a freshwater fish species.\",\n    \"The source description 'Sandacz z rydzami' uses the Polish name. The English title 'Pike perch with fry' is provided in metadata, but this is filename/metadata text, not the source description itself.\",\n    \"Protocol requires protein_evidence keys to be from the allowed list AND supported by exact case-sensitive substrings from the supplied title/description. The description contains 'Sandacz' (Polish), and the title contains 'Pike perch' — neither matches the exact string 'seafood'.\"\n  ],\n  \"reason\": \"Image quality, photograph composition, and phone thumbnail are all excellent and meet acceptance thresholds (all scores ≥4). The dish is clearly a finished, exposed, sharply detailed pike perch fillet with chanterelle mushrooms and vegetables, naturally coloured and appetising. However, the protein cannot be confirmed in the required format: while the source clearly identifies the fish species (sandacz/pike perch), the allowed protein category 'seafood' does not appear as an exact substring in the supplied title or description. The check for identity and variant_preserved cannot be satisfied without a protein match. Per protocol, hold pending clarification of seafood naming convention or source restatement.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1683,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 665,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
