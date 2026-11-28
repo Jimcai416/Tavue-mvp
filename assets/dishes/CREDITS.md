@@ -15732,3 +15732,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Tiramisu dessert** — [Steven Depolo](https://www.flickr.com/people/10506540@N07). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Tiramisu_dessert_at_Noto%27s_in_Grand_Rapids.jpg). Local asset: `reviewed-commons-18859006.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Trippa alla livornese** — User:Ilario  -  User:Cassinam. [CC BY 2.5](https://creativecommons.org/licenses/by/2.5); [source](https://commons.wikimedia.org/wiki/File:Bologna122.jpg). Local asset: `reviewed-commons-806647.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

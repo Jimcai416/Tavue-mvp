@@ -187332,5 +187332,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 960,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/people/10506540@N07"
+  },
+  {
+    "id": "commons-806647",
+    "title": "File:Bologna122.jpg",
+    "author": "User:Ilario  -  User:Cassinam",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bologna122.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/09/Bologna122.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "4743f619433822586005be5046625de2d0b39a80",
+    "name": "Trippa alla livornese",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-806647.jpg",
+    "assetSha256": "e3c0c5df724ea28b400f31e78f782a7c7920ec6fc81198c41389e91740eabb41",
+    "reviewedAt": "2026-11-28",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 640,
+    "requiresExactMenuName": true
   }
 ];
