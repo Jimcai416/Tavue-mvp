@@ -185738,5 +185738,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 721,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-124301886",
+    "title": "File:Pane ad Alta Idratazione 0.jpg",
+    "author": "DinaBenedettoFerrandina",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pane_ad_Alta_Idratazione_0.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Pane_ad_Alta_Idratazione_0.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "d3cea20696958f60358ef98632404ea3b6256494",
+    "name": "Pane ad Alta Idratazione",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-124301886.jpg",
+    "assetSha256": "576c0fa388267e1f6ef130d6cfee175accfdd83211a91031cbf6f6c8ee027099",
+    "reviewedAt": "2026-11-28",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 912,
+    "requiresExactMenuName": true
   }
 ];

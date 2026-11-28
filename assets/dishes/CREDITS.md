@@ -15559,3 +15559,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 - **Pane 100% Integrale** — DinaBenedettoFerrandina. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Pane_100%25_Integrale.jpg). Local asset: `reviewed-commons-124374703.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Pane di Altamura** — Saggittarius A. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Pane_Altamura_-_Artigiano_in_Fiera_2024.jpg). Local asset: `reviewed-commons-156595918.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Pane Guttiau - Carasau** — Francesc Fort. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Pane_Guttiau.jpg). Local asset: `reviewed-commons-157713736.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Pane ad Alta Idratazione** — DinaBenedettoFerrandina. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Pane_ad_Alta_Idratazione_0.jpg). Local asset: `reviewed-commons-124301886.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
