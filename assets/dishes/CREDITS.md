@@ -15784,3 +15784,10 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Salade Landaise** — Arnaud 25. [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:Salade_Landaise.jpg). Local asset: `reviewed-commons-10967641.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Pork filet mignon in crust** — Tangopaso. [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:Filet_mignon_de_porc_en_croute_1.jpg). Local asset: `reviewed-commons-67430936.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Filet mignon de porc en croûte** — r.g-s. [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Filet_mignon_de_porc_en_cro%C3%BBte.jpg). Local asset: `reviewed-commons-44253138.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Filet mignon de porc moutarde ciboulette** — Malakoff Médéric. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Filet_mignon_de_porc_moutarde_ciboulette.jpg). Local asset: `reviewed-commons-44352798.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Filet mignon de porc du Ventoux sauce Roquefort** — Marianne Casamance. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Saint-Pantal%C3%A9on_Bistrot_de_Pays_Filet_mignon_de_porc_du_Ventoux_sauce_Roquefort.JPG). Local asset: `reviewed-commons-46277535.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

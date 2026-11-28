@@ -187761,5 +187761,101 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-67430936",
+    "title": "File:Filet mignon de porc en croute 1.jpg",
+    "author": "Tangopaso",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Filet_mignon_de_porc_en_croute_1.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Filet_mignon_de_porc_en_croute_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "98d6cef4c6cef3a73070e98576ce4bda693ea3ce",
+    "name": "Pork filet mignon in crust",
+    "aliases": [],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-67430936.jpg",
+    "assetSha256": "624349aafdf922a7fd559f4ee6525dca233f41cff7df7d6040d6d8297c6de5f3",
+    "reviewedAt": "2026-11-28",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-44253138",
+    "title": "File:Filet mignon de porc en croûte.jpg",
+    "author": "r.g-s",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Filet_mignon_de_porc_en_cro%C3%BBte.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Filet_mignon_de_porc_en_cro%C3%BBte.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "d83ce43c35113f4b520bfc0eb63099e1806110a0",
+    "name": "Filet mignon de porc en croûte",
+    "aliases": [],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-44253138.jpg",
+    "assetSha256": "21b626b47d249dff5240a2ff3ef80bb1ef4deb1ddfed6b8e6e43613da0c909fb",
+    "reviewedAt": "2026-11-28",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 639,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-44352798",
+    "title": "File:Filet mignon de porc moutarde ciboulette.jpg",
+    "author": "Malakoff Médéric",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Filet_mignon_de_porc_moutarde_ciboulette.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/96/Filet_mignon_de_porc_moutarde_ciboulette.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "08204dbd457a5c81e2273146c6d21cc068f1ef98",
+    "name": "Filet mignon de porc moutarde ciboulette",
+    "aliases": [],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-44352798.jpg",
+    "assetSha256": "60256a337bab20355d011e506511bb1299c7ce6552e4f6c48fa7241249c11f80",
+    "reviewedAt": "2026-11-28",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 640,
+    "height": 960,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-46277535",
+    "title": "File:Saint-Pantaléon Bistrot de Pays Filet mignon de porc du Ventoux sauce Roquefort.JPG",
+    "author": "Marianne Casamance",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Saint-Pantal%C3%A9on_Bistrot_de_Pays_Filet_mignon_de_porc_du_Ventoux_sauce_Roquefort.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/83/Saint-Pantal%C3%A9on_Bistrot_de_Pays_Filet_mignon_de_porc_du_Ventoux_sauce_Roquefort.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "7807cf27e9dad8c885696f7973f411c7dd31cefb",
+    "name": "Filet mignon de porc du Ventoux sauce Roquefort",
+    "aliases": [],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-46277535.jpg",
+    "assetSha256": "1644f2b3fcc9a42ee9128c6700e6c96a90ef5d2a34aeed7ca5519f1c219f3929",
+    "reviewedAt": "2026-11-28",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
