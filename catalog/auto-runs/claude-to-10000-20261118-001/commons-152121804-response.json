@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChUtXQ1YTPFoCQcYK1c9S",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Image shows a beach pavilion/kiosk structure with canvas canopy\",\n    \"No food dish is visible in the phone thumbnail\",\n    \"No plated food, ingredients, or prepared dish evident\",\n    \"Architectural/venue photograph, not a food photograph\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'Pane e pomodoro' (bread and tomato) but no such dish is visible in either the full photograph or thumbnail\",\n    \"Image appears to be a venue/location photograph, not documentation of a finished food dish\",\n    \"The structure shown is a beachfront establishment, not the dish itself\"\n  ],\n  \"reason\": \"Rejection: This is a landscape/architectural photograph of a beachfront pavilion or kiosk (Bari, Pane e Pomodoro venue) with no finished, exposed food dish visible. The source description names a dish but the photograph documents only the building/structure. Neither the full image nor the phone thumbnail shows any plated or prepared food suitable for Tavue review. The photograph fails all dish-specific requirements: no finished dish present, no readable food components in thumbnail, and the subject is venue architecture rather than a culinary dish.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1644,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 420,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
