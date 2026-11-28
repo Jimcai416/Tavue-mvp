@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChVW8FdJxRrk7Tyiur6Go",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 1,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Subject is primarily two people at a dining table, not the food\",\n    \"Food is a small white plate with what appears to be a portion of dish in lower left of frame\",\n    \"Food occupies minimal area of thumbnail, heavily secondary to people's faces and bodies\",\n    \"Dish detail is not discernible at thumbnail resolution\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Dish identity cannot be reliably determined from photograph\",\n    \"Source title mentions 'cinta senese' (a Tuscan pig breed) but the actual plated dish and its composition are not visually clear enough to confirm this preparation\",\n    \"Food is severely clipped and tiny in both full image and phone thumbnail\"\n  ],\n  \"reason\": \"Reject: This is a social/event photograph where people dominate the frame. The food is a tiny, poorly visible secondary element in the lower portion of the image. The phone thumbnail shows the dish occupies less than 5% of the frame and is not sharply detailed or prominently featured. Essential food detail is clipped and insufficient for assessment. While 'cinta senese' is mentioned in metadata, the actual dish identity, preparation, and plating cannot be visually verified from this image. Fails checks: photograph (people-focused, not food-focused), phone (food too small and secondary), identity (dish not visibly verifiable), quality (insufficient detail for food review).\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1768,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 462,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

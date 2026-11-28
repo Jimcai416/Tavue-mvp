@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChVW82kR57A5oeiZ8ETYz",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Person dominates frame, occupying ~60% of phone thumbnail\",\n    \"Dish is severely minimized and obscured by person's body and arms\",\n    \"No readable essential components of the food visible in phone thumbnail\",\n    \"Dish detail insufficient for identification or appetite assessment at thumbnail size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'cinta senese' (a Tuscan pork breed), but the actual dish identity cannot be determined from the photograph\",\n    \"Food in lower plate obscured by person's torso and utensils\",\n    \"Upper plate contains only a small portion, insufficient for dish assessment\"\n  ],\n  \"reason\": \"Rejection: This is a social/documentary photograph of a person dining, not a food photograph. The dish is not the primary subject—the person occupies the dominant portion of both the full image and phone thumbnail. Essential food components are severely obscured by the diner's body, arms, and utensils. The thumbnail fails the requirement that the dish be 'prominent' and show 'readable essential components.' While the source metadata references 'cinta senese,' the actual dish cannot be visually identified from this angle and framing. The composition, sharpness, and lighting are all suboptimal for food review. This does not meet the standard for a finished, exposed food photograph suitable for Tavue intake.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1761,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 454,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
