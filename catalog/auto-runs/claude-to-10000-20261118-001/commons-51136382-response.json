@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChULzag2EsSnjXBoSNCtD",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Plate clearly visible in thumbnail with sausage, mash, peas, and onions\",\n    \"Composition matches full source photograph\",\n    \"Dish details readable in phone thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'Grilled English sausage' but sausage species is unspecified and cannot be identified visually\",\n    \"Protocol prohibits use of 'sausage' as a protein category key without explicit animal species declaration\",\n    \"Description contains unverifiable species claim not supported by visual inspection\"\n  ],\n  \"reason\": \"Rejection: The source description declares 'Grilled English sausage' as the protein component, but sausage is an ambiguous category that does not map to any allowed protein_evidence key (chicken/beef/pork/duck/lamb/seafood). The actual animal species is not explicitly named in the source title or description—only the prepared form 'sausage' is mentioned. Per protocol, unspecified sausage species cannot be accepted, and sausage cannot be used as a protein_evidence key. While the photograph and thumbnail are of high quality and show a well-presented finished dish, the protein identity cannot be established from explicit source declarations. Hold or reject until species is unambiguously named.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1680,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 439,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
