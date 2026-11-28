@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChW7ESCnvcn6Xuo4mxtRX",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Three whole tomatoes, roasted and blistered\",\n    \"Stuffed with herb-infused grain/rice mixture visible at top\",\n    \"Resting on bed of matching herb rice with browned edges\",\n    \"Appetizing golden-brown plating\",\n    \"Home-style presentation in clear dish\"\n  ],\n  \"phone_observations\": [\n    \"Three stuffed tomatoes clearly visible and prominent\",\n    \"Herbed rice/grain base readable\",\n    \"Roasted exterior detail preserved in thumbnail\",\n    \"Composition and subject legible at mobile size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Description claims 'farce à la saucisse' (sausage meat) but does not name the specific animal species (pork/beef/other unknown)\",\n    \"Sausage is not an allowed protein category—actual animal species required but not stated\",\n    \"Source lists 'saucisse' as an ingredient; the canonical name would need to reflect this, but the animal species cannot be verified from either title or description\"\n  ],\n  \"reason\": \"Reject: The description explicitly names 'saucisse' (sausage) as a filling ingredient, but sausage is not an approved protein category and no source text explicitly names the animal species. Protocol requires exact source quotes naming chicken/beef/pork/duck/lamb/seafood, never inferred from tradition or generic meat labels. Without species verification in the title or description, protein_evidence cannot be populated. All quality and photograph checks pass, but the protein ambiguity and unknown animal species trigger a hold pending source clarification of which animal the sausage contains.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1802,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 513,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

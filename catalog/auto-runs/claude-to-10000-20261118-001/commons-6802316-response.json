@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChW7ESCYrLeXdfoyWe5wg",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Six stuffed tomatoes arranged in a baking dish\",\n    \"Prominent roasted red tomato caps with herb garnish\",\n    \"Yellow rice or grain base visible beneath tomatoes\",\n    \"Clear, appetising appearance in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata declares 'vegetarian stuffed tomatoes (stuffed with hard-boiled egg and parmesan)' but this contradicts the vegetarian claim—eggs are animal products and require protein_evidence support\",\n    \"No explicit protein category can be assigned: eggs are not in the allowed {chicken/beef/pork/duck/lamb/seafood} map\",\n    \"Title claims vegetarian but description includes egg, creating internal source contradiction\"\n  ],\n  \"reason\": \"Source metadata contains internal contradiction: title declares 'vegetarian' while description explicitly names 'hard-boiled egg' as a filling ingredient. Eggs are animal products and their inclusion contradicts the vegetarian claim. Egg does not map to any allowed protein category (chicken/beef/pork/duck/lamb/seafood). The ambiguity between source title and description cannot be resolved without external verification. Photograph and phone thumbnail are sharp, well-lit and appetising, but identity uncertainty and unresolvable source contradiction mandate hold.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1744,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 436,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

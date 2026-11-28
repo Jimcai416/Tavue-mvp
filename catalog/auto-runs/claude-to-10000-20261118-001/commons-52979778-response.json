@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChW7ESBYuxu5EBnDXiX58",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Halved red tomatoes with hollowed centres\",\n    \"Crumbly golden-brown filling visible in each tomato half\",\n    \"Arranged in glass baking dish ready for cooking\",\n    \"Pre-cooked state before oven baking\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows five tomato halves with filling\",\n    \"Golden crumb topping is distinct and readable\",\n    \"Red tomato colour and dish arrangement are prominent\",\n    \"No clipping of essential components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Tomates farcies prêtes à passer au four' (Stuffed tomatoes ready to go in the oven) is in French with no English translation provided\",\n    \"Filling composition and type cannot be determined from visual inspection alone\",\n    \"No explicit ingredient list or protein identification in source metadata\",\n    \"Cannot confirm meat content, type, or whether vegetarian without source description beyond the title\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition and phone thumbnail all meet acceptance criteria. However, identity check fails: the source provides only a French title with no accompanying description detailing the filling ingredients or any meat component. The filling is visually present but its exact composition (meat species, if any; vegetable base; etc.) cannot be determined from appearance alone. Per protocol, hidden flavours require explicit source declaration—the title alone is insufficient. Identity must agree with exact source title/description, but no English description is available to confirm the dish identity beyond the generic French term. Hold pending clarification of filling type and any protein content.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1740,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 508,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

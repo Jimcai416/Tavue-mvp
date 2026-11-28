@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChW7ESBofz1guRbfKkDje",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Red bell peppers halved and hollowed\",\n    \"Breadcrumb and meat filling visible in cross-section\",\n    \"Raw/preparation stage: filling not yet cooked, peppers appear raw\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows uncooked stuffed peppers in baking dish\",\n    \"Filling colour and texture consistent with raw preparation stage\",\n    \"No browning, caramelization, or finished cooking appearance\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Tomates farcies avant cuisson' translates to 'Stuffed tomatoes before cooking', confirming this is a preparation/raw stage, not a finished dish\",\n    \"Meat species in filling cannot be identified from appearance alone and is not explicitly named in source metadata\",\n    \"No finished, exposed, cooked dish visible—this is explicitly a pre-cooking photograph\"\n  ],\n  \"reason\": \"Rejection: Image shows raw/preparation stage (avant cuisson = before cooking), not a finished, exposed, appetising dish. Source title confirms the dish is photographed before cooking. Identity check fails because the photograph does not match the requirement for a finished, exposed, likely photographic dish. Protein cannot be identified without explicit source naming of the animal. All acceptance criteria require a cooked, finished dish with readable components; this is explicitly a pre-preparation photograph.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1730,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 453,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
