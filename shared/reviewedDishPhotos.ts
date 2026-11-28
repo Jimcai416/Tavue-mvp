@@ -186027,5 +186027,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 959,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-155106261",
+    "title": "File:Makowiec - 2024.11.10.jpg",
+    "author": "Aw58",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Makowiec_-_2024.11.10.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/16/Makowiec_-_2024.11.10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "f017a759f5e47103d02cd5dfa39a824a0da00ece",
+    "name": "Makowiec",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-155106261.jpg",
+    "assetSha256": "455ca2f80fd48ed49b316d67c4c99185d167f56a6d214f232167c5fe1b359a00",
+    "reviewedAt": "2026-11-28",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 948,
+    "requiresExactMenuName": true
   }
 ];
