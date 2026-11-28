@@ -15563,3 +15563,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Pane ad Alta Idratazione** — DinaBenedettoFerrandina. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Pane_ad_Alta_Idratazione_0.jpg). Local asset: `reviewed-commons-124301886.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Zwetschkenknödel** — [Tauralbus](https://www.flickr.com/people/alfreddiem/). [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:20260816_Zwetschkenkn%C3%B6del_06_(55524156900).jpg). Local asset: `reviewed-commons-200237731.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

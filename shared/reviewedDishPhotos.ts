@@ -185760,5 +185760,28 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 912,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-200237731",
+    "title": "File:20260816 Zwetschkenknödel 06 (55524156900).jpg",
+    "author": "Tauralbus",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:20260816_Zwetschkenkn%C3%B6del_06_(55524156900).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a1/20260816_Zwetschkenkn%C3%B6del_06_%2855524156900%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "e926a7e66067f0ac1440843ad35277b094655b85",
+    "name": "Zwetschkenknödel",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-200237731.jpg",
+    "assetSha256": "2f68c621b9c07603dbb3ffaf9d88ccae55451f6122b1d98e855ad3dfeb865e84",
+    "reviewedAt": "2026-11-28",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 720,
+    "height": 960,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/alfreddiem/"
   }
 ];
