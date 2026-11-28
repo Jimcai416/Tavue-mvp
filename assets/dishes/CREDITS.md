@@ -15910,3 +15910,9 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Pasta ripiena bergamasca** — Lichinga. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Scarpinocc.jpg). Local asset: `reviewed-commons-51987163.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Far breton aux pruneaux** — Manuel FLURY. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Far_breton.jpg). Local asset: `reviewed-commons-17266333.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Far breton** — Arnaud 25. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Far_breton_01.jpg). Local asset: `reviewed-commons-120412895.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Far breton aux pomme, nappé de caramel au beurre salé, et crème chantilly** — Arnaud 25. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Far_breton_04.jpg). Local asset: `reviewed-commons-120412918.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
