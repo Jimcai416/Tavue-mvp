@@ -15757,3 +15757,8 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Cóctel de frutas tlaxcalteca** — Isaacvp. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:C%C3%B3ctel_de_frutas_tlaxcalteca_en_Desayunos_Lupita_02.jpg). Local asset: `reviewed-commons-117307281.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Vanillekipferl** — [weisserstier  from Wien, Austria](https://www.flickr.com/people/25507134@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:20161113_Vanillekipferl_040_(30847388742).jpg). Local asset: `reviewed-commons-53683493.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Hausgemachte Vanillekipferl** — Olivia Fries. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Hausgemachte_Vanillekipferl.jpg). Local asset: `reviewed-commons-126224229.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
