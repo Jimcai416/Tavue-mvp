@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChVSapQYWXJetmuT3noUU",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 5,\n    \"composition\": 5,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows ingredient collection layout, not a finished dish\",\n    \"Three pizzettas visible but framed as recipe components, not served food\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title is 'Pizzetta ingredients' — this is an ingredients/recipe illustration, not a finished food photograph\",\n    \"Image explicitly labels individual components (flour, tomato sauce, oil, salt, mozzarella, oregano, pepper) rather than presenting a plated dish\",\n    \"Three pizzettas shown as part of a recipe guide layout, not as a finished, exposed dish ready for consumption\",\n    \"Metadata explicitly states 'The visual was created on the basis of free images' — indicates composite/illustration rather than authentic food photography\"\n  ],\n  \"reason\": \"Reject: This is an ingredients and recipe illustration, not a photograph of a finished, exposed dish. The source title explicitly identifies it as 'Pizzetta ingredients' with component labeling typical of recipe guides. The image is a composite instructional visual created from free images, not a natural food photograph. The pizzettas are presented as recipe components within an educational layout, not as a served food subject. Identity does not match Tavue's requirement for finished, photographic dishes.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1834,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 424,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
