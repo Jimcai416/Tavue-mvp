@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChVkxrF8RBL15PVYdEgMc",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Pot with lid visible in phone thumbnail\",\n    \"Orange/tomato-based broth with pale chunks\",\n    \"In-progress cooking stage evident\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Image shows unfinished cooking state: pot on heat with lid nearby, contents still actively cooking\",\n    \"No plated or finished dish presentation\",\n    \"No identifiable finished food components readable in either full or thumbnail image\",\n    \"Preparation/cooking stage, not a finished exposed dish\"\n  ],\n  \"reason\": \"Reject: This image depicts an active cooking stage in progress, not a finished, exposed, plated dish. The subject is a pot of soup or stew still on the heat with its lid beside it, showing intermediate preparation. The image does not meet the requirement for 'a finished, exposed, likely photographic dish' with 'readable essential components.' Essential food components are not sharply defined or identifiable as a complete dish. Composition and appeal scores reflect the in-progress nature rather than a finished food presentation suitable for Tavue's representative food photography.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1513,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 387,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
