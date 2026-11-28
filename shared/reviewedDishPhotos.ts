@@ -186812,5 +186812,28 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 640,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-130979824",
+    "title": "File:Patat met mayonaise (34619021470).jpg",
+    "author": "www.snack-nieuws.nl",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Patat_met_mayonaise_(34619021470).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Patat_met_mayonaise_%2834619021470%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "33deac80a17b8172afd3cd99a3e986413c8c6159",
+    "name": "Patat met mayonaise",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-130979824.jpg",
+    "assetSha256": "9227d6b115a6c1f9304eb399ae75a6ad67952cb193000482c330bea8d606addf",
+    "reviewedAt": "2026-11-28",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 540,
+    "height": 960,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/63594290@N08"
   }
 ];
