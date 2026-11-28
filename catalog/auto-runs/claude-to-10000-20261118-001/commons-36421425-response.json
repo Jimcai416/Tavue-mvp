@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChUmE5p8G7xaVYzMacH1c",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-baked pizza crust with charred spots\",\n    \"Abundant fresh arugula/rocket greens\",\n    \"Visible mushroom pieces (sautéed, brown)\",\n    \"Shredded cheese visible beneath greens\",\n    \"Natural colours, appetising presentation\",\n    \"Sharp detail in both full image and thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Pizza fully visible and prominent in thumbnail\",\n    \"Green leaves and toppings clearly readable\",\n    \"Golden crust visible at edges\",\n    \"No essential food clipped\",\n    \"Adequate contrast and detail for phone view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Robiola, Fontina and Mozzarella Cheese pizza' but photograph shows arugula and mushrooms as prominent toppings—no visible meat proteins, contradicting expected cheese-forward composition\",\n    \"Actual visible toppings (arugula, mushrooms, cheese) do not align with the named cheeses in source description\",\n    \"Cannot verify which cheeses are present visually; source lists three specific cheeses but photo emphasises greens and fungi\",\n    \"Identity mismatch between title and visible dish composition raises source reliability concern\"\n  ],\n  \"reason\": \"Photograph quality, sharpness, lighting and phone thumbnail all meet standards. However, the source title 'The Robiola, Fontina and Mozzarella Cheese pizza' describes a cheese-focused dish, but the visible photograph shows arugula and mushrooms as dominant toppings with cheese substantially obscured. This material contradiction between source description and actual visible identity prevents confident canonical naming and identity verification. Hold pending clarification of actual dish name or source correction.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2045,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 536,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

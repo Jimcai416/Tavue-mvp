@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChUmEq7cAcQ62wQJbjhAz",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown crust, well-baked edges\",\n    \"Melted cheese layer visible\",\n    \"Red peppers/tomatoes prominent\",\n    \"Zucchini slices visible\",\n    \"Yellow squash visible\",\n    \"Red onion slices visible\"\n  ],\n  \"phone_observations\": [\n    \"Pizza fully visible in thumbnail\",\n    \"Toppings clearly readable\",\n    \"Good definition of vegetable components\",\n    \"Cheese and crust structure apparent\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata contains recipe instructions and ingredient list, not a canonical dish name or title.\",\n    \"File title 'File:Vegetarian pizza.jpg' is a filename, not a source dish description.\",\n    \"No explicit dish identity provided in source—only a recipe with generic 'Vegetarian pizza' label.\",\n    \"Description is preparation instructions, not a named dish variant or regional title.\",\n    \"Cannot extract canonical_name: source does not contain a specific dish phrase, only generic category and recipe methodology.\"\n  ],\n  \"reason\": \"Source metadata consists entirely of recipe instructions and ingredient lists with no canonical dish name or specific title. The filename 'Vegetarian pizza.jpg' and generic 'Vegetarian pizza' label do not constitute a source-provided dish identity. The description field contains only preparation directions, not a dish name. Identity check fails: no exact source title or specific dish phrase is available to match the visible photograph. Rejection required per protocol: identity must agree with explicit source title/description.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2282,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 488,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
